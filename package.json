@@ -8,7 +8,8 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "gridsome": "^0.7.0"
+    "gridsome": "^0.7.0",
+    "tailwindcss": "^1.9.3"
   },
   "devDependencies": {
     "@vue/cli-plugin-eslint": "^4.5.7",
