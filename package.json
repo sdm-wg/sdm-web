@@ -8,6 +8,7 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@tailwindcss/typography": "^0.2.0",
     "gridsome": "^0.7.0",
     "tailwindcss": "^1.9.3"
   },
