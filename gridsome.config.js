@@ -6,7 +6,17 @@
 
 module.exports = {
   siteName: "Gridsome",
-  plugins: [],
+  plugins: [
+    {
+      use: "@gridsome/vue-remark",
+      options: {
+        typeName: "Post",
+        baseDir: "./content/posts",
+        pathPrefix: "/posts",
+        template: "./src/templates/Post.vue",
+      },
+    },
+  ],
   css: {
     loaderOptions: {
       postcss: {
