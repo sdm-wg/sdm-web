@@ -14,6 +14,7 @@ module.exports = {
         baseDir: "./content/posts",
         pathPrefix: "/posts",
         template: "./src/templates/Post.vue",
+        plugins: [["@gridsome/remark-prismjs"]],
       },
     },
   ],
