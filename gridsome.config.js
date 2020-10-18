@@ -12,8 +12,20 @@ module.exports = {
       options: {
         typeName: "Post",
         baseDir: "./content/posts",
-        pathPrefix: "/posts",
+        route: "/posts/:year/:month/:day/:slug",
         template: "./src/templates/Post.vue",
+        refs: {
+          tags: {
+            typeName: "Tag",
+            route: "/tags/:id",
+            create: true,
+          },
+          archives: {
+            typeName: "Archive",
+            route: "/archives/:id",
+            create: true,
+          },
+        },
         plugins: [["@gridsome/remark-prismjs"]],
       },
     },
