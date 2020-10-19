@@ -1,6 +1,6 @@
 module.exports = function (api) {
   api.loadSource((store) => {
-    if (process.env.NODE_ENV === "production") {
+    if (process.env.NODE_ENV === "production" || process.env.NODE_PREVIEW) {
       const posts = store.getContentType("Post");
       posts.data().forEach((node) => {
         if (node.draft) {
