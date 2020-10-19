@@ -35,3 +35,11 @@ if (process.argv.length < 3) {
   );
   process.exit(1);
 }
+
+/*
+ *  Post Generator
+ */
+const postPath = process.argv[2];
+
+const generatePost = require("./utils").generatePost;
+generatePost(postPath);
