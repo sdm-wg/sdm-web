@@ -5,7 +5,8 @@
     "build": "gridsome build",
     "develop": "gridsome develop",
     "explore": "gridsome explore",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "new": "node scripts/postgen"
   },
   "dependencies": {
     "@gridsome/remark-prismjs": "^0.4.0",
