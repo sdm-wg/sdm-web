@@ -17,7 +17,7 @@ import DefaultLayout from "~/layouts/Default.vue";
 // Font Awesome setting
 library.add();
 
-export default function (Vue, { router, head, isClient }) {
+export default function (Vue) {
   Vue.component("Layout", DefaultLayout);
   Vue.component("font-awesome", FontAwesomeIcon);
 }
