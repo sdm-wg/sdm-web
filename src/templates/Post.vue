@@ -1,6 +1,6 @@
 <template>
   <Layout @receive-toggle-dark="toggleDark" :isDark="isDark">
-    <div class="w-full container mx-auto py-4">
+    <div class="w-full container mx-auto px-4 py-8">
       <article
         class="prose lg:prose-xl max-w-none"
         :class="{ 'prose-dark': isDark }"

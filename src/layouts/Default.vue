@@ -7,14 +7,16 @@
     />
     <ContentWrapper :isDark="isDark">
       <div
-        class="flex items-center w-full h-screen sm:h-2/3-screen bg-gradient-to-br from-orange-400 via-red-500 to-pink-500"
+        class="flex items-center w-full h-screen md:h-2/3-screen bg-gradient-to-br from-orange-400 via-red-500 to-pink-500"
       >
-        <SDMBannerSVG class="w-5/6 mx-auto px-1 text-black" />
+        <div class="container mx-auto px-4">
+          <SDMBannerSVG class="w-full text-black" />
+        </div>
       </div>
       <slot />
     </ContentWrapper>
     <FooterWrapper :isDark="isDark" class="flex-1">
-      <span class="block py-8 font-bold text-center">
+      <span class="block px-4 py-8 font-bold text-center">
         Copyright © Software Defined Media Consortium 2020
       </span>
     </FooterWrapper>

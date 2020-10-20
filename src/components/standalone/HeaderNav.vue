@@ -1,7 +1,7 @@
 <template>
   <HeaderWrapper :isDark="isDark" :isTop="isTop" class="h-20">
     <nav
-      class="flex justify-between items-center w-full h-full container mx-auto px-1"
+      class="flex justify-between items-center w-full h-full container mx-auto px-4"
     >
       <!-- Logo -->
       <SDMLogoSVG
