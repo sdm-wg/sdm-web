@@ -6,6 +6,11 @@
       :isTop="isTop"
     />
     <ContentWrapper :isDark="isDark">
+      <div
+        class="flex items-center w-full h-screen sm:h-2/3-screen bg-gradient-to-br from-orange-400 via-red-500 to-pink-500"
+      >
+        <SDMBannerSVG class="w-5/6 mx-auto px-1 text-black" />
+      </div>
       <slot />
     </ContentWrapper>
     <FooterWrapper :isDark="isDark" class="flex-1">
@@ -17,6 +22,7 @@
 </template>
 
 <script>
+import SDMBannerSVG from "~/components/atoms/SDMBannerSVG.vue";
 import ContentWrapper from "~/components/atoms/ContentWrapper.vue";
 import FooterWrapper from "~/components/atoms/FooterWrapper.vue";
 import HeaderNav from "~/components/standalone/HeaderNav.vue";
@@ -38,6 +44,7 @@ export default {
     },
   },
   components: {
+    SDMBannerSVG,
     ContentWrapper,
     FooterWrapper,
     HeaderNav,

@@ -10,4 +10,10 @@
   .bg-black-alt {
     background: #191919;
   }
+
+  @responsive {
+    .h-2\/3-screen {
+      height: calc(100vh * 2 / 3);
+    }
+  }
 }
