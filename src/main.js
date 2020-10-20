@@ -12,12 +12,14 @@ import {} from "@fortawesome/free-solid-svg-icons";
 import {} from "@fortawesome/free-regular-svg-icons";
 import {} from "@fortawesome/free-brands-svg-icons";
 
+import FlexLink from "~/components/atoms/FlexLink.vue";
 import DefaultLayout from "~/layouts/Default.vue";
 
 // Font Awesome setting
 library.add();
 
 export default function (Vue) {
+  Vue.component("flex-link", FlexLink);
   Vue.component("Layout", DefaultLayout);
   Vue.component("font-awesome", FontAwesomeIcon);
 }
