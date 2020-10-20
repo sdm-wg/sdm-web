@@ -11,6 +11,7 @@ import { library } from "@fortawesome/fontawesome-svg-core";
 import {
   faSun as fasSun,
   faMoon as fasMoon,
+  faGlobe as fasGlobe,
 } from "@fortawesome/free-solid-svg-icons";
 // import {} from "@fortawesome/free-regular-svg-icons";
 // import {} from "@fortawesome/free-brands-svg-icons";
@@ -19,7 +20,7 @@ import FlexLink from "~/components/atoms/FlexLink.vue";
 import DefaultLayout from "~/layouts/Default.vue";
 
 // Font Awesome setting
-library.add(fasSun, fasMoon);
+library.add(fasSun, fasMoon, fasGlobe);
 
 export default function (Vue) {
   Vue.component("flex-link", FlexLink);

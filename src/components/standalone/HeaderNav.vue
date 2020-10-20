@@ -34,10 +34,23 @@
           {{ item.title }}
         </flex-link>
 
+        <!-- Locale Button -->
+        <div
+          @click="toggleLocale"
+          class="mx-2 cursor-pointer"
+          :class="{
+            'hover:text-blue-500': isDark,
+            'hover:text-orange-500': !isDark,
+          }"
+        >
+          <font-awesome :icon="['fas', 'globe']" fixed-width />
+          <span class="mx-1 font-bold">{{ anotherLanguage }}</span>
+        </div>
+
         <!-- Dark Mode Button -->
         <div
           @click="emitToggleDark"
-          class="ml-4"
+          class="ml-2 cursor-pointer"
           :class="{
             'hover:text-orange-500': isDark,
             'hover:text-blue-500': !isDark,
@@ -97,9 +110,30 @@ export default {
       ],
     };
   },
+  computed: {
+    anotherLanguage: function () {
+      if (this.$context.locale === "en-us") {
+        return "ja";
+      } else {
+        return "en";
+      }
+    },
+    anotherLocale: function () {
+      if (this.$context.locale === "en-us") {
+        return "ja-jp";
+      } else {
+        return "en-us";
+      }
+    },
+  },
   methods: {
     emitToggleDark: function () {
       this.$emit("receive-toggle-dark");
+    },
+    toggleLocale: function () {
+      this.$router.push({
+        path: this.$tp(this.$route.path, this.anotherLocale, true),
+      });
     },
   },
   components: {
