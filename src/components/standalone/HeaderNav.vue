@@ -33,6 +33,18 @@
         >
           {{ item.title }}
         </flex-link>
+
+        <!-- Dark Mode Button -->
+        <div
+          class="ml-4"
+          :class="{
+            'hover:text-orange-500': isDark,
+            'hover:text-blue-500': !isDark,
+          }"
+        >
+          <font-awesome v-show="isDark" :icon="['fas', 'sun']" fixed-width />
+          <font-awesome v-show="!isDark" :icon="['fas', 'moon']" fixed-width />
+        </div>
       </div>
     </nav>
   </HeaderWrapper>

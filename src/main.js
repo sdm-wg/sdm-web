@@ -8,15 +8,18 @@ import "prismjs/plugins/line-numbers/prism-line-numbers.css";
 // import: Font Awesome
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 import { library } from "@fortawesome/fontawesome-svg-core";
-import {} from "@fortawesome/free-solid-svg-icons";
-import {} from "@fortawesome/free-regular-svg-icons";
-import {} from "@fortawesome/free-brands-svg-icons";
+import {
+  faSun as fasSun,
+  faMoon as fasMoon,
+} from "@fortawesome/free-solid-svg-icons";
+// import {} from "@fortawesome/free-regular-svg-icons";
+// import {} from "@fortawesome/free-brands-svg-icons";
 
 import FlexLink from "~/components/atoms/FlexLink.vue";
 import DefaultLayout from "~/layouts/Default.vue";
 
 // Font Awesome setting
-library.add();
+library.add(fasSun, fasMoon);
 
 export default function (Vue) {
   Vue.component("flex-link", FlexLink);
