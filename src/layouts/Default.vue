@@ -1,6 +1,10 @@
 <template>
   <div class="flex flex-col w-full min-h-screen">
-    <HeaderNav :isDark="isDark" :isTop="isTop" />
+    <HeaderNav
+      @receive-toggle-dark="emitToggleDark"
+      :isDark="isDark"
+      :isTop="isTop"
+    />
     <ContentWrapper :isDark="isDark">
       <slot />
     </ContentWrapper>
@@ -26,6 +30,11 @@ export default {
     isDark: {
       type: Boolean,
       required: true,
+    },
+  },
+  methods: {
+    emitToggleDark: function () {
+      this.$emit("receive-toggle-dark");
     },
   },
   components: {

@@ -36,6 +36,7 @@
 
         <!-- Dark Mode Button -->
         <div
+          @click="emitToggleDark"
           class="ml-4"
           :class="{
             'hover:text-orange-500': isDark,
@@ -95,6 +96,11 @@ export default {
         },
       ],
     };
+  },
+  methods: {
+    emitToggleDark: function () {
+      this.$emit("receive-toggle-dark");
+    },
   },
   components: {
     HeaderWrapper,
