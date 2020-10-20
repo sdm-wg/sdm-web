@@ -31,6 +31,21 @@ module.exports = {
         plugins: [["@gridsome/remark-prismjs"]],
       },
     },
+    {
+      use: "gridsome-plugin-i18n",
+      options: {
+        locales: ["en-us", "ja-jp"],
+        pathAliases: {
+          "en-us": "en",
+          "ja-jp": "ja",
+        },
+        fallbackLocale: "en-us",
+        defaultLocale: "en-us",
+        enablePathRewrite: true,
+        rewriteDefaultLanguage: true,
+        messages: {},
+      },
+    },
   ],
   css: {
     loaderOptions: {

@@ -20,6 +20,7 @@
     "@tailwindcss/typography": "^0.2.0",
     "gray-matter": "^4.0.2",
     "gridsome": "^0.7.0",
+    "gridsome-plugin-i18n": "^1.6.0",
     "moment": "^2.29.1",
     "tailwindcss": "^1.9.3"
   },
