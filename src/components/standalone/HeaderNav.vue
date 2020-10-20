@@ -23,7 +23,7 @@
         <!-- Link -->
         <flex-link
           v-for="item in linkItems"
-          :key="item"
+          :key="item.title"
           class="mx-2 font-bold"
           :class="{
             'hover:text-blue-500': isDark,
