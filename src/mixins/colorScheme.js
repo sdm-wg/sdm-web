@@ -19,13 +19,25 @@ export default {
   created: function () {
     if (process.browser) {
       this.isDarkMQL = window.matchMedia("(prefers-color-scheme: dark)");
-      this.isDarkMQL.addEventListener("change", this.MQLHandler, false);
+
+      if (this.isDarkMQL.addEventListener) {
+        this.isDarkMQL.addEventListener("change", this.MQLHandler, false);
+      } else {
+        // For iOS Safari
+        this.isDarkMQL.addListener(this.MQLHandler);
+      }
+
       this.MQLHandler(this.isDarkMQL);
     }
   },
   destroyed: function () {
     if (process.browser) {
-      this.isDarkMQL.removeEventListener("change", this.MQLHandler, false);
+      if (this.isDarkMQL.removeEventListener) {
+        this.isDarkMQL.removeEventListener("change", this.MQLHandler, false);
+      } else {
+        // For iOS Safari
+        this.isDarkMQL.removeListener(this.MQLHandler);
+      }
     }
   },
 };
