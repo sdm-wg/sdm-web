@@ -1,6 +1,6 @@
 <template>
   <footer
-    class="w-full border-t border-gray-400 transition-set"
+    class="w-full border-t border-gray-400 shadow transition-set"
     :class="{
       'bg-gray-900 text-gray-100': isDark,
       'bg-white text-gray-900': !isDark,
