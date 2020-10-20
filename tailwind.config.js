@@ -7,6 +7,7 @@ module.exports = {
     content: ["./src/**/*.vue"],
   },
   theme: {
+    typography: require("./tailwind.typography.config"),
     extend: {},
   },
   variants: {},
