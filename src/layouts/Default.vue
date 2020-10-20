@@ -1,51 +1,37 @@
 <template>
-  <div class="layout">
-    <header class="header">
-      <strong>
-        <g-link to="/">{{ $static.metadata.siteName }}</g-link>
-      </strong>
-      <nav class="nav">
-        <g-link class="nav__link" to="/">Home</g-link>
-        <g-link class="nav__link" to="/about/">About</g-link>
-      </nav>
-    </header>
-    <slot />
+  <div class="flex flex-col w-full min-h-screen">
+    <HeaderNav :isDark="isDark" :isTop="isTop" />
+    <ContentWrapper :isDark="isDark">
+      <slot />
+    </ContentWrapper>
+    <FooterWrapper :isDark="isDark" class="flex-1">
+      <span class="block py-8 font-bold text-center">
+        Copyright © Software Defined Media Consortium 2020
+      </span>
+    </FooterWrapper>
   </div>
 </template>
 
-<static-query>
-query {
-  metadata {
-    siteName
-  }
-}
-</static-query>
+<script>
+import ContentWrapper from "~/components/atoms/ContentWrapper.vue";
+import FooterWrapper from "~/components/atoms/FooterWrapper.vue";
+import HeaderNav from "~/components/standalone/HeaderNav.vue";
 
-<style>
-body {
-  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
-    "Helvetica Neue", Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  line-height: 1.5;
-}
+import scrollPositionMixin from "~/mixins/scrollPosition.js";
 
-.layout {
-  max-width: 760px;
-  margin: 0 auto;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 20px;
-  height: 80px;
-}
-
-.nav__link {
-  margin-left: 20px;
-}
-</style>
+export default {
+  name: "Home",
+  mixins: [scrollPositionMixin],
+  props: {
+    isDark: {
+      type: Boolean,
+      required: true,
+    },
+  },
+  components: {
+    ContentWrapper,
+    FooterWrapper,
+    HeaderNav,
+  },
+};
+</script>
