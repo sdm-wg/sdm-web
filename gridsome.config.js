@@ -3,7 +3,11 @@ module.exports = {
   siteDescription: "",
   siteUrl: "https://sdm.wide.ad.jp/",
   pathPrefix: "",
-  titleTemplate: "%s | <siteName>",
+  titleTemplate: "%s | Software Defined Media Consortium",
+  icon: {
+    favicon: "./src/assets/images/sdm-logo-square.png",
+    touchicon: "./src/assets/images/sdm-logo-square.png",
+  },
   plugins: [
     {
       use: "@gridsome/vue-remark",
