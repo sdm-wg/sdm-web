@@ -1,5 +1,5 @@
 <template>
-  <Layout>
+  <Layout :isDark="isDark">
     <!-- Learn how to use images here: https://gridsome.org/docs/images -->
     <g-image alt="Example image" src="~/favicon.png" width="135" />
 
@@ -26,10 +26,14 @@
 </template>
 
 <script>
+import colorSchemeMixin from "~/mixins/colorScheme.js";
+
 export default {
+  name: "Index",
   metaInfo: {
-    title: "Hello, world!",
+    title: "SDM",
   },
+  mixins: [colorSchemeMixin],
 };
 </script>
 
