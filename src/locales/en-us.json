@@ -1,0 +1,19 @@
+{
+    "about": {
+        "heading": "Software Defined Media",
+        "contents": [
+            {
+                "heading": "Object-based digital media",
+                "content": "Media data is decoupled from audio-visual data and 3D meta-data, which represents multiple objects that exist in 3D space, and transmitted to remote locations for the reproduction of 3D space."
+            },
+            {
+                "heading": "Software defined media space",
+                "content": "The software manages the audio-visual objects in the virtual 3D space and renders images and sounds suitable for the rendering environments."
+            },
+            {
+                "heading": "Internet by design",
+                "content": "Targeting new research areas and markets involving Internet-by-design audio-visual environments."
+            }
+        ]
+    }
+}

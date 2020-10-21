@@ -32,8 +32,17 @@ if (process.browser) {
 // Font Awesome setting
 library.add(fasSun, fasMoon, fasGlobe, fasBars, fasTimes);
 
-export default function (Vue) {
+export default function (Vue, { appOptions }) {
   Vue.component("flex-link", FlexLink);
   Vue.component("Layout", DefaultLayout);
   Vue.component("font-awesome", FontAwesomeIcon);
+
+  // Locales setting
+  const locales = ["en-us", "ja-jp"];
+  for (const locale of locales) {
+    appOptions.i18n.setLocaleMessage(
+      locale,
+      require(`~/locales/${locale}.json`)
+    );
+  }
 }
