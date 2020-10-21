@@ -17,6 +17,9 @@ import {
   faGlobe as fasGlobe,
   faBars as fasBars,
   faTimes as fasTimes,
+  faMusic as fasMusic,
+  faMapMarkerAlt as fasMapMarkerAlt,
+  faCloud as fasCloud,
 } from "@fortawesome/free-solid-svg-icons";
 // import {} from "@fortawesome/free-regular-svg-icons";
 // import {} from "@fortawesome/free-brands-svg-icons";
@@ -30,7 +33,16 @@ if (process.browser) {
 }
 
 // Font Awesome setting
-library.add(fasSun, fasMoon, fasGlobe, fasBars, fasTimes);
+library.add(
+  fasSun,
+  fasMoon,
+  fasGlobe,
+  fasBars,
+  fasTimes,
+  fasMusic,
+  fasMapMarkerAlt,
+  fasCloud
+);
 
 export default function (Vue, { appOptions }) {
   Vue.component("flex-link", FlexLink);
