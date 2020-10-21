@@ -4,11 +4,11 @@
 
 @layer utilities {
   .transition-set {
-    @apply transition duration-1000 ease-in-out
+    @apply transition duration-500 ease-in-out
   }
 
   .transition-all-set {
-    @apply transition-all duration-1000 ease-in-out
+    @apply transition-all duration-500 ease-in-out
   }
 
   .bg-black-alt {
