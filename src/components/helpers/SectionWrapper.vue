@@ -1,5 +1,12 @@
 <template>
-  <div class="w-full py-4">
+  <div
+    class="w-full py-4"
+    :class="{
+      'bg-opacity-25 transition-set': isEven,
+      'bg-gray-600': isDark && isEven,
+      'bg-gray-400': !isDark && isEven,
+    }"
+  >
     <section :id="sectionId" class="flex flex-wrap w-full container mx-auto">
       <div class="w-full">
         <h1
@@ -24,6 +31,11 @@ export default {
     isDark: {
       type: Boolean,
       required: true,
+    },
+    isEven: {
+      type: Boolean,
+      required: false,
+      default: false,
     },
     sectionId: {
       type: String,

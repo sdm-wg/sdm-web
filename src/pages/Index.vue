@@ -1,7 +1,7 @@
 <template>
   <Layout @receive-toggle-dark="toggleDark" :isDark="isDark">
     <!-- About -->
-    <AboutSection :isDark="isDark" />
+    <AboutSection :isDark="isDark" :isEven="false" sectionId="about" />
   </Layout>
 </template>
 

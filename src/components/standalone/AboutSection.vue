@@ -1,5 +1,5 @@
 <template>
-  <SectionWrapper :isDark="isDark" sectionId="about">
+  <SectionWrapper :isDark="isDark" :sectionId="sectionId">
     <template v-slot:heading>{{ $t("about.heading") }}</template>
     <AboutCard
       v-for="(content, index) in $t('about.contents')"
@@ -28,6 +28,15 @@ export default {
   props: {
     isDark: {
       type: Boolean,
+      required: true,
+    },
+    isEven: {
+      type: Boolean,
+      required: false,
+      default: false,
+    },
+    sectionId: {
+      type: String,
       required: true,
     },
   },
