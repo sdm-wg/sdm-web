@@ -1,22 +1,51 @@
 <template>
-  <HeaderWrapper :isDark="isDark" :isTop="isTop" class="h-20">
+  <HeaderWrapper
+    :isDark="isDark"
+    :isTop="isTop"
+    class="md:max-h-20 overflow-hidden transition-all-set"
+    :style="{ height: navHeight }"
+  >
     <nav
-      class="flex justify-between items-center w-full h-full container mx-auto px-4"
+      class="flex flex-wrap justify-between w-full h-full container mx-auto px-4"
     >
       <!-- Logo -->
-      <flex-link to="/">
-        <SDMLogoSVG
-          class="w-24 transition-set"
+      <div
+        ref="logo"
+        class="flex items-center h-20 transition-set"
+        :class="{
+          'text-white': isDark,
+          'text-black': !isDark,
+        }"
+      >
+        <flex-link to="/">
+          <SDMLogoSVG class="w-24" />
+        </flex-link>
+      </div>
+
+      <div
+        class="flex md:hidden items-center h-20 transition-set"
+        :class="{
+          'text-gray-100': isDark,
+          'text-gray-900': !isDark,
+        }"
+      >
+        <div
+          @click="setIsOpen(!isOpen)"
+          class="cursor-pointer"
           :class="{
-            'text-white': isDark,
-            'text-black': !isDark,
+            'hover:text-blue-500': isDark,
+            'hover:text-orange-500': !isDark,
           }"
-        />
-      </flex-link>
+        >
+          <font-awesome v-show="isOpen" :icon="['fas', 'times']" fixed-width />
+          <font-awesome v-show="!isOpen" :icon="['fas', 'bars']" fixed-width />
+        </div>
+      </div>
 
       <!-- Menu -->
       <div
-        class="flex items-center h-full transition-set"
+        ref="menu"
+        class="block md:flex md:items-center w-full md:w-auto transition-set"
         :class="{
           'text-gray-100': isDark,
           'text-gray-900': !isDark,
@@ -26,20 +55,23 @@
         <flex-link
           v-for="item in linkItems"
           :key="item.title"
-          class="mx-2 font-bold"
+          class="block md:inline-block md:mx-2 my-2 font-bold"
           :class="{
             'hover:text-blue-500': isDark,
             'hover:text-orange-500': !isDark,
           }"
           :to="item.link"
         >
-          {{ item.title }}
+          <span class="block" @click="setIsOpen(false)">{{ item.title }}</span>
         </flex-link>
 
         <!-- Locale Button -->
         <div
-          @click="toggleLocale"
-          class="mx-2 cursor-pointer"
+          @click="
+            setIsOpen(false);
+            toggleLocale();
+          "
+          class="md:mx-2 my-2 cursor-pointer"
           :class="{
             'hover:text-blue-500': isDark,
             'hover:text-orange-500': !isDark,
@@ -51,8 +83,11 @@
 
         <!-- Dark Mode Button -->
         <div
-          @click="emitToggleDark"
-          class="ml-2 cursor-pointer"
+          @click="
+            setIsOpen(false);
+            emitToggleDark();
+          "
+          class="md:ml-2 mt-2 mb-4 md:mb-2 cursor-pointer"
           :class="{
             'hover:text-orange-500': isDark,
             'hover:text-blue-500': !isDark,
@@ -84,6 +119,7 @@ export default {
   },
   data: () => {
     return {
+      isOpen: false,
       linkItems: [
         {
           title: "About",
@@ -113,6 +149,12 @@ export default {
     };
   },
   computed: {
+    navHeight: function () {
+      const logoHeight = this.$refs.logo ? this.$refs.logo.clientHeight : 0;
+      const menuHeight = this.$refs.menu ? this.$refs.menu.clientHeight : 0;
+      const height = logoHeight + menuHeight;
+      return this.isOpen && height > 0 ? `${height}px` : "5rem";
+    },
     anotherLanguage: function () {
       if (this.$context.locale === "en-us") {
         return "ja";
@@ -136,6 +178,9 @@ export default {
       this.$router.push({
         path: this.$tp(this.$route.path, this.anotherLocale, true),
       });
+    },
+    setIsOpen: function (isOpen) {
+      this.isOpen = isOpen;
     },
   },
   components: {

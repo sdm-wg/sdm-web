@@ -7,6 +7,10 @@
     @apply transition duration-1000 ease-in-out
   }
 
+  .transition-all-set {
+    @apply transition-all duration-1000 ease-in-out
+  }
+
   .bg-black-alt {
     background: #191919;
   }
@@ -14,6 +18,10 @@
   @responsive {
     .h-2\/3-screen {
       height: calc(100vh * 2 / 3);
+    }
+
+    .max-h-20 {
+      max-height: 5rem;
     }
   }
 }
