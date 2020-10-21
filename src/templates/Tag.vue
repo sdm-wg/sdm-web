@@ -20,7 +20,10 @@ query($id: ID!) {
         node {
           ... on Post {
             id
-            title
+            title {
+              ja
+              en
+            }
             path
           }
         }

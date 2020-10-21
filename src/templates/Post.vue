@@ -14,7 +14,10 @@
 <page-query>
 query Post($id: ID!) {
   post(id: $id) {
-    title
+    title {
+      ja
+      en
+    }
   }
 }
 </page-query>
@@ -26,8 +29,13 @@ export default {
   name: "Post",
   metaInfo: function () {
     return {
-      title: this.$page.post.title,
+      title: this.$page.post.title[this.language],
     };
+  },
+  computed: {
+    language: function () {
+      return this.$context.locale.slice(0, 2);
+    },
   },
   mixins: [colorSchemeMixin],
 };
