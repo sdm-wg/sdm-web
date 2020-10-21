@@ -1,7 +1,7 @@
 const transitionCommonSettings = {
   transitionProperty:
     "background-color, border-color, color, fill, stroke, opacity, box-shadow, transform",
-  transitionDuration: "1000ms",
+  transitionDuration: "500ms",
   transitionTimingFunction: "cubic-bezier(0.4, 0, 0.2, 1)",
 };
 
