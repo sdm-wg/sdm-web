@@ -105,10 +105,13 @@
 import HeaderWrapper from "~/components/atoms/HeaderWrapper.vue";
 import SDMLogoSVG from "~/components/atoms/SDMLogoSVG.vue";
 
+import localeMixin from "~/mixins/locale.js";
+
 import { rem2px } from "~/utils/unitConverter.js";
 
 export default {
   name: "HeaderNav",
+  mixins: [localeMixin],
   props: {
     isDark: {
       type: Boolean,
@@ -156,20 +159,6 @@ export default {
       const menuHeight = this.$refs.menu ? this.$refs.menu.clientHeight : 0;
       const height = this.isOpen ? logoHeight + menuHeight : logoHeight;
       return `${height}px`;
-    },
-    anotherLanguage: function () {
-      if (this.$context.locale === "en-us") {
-        return "ja";
-      } else {
-        return "en";
-      }
-    },
-    anotherLocale: function () {
-      if (this.$context.locale === "en-us") {
-        return "ja-jp";
-      } else {
-        return "en-us";
-      }
     },
   },
   methods: {

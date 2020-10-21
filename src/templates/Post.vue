@@ -23,6 +23,7 @@ query Post($id: ID!) {
 </page-query>
 
 <script>
+import localeMixin from "~/mixins/locale.js";
 import colorSchemeMixin from "~/mixins/colorScheme.js";
 
 export default {
@@ -32,11 +33,6 @@ export default {
       title: this.$page.post.title[this.language],
     };
   },
-  computed: {
-    language: function () {
-      return this.$context.locale.slice(0, 2);
-    },
-  },
-  mixins: [colorSchemeMixin],
+  mixins: [localeMixin, colorSchemeMixin],
 };
 </script>
