@@ -4,13 +4,15 @@
       class="flex justify-between items-center w-full h-full container mx-auto px-4"
     >
       <!-- Logo -->
-      <SDMLogoSVG
-        class="w-24 transition-set"
-        :class="{
-          'text-white': isDark,
-          'text-black': !isDark,
-        }"
-      />
+      <flex-link to="/">
+        <SDMLogoSVG
+          class="w-24 transition-set"
+          :class="{
+            'text-white': isDark,
+            'text-black': !isDark,
+          }"
+        />
+      </flex-link>
 
       <!-- Menu -->
       <div
