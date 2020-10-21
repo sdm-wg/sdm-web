@@ -105,6 +105,8 @@
 import HeaderWrapper from "~/components/atoms/HeaderWrapper.vue";
 import SDMLogoSVG from "~/components/atoms/SDMLogoSVG.vue";
 
+import { rem2px } from "~/utils/unitConverter.js";
+
 export default {
   name: "HeaderNav",
   props: {
@@ -150,10 +152,10 @@ export default {
   },
   computed: {
     navHeight: function () {
-      const logoHeight = this.$refs.logo ? this.$refs.logo.clientHeight : 0;
+      const logoHeight = rem2px(5);
       const menuHeight = this.$refs.menu ? this.$refs.menu.clientHeight : 0;
-      const height = logoHeight + menuHeight;
-      return this.isOpen && height > 0 ? `${height}px` : "5rem";
+      const height = this.isOpen ? logoHeight + menuHeight : logoHeight;
+      return `${height}px`;
     },
     anotherLanguage: function () {
       if (this.$context.locale === "en-us") {
@@ -182,6 +184,24 @@ export default {
     setIsOpen: function (isOpen) {
       this.isOpen = isOpen;
     },
+  },
+  mounted: function () {
+    document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+      anchor.addEventListener("click", function (e) {
+        e.preventDefault();
+
+        const targetEl = document.querySelector(this.getAttribute("href"));
+        const targetTop = targetEl.getBoundingClientRect().top;
+        const offsetTop = window.pageYOffset;
+        const headerCorrection = rem2px(6); // header: 5rem + padding-top: 1rem
+        const top = targetTop + offsetTop - headerCorrection;
+
+        window.scrollTo({
+          top: top,
+          behavior: "smooth",
+        });
+      });
+    });
   },
   components: {
     HeaderWrapper,
