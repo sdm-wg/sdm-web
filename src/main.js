@@ -1,3 +1,6 @@
+// import: Smooth Scroll behavior polyfill
+import smoothscroll from "smoothscroll-polyfill";
+
 // import: Tailwind CSS
 import "~/assets/css/tailwind.css";
 
@@ -20,6 +23,11 @@ import {
 
 import FlexLink from "~/components/atoms/FlexLink.vue";
 import DefaultLayout from "~/layouts/Default.vue";
+
+// Smooth Scroll behavior polyfill setting
+if (process.browser) {
+  smoothscroll.polyfill();
+}
 
 // Font Awesome setting
 library.add(fasSun, fasMoon, fasGlobe, fasBars, fasTimes);
