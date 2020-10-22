@@ -1,6 +1,8 @@
 import Vue from "vue";
 import Vuex from "vuex";
 
+import createPersistedState from "vuex-persistedstate";
+
 Vue.use(Vuex);
 
 const state = {
@@ -19,8 +21,11 @@ const mutations = {
   },
 };
 
+const plugins = process.browser ? [createPersistedState()] : [];
+
 export default new Vuex.Store({
   state,
   getters,
   mutations,
+  plugins,
 });
