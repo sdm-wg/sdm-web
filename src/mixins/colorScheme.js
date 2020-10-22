@@ -34,6 +34,14 @@ export default {
       if (this.isDark === null) {
         this.MQLHandler(this.isDarkMQL);
       }
+
+      // HACK: To make the initial dark mode work well
+      setTimeout(() => {
+        this.toggleDark();
+        setTimeout(() => {
+          this.toggleDark();
+        }, 0);
+      }, 0);
     }
   },
   destroyed: function () {
