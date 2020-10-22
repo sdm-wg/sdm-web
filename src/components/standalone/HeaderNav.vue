@@ -53,7 +53,7 @@
       >
         <!-- Link -->
         <flex-link
-          v-for="item in linkItems"
+          v-for="item in refLinkItems"
           :key="item.title"
           class="block md:inline-block md:mx-2 my-2 font-bold"
           :class="{
@@ -109,6 +109,8 @@ import localeMixin from "~/mixins/locale.js";
 
 import { rem2px } from "~/utils/unitConverter.js";
 
+const path = require("path");
+
 export default {
   name: "HeaderNav",
   mixins: [localeMixin],
@@ -128,27 +130,27 @@ export default {
       linkItems: [
         {
           title: "About",
-          link: "#about",
+          link: "/#about",
         },
         {
           title: "Events",
-          link: "#events",
+          link: "/#events",
         },
         {
           title: "News",
-          link: "#news",
+          link: "/#news",
         },
         {
           title: "Member",
-          link: "#member",
+          link: "/#member",
         },
         {
           title: "Publications",
-          link: "#publications",
+          link: "/#publications",
         },
         {
           title: "Contact",
-          link: "#contact",
+          link: "/#contact",
         },
       ],
     };
@@ -159,6 +161,14 @@ export default {
       const menuHeight = this.$refs.menu ? this.$refs.menu.clientHeight : 0;
       const height = this.isOpen ? logoHeight + menuHeight : logoHeight;
       return `${height}px`;
+    },
+    refLinkItems: function () {
+      const contentPath = path.relative(`/${this.language}/`, this.$route.path);
+      return this.linkItems.map((linkItem) => {
+        const relPath = path.relative(contentPath, linkItem.link);
+        linkItem.link = relPath.startsWith("#") ? relPath : linkItem.link;
+        return linkItem;
+      });
     },
   },
   methods: {
@@ -175,18 +185,31 @@ export default {
     },
   },
   mounted: function () {
+    const calcTop = (hash) => {
+      const targetEl = document.querySelector(hash);
+      const targetTop = targetEl.getBoundingClientRect().top;
+      const offsetTop = window.pageYOffset;
+      const headerCorrection = rem2px(6); // header: 5rem + padding-top: 1rem
+      const top = targetTop + offsetTop - headerCorrection;
+      return top;
+    };
+
+    const hash = this.$route.hash;
+    if (hash) {
+      setTimeout(() => {
+        window.scrollTo({ top: calcTop(hash) });
+      }, 0);
+    }
+
     document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
       anchor.addEventListener("click", function (e) {
         e.preventDefault();
 
-        const targetEl = document.querySelector(this.getAttribute("href"));
-        const targetTop = targetEl.getBoundingClientRect().top;
-        const offsetTop = window.pageYOffset;
-        const headerCorrection = rem2px(6); // header: 5rem + padding-top: 1rem
-        const top = targetTop + offsetTop - headerCorrection;
+        const hash = this.getAttribute("href");
+        history.pushState(null, null, hash);
 
         window.scrollTo({
-          top: top,
+          top: calcTop(hash),
           behavior: "smooth",
         });
       });
