@@ -43,11 +43,7 @@
           'text-gray-900': !isDark,
         }"
       >
-        <font-awesome
-          v-show="!isOpen"
-          :icon="['fas', 'calendar-alt']"
-          fixed-width
-        />
+        <font-awesome :icon="['fas', 'calendar-alt']" fixed-width />
         <flex-link
           :class="{
             'hover:text-blue-500': isDark,
