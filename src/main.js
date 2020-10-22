@@ -25,6 +25,10 @@ import {
 // import {} from "@fortawesome/free-regular-svg-icons";
 // import {} from "@fortawesome/free-brands-svg-icons";
 
+// import: Vuex
+import store from "~/store/index";
+
+// import: Global Components
 import FlexLink from "~/components/atoms/FlexLink.vue";
 import DefaultLayout from "~/layouts/Default.vue";
 
@@ -50,6 +54,9 @@ export default function (Vue, { appOptions }) {
   Vue.component("flex-link", FlexLink);
   Vue.component("Layout", DefaultLayout);
   Vue.component("font-awesome", FontAwesomeIcon);
+
+  // Vuex setting
+  appOptions.store = store;
 
   // Locales setting
   const locales = ["en-us", "ja-jp"];
