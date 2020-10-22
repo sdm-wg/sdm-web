@@ -15,6 +15,12 @@
     background: #191919;
   }
 
+  .line-clamp3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+  }
+
   @responsive {
     .h-2\/3-screen {
       height: calc(100vh * 2 / 3);
