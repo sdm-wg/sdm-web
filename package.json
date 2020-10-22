@@ -18,9 +18,9 @@
     "@gridsome/remark-prismjs": "^0.4.0",
     "@gridsome/vue-remark": "^0.2.5",
     "@tailwindcss/typography": "^0.2.0",
-    "gray-matter": "^4.0.2",
     "gridsome": "^0.7.0",
     "gridsome-plugin-i18n": "^1.6.0",
+    "handlebars": "^4.7.6",
     "moment": "^2.29.1",
     "smoothscroll-polyfill": "^0.4.4",
     "tailwindcss": "^1.9.3"

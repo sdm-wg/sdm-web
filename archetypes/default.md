@@ -1,7 +1,6 @@
 ---
-title: "{{ name | unslug }}"
-slug: "{{ name }}"
-date: "{{ date | format 'YYYY-MM-DDTHH:mm:ss' }}"
-draft: true
+title: "{{ unslug name }}",
+slug: "{{ name }}",
+date: "{{ format date 'YYYY-MM-DDTHH:mm:ss' }}",
+draft: true,
 ---
-
