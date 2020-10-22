@@ -1,13 +1,17 @@
 export default {
   data: () => {
     return {
-      isDark: null,
       isDarkMQL: null,
     };
   },
+  computed: {
+    isDark: function () {
+      return this.$store.getters.getIsDark;
+    },
+  },
   methods: {
     setIsDark: function (isDark) {
-      this.isDark = isDark;
+      this.$store.commit("setIsDark", isDark);
     },
     toggleDark: function () {
       this.setIsDark(!this.isDark);
@@ -27,7 +31,9 @@ export default {
         this.isDarkMQL.addListener(this.MQLHandler);
       }
 
-      this.MQLHandler(this.isDarkMQL);
+      if (this.isDark === null) {
+        this.MQLHandler(this.isDarkMQL);
+      }
     }
   },
   destroyed: function () {
