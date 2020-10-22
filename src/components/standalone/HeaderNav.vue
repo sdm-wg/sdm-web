@@ -130,27 +130,27 @@ export default {
       linkItems: [
         {
           title: "About",
-          link: "/#about",
+          link: "#about",
         },
         {
           title: "Events",
-          link: "/#events",
+          link: "#events",
         },
         {
           title: "News",
-          link: "/#news",
+          link: "#news",
         },
         {
           title: "Member",
-          link: "/#member",
+          link: "#member",
         },
         {
           title: "Publications",
-          link: "/#publications",
+          link: "#publications",
         },
         {
           title: "Contact",
-          link: "/#contact",
+          link: "#contact",
         },
       ],
     };
@@ -164,9 +164,11 @@ export default {
     },
     refLinkItems: function () {
       const contentPath = path.relative(`/${this.language}/`, this.$route.path);
+      if (contentPath === "") {
+        return this.linkItems;
+      }
       return this.linkItems.map((linkItem) => {
-        const relPath = path.relative(contentPath, linkItem.link);
-        linkItem.link = relPath.startsWith("#") ? relPath : linkItem.link;
+        linkItem.link = `/${linkItem.link}`;
         return linkItem;
       });
     },
@@ -201,7 +203,7 @@ export default {
       }, 0);
     }
 
-    document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+    this.$el.querySelectorAll('a[href^="#"]').forEach((anchor) => {
       anchor.addEventListener("click", function (e) {
         e.preventDefault();
 
