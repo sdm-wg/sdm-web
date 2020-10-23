@@ -7,18 +7,20 @@
         'bg-white': !isDark,
       }"
     >
-      <g-image
-        v-if="post.node.image === ''"
-        class="w-full h-64 object-cover bg-white"
-        src="~/assets/images/sdm-logo-square.png"
-        :alt="post.node.title"
-      />
-      <g-image
-        v-else
-        class="w-full h-64 object-cover"
-        :src="post.node.image"
-        :alt="post.node.title"
-      />
+      <flex-link :to="post.node.path">
+        <g-image
+          v-if="post.node.image === ''"
+          class="w-full h-64 object-cover bg-white"
+          src="~/assets/images/sdm-logo-square.png"
+          :alt="post.node.title"
+        />
+        <g-image
+          v-else
+          class="w-full h-64 object-cover"
+          :src="post.node.image"
+          :alt="post.node.title"
+        />
+      </flex-link>
       <div class="h-40 px-6 py-4">
         <div
           class="mb-2 font-bold text-xl truncate transition-set"
