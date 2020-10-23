@@ -2,8 +2,24 @@
   <SubSectionWrapper :isDark="isDark" :sectionId="sectionId">
     <template v-slot:heading>{{ $t("news.media.heading") }}</template>
 
-    <!-- Media Table -->
+    <!-- Media Info -->
     <div class="flex flex-col w-full p-4">
+      <!-- Search -->
+      <div class="flex flex-row-reverse w-full pb-4">
+        <input
+          v-model="searchText"
+          class="w-full md:w-64 p-2 border border-gray-400 rounded-lg appearance-none focus:outline-none active:outline-none text-gray-900"
+          :class="{
+            'focus:border-blue-500 active:border-blue-500 bg-gray-100': isDark,
+            'focus:border-orange-500 active:border-orange-500': !isDark,
+          }"
+          type="text"
+          placeholder="Search"
+          autofocus
+        />
+      </div>
+
+      <!-- Media Table -->
       <div class="-my-2 sm:-mx-6 lg:-mx-8">
         <div class="w-full py-2 sm:px-6 lg:px-8 align-middle inline-block">
           <div
@@ -29,7 +45,7 @@
               </thead>
               <tbody class="divide-y divide-gray-400">
                 <tr
-                  v-for="media in $static.media.edges"
+                  v-for="media in filteredMedia"
                   :key="media.node.id"
                   class="transition-set"
                   :class="{
@@ -64,7 +80,6 @@
         </div>
       </div>
     </div>
-    <!-- Media Table -->
   </SubSectionWrapper>
 </template>
 
@@ -107,6 +122,24 @@ export default {
     sectionId: {
       type: String,
       required: true,
+    },
+  },
+  data: () => {
+    return {
+      searchText: "",
+    };
+  },
+  computed: {
+    filteredMedia: function () {
+      const keyword = this.searchText.toLowerCase();
+      return this.$static.media.edges.filter((media) => {
+        const { date, title, type } = media.node;
+        return (
+          date.toLowerCase().includes(keyword) ||
+          title[this.language].toLowerCase().includes(keyword) ||
+          type.toLowerCase().includes(keyword)
+        );
+      });
     },
   },
   components: {
