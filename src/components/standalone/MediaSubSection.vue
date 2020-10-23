@@ -8,7 +8,7 @@
       <div class="flex flex-row-reverse w-full pb-4">
         <input
           v-model="searchText"
-          class="w-full md:w-64 p-2 border border-gray-400 rounded-lg appearance-none focus:outline-none active:outline-none text-gray-900"
+          class="w-full md:w-64 p-1 border border-gray-400 rounded-lg appearance-none focus:outline-none active:outline-none text-gray-900"
           :class="{
             'focus:border-blue-500 active:border-blue-500 bg-gray-100': isDark,
             'focus:border-orange-500 active:border-orange-500': !isDark,
@@ -38,9 +38,9 @@
                     'text-gray-900': !isDark,
                   }"
                 >
-                  <th class="px-3 py-3">Date</th>
-                  <th class="px-3 py-3">Title</th>
-                  <th class="px-3 py-3">Type</th>
+                  <th class="p-3">Date</th>
+                  <th class="p-3">Title</th>
+                  <th class="p-3">Type</th>
                 </tr>
               </thead>
               <tbody class="divide-y divide-gray-400">
@@ -53,13 +53,13 @@
                     'text-gray-700': !isDark,
                   }"
                 >
-                  <td class="px-3 py-3 whitespace-no-wrap">
+                  <td class="p-3 whitespace-no-wrap">
                     {{ media.node.date }}
                   </td>
-                  <td class="px-3 py-3">
+                  <td class="p-3">
                     <span>{{ media.node.title[language] }}</span>
                   </td>
-                  <td class="px-3 py-3">
+                  <td class="p-3">
                     <flex-link
                       v-if="media.node.url"
                       class="underline"
