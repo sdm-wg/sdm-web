@@ -46,4 +46,21 @@ module.exports = function (api) {
       });
     }
   });
+
+  // Collect members
+  api.loadSource(({ addCollection }) => {
+    const memberCollection = addCollection({
+      typeName: "Member",
+    });
+
+    const basePath = "./content/members";
+    const members = fetchYaml(basePath);
+    for (const index in members) {
+      const item = members[index];
+      memberCollection.addNode({
+        id: index,
+        ...item,
+      });
+    }
+  });
 };
