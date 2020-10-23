@@ -79,6 +79,19 @@
           </div>
         </div>
       </div>
+
+      <!-- Entry Count -->
+      <div class="pt-4">
+        <span
+          class="text-sm sm:text-base transition-set"
+          :class="{
+            'text-gray-100': isDark,
+            'text-gray-900': !isDark,
+          }"
+        >
+          Showing {{ filteredMediaLength }} out of {{ mediaLength }} entries
+        </span>
+      </div>
     </div>
   </SubSectionWrapper>
 </template>
@@ -131,15 +144,24 @@ export default {
   },
   computed: {
     filteredMedia: function () {
+      const limit = 20;
       const keyword = this.searchText.toLowerCase();
-      return this.$static.media.edges.filter((media) => {
-        const { date, title, type } = media.node;
-        return (
-          date.toLowerCase().includes(keyword) ||
-          title[this.language].toLowerCase().includes(keyword) ||
-          type.toLowerCase().includes(keyword)
-        );
-      });
+      return this.$static.media.edges
+        .filter((media) => {
+          const { date, title, type } = media.node;
+          return (
+            date.toLowerCase().includes(keyword) ||
+            title[this.language].toLowerCase().includes(keyword) ||
+            type.toLowerCase().includes(keyword)
+          );
+        })
+        .slice(0, limit);
+    },
+    mediaLength: function () {
+      return this.$static.media.edges.length;
+    },
+    filteredMediaLength: function () {
+      return this.filteredMedia.length;
     },
   },
   components: {
