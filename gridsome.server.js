@@ -1,4 +1,7 @@
+const { fetchYaml } = require("./scripts/collector");
+
 module.exports = function (api) {
+  // Remove draft posts when a production stage
   api.loadSource((store) => {
     if (process.env.NODE_ENV === "production" || process.env.NODE_PREVIEW) {
       const posts = store.getContentType("Post");
@@ -10,11 +13,21 @@ module.exports = function (api) {
     }
   });
 
-  // api.loadSource(({ addCollection }) => {
-  // Use the Data Store API here: https://gridsome.org/docs/data-store-api/
-  // });
+  // Collect notices
+  api.loadSource(({ addCollection }) => {
+    const noticeCollection = addCollection({
+      typeName: "Notice",
+    });
 
-  // api.createPages(({ createPage }) => {
-  // Use the Pages API here: https://gridsome.org/docs/pages-api/
-  // });
+    const basePath = "./content/notices";
+    const notices = fetchYaml(basePath);
+    for (const index in notices) {
+      const notice = notices[index];
+      noticeCollection.addNode({
+        id: index,
+        date: notice.date,
+        content: notice.content,
+      });
+    }
+  });
 };
