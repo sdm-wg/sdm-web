@@ -21,6 +21,7 @@
     "gridsome": "^0.7.0",
     "gridsome-plugin-i18n": "^1.6.0",
     "handlebars": "^4.7.6",
+    "js-yaml": "^3.14.0",
     "moment": "^2.29.1",
     "smoothscroll-polyfill": "^0.4.4",
     "tailwindcss": "^1.9.3",
