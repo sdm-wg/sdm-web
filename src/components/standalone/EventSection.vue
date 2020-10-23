@@ -1,13 +1,12 @@
 <template>
   <SectionWrapper :isDark="isDark" :isEven="isEven" :sectionId="sectionId">
     <template v-slot:heading>{{ $t("event.heading") }}</template>
-    <div
+    <PostCard
       v-for="event in $static.events.edges"
       :key="event.node.id"
-      class="w-full md:w-1/2 lg:w-1/4 p-4"
-    >
-      <PostCard :isDark="isDark" :post="event" />
-    </div>
+      :isDark="isDark"
+      :post="event"
+    />
   </SectionWrapper>
 </template>
 
