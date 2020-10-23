@@ -59,7 +59,7 @@
                   <td class="p-3">
                     <span>{{ media.node.title[language] }}</span>
                   </td>
-                  <td class="p-3">
+                  <td class="p-3 whitespace-no-wrap">
                     <flex-link
                       v-if="media.node.url"
                       class="underline"
