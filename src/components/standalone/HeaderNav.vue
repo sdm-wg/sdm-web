@@ -151,8 +151,8 @@ export default {
           link: "#news",
         },
         {
-          title: "Member",
-          link: "#member",
+          title: "Members",
+          link: "#members",
         },
         {
           title: "Publications",
