@@ -2,17 +2,17 @@
   <SubSectionWrapper :isDark="isDark" :sectionId="sectionId">
     <template v-slot:heading>{{ $t("news.pressRelease.heading") }}</template>
     <PostCard
-      v-for="event in $static.events.edges"
-      :key="event.node.id"
+      v-for="pressRelease in $static.pressReleases.edges"
+      :key="pressRelease.node.id"
       :isDark="isDark"
-      :post="event"
+      :post="pressRelease"
     />
   </SubSectionWrapper>
 </template>
 
 <static-query>
 query {
-  events: allPost(filter: { tags: { contains: ["press release"] } }) {
+  pressReleases: allPost(filter: { tags: { contains: ["press release"] } }) {
     edges {
       node {
         id

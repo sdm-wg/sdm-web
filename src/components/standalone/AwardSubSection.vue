@@ -2,17 +2,17 @@
   <SubSectionWrapper :isDark="isDark" :sectionId="sectionId">
     <template v-slot:heading>{{ $t("news.award.heading") }}</template>
     <PostCard
-      v-for="event in $static.events.edges"
-      :key="event.node.id"
+      v-for="award in $static.awards.edges"
+      :key="award.node.id"
       :isDark="isDark"
-      :post="event"
+      :post="award"
     />
   </SubSectionWrapper>
 </template>
 
 <static-query>
 query {
-  events: allPost(filter: { tags: { contains: ["award"] } }) {
+  awards: allPost(filter: { tags: { contains: ["award"] } }) {
     edges {
       node {
         id
