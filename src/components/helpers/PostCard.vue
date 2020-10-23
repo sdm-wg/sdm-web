@@ -40,7 +40,7 @@
           </flex-link>
         </div>
         <div
-          class="my-2 text-sm transition-set"
+          class="my-2 text-base transition-set"
           :class="{
             'text-gray-100': isDark,
             'text-gray-900': !isDark,

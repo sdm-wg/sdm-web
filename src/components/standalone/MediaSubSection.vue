@@ -32,7 +32,7 @@
             <table class="w-full divide-y divide-gray-400">
               <thead>
                 <tr
-                  class="font-bold text-left text-sm sm:text-base uppercase tracking-wider transition-set"
+                  class="font-bold text-left text-base sm:text-lg uppercase tracking-wider transition-set"
                   :class="{
                     'text-gray-100': isDark,
                     'text-gray-900': !isDark,
@@ -47,7 +47,7 @@
                 <tr
                   v-for="media in filteredMedia"
                   :key="media.node.id"
-                  class="transition-set"
+                  class="text-base transition-set"
                   :class="{
                     'text-gray-300': isDark,
                     'text-gray-700': !isDark,
@@ -83,7 +83,7 @@
       <!-- Entry Count -->
       <div class="pt-4">
         <span
-          class="text-sm sm:text-base transition-set"
+          class="text-base transition-set"
           :class="{
             'text-gray-100': isDark,
             'text-gray-900': !isDark,

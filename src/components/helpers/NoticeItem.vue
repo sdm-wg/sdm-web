@@ -23,7 +23,7 @@
       </div>
       <div>
         <h3
-          class="font-bold text-sm sm:text-base sm:whitespace-no-wrap transition-set"
+          class="font-bold text-base sm:text-lg sm:whitespace-no-wrap transition-set"
           :class="{
             'text-gray-100': isDark,
             'text-gray-900': !isDark,
@@ -35,7 +35,7 @@
     </div>
     <div class="px-2 sm:pl-4">
       <p
-        class="text-sm transition-set"
+        class="text-base transition-set"
         :class="{
           'text-gray-300': isDark,
           'text-gray-700': !isDark,

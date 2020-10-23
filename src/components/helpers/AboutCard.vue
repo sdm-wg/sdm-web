@@ -12,7 +12,7 @@
       </div>
       <div class="flex-1">
         <h3
-          class="font-bold text-sm sm:text-base transition-set"
+          class="font-bold text-base sm:text-lg transition-set"
           :class="{
             'text-gray-100': isDark,
             'text-gray-900': !isDark,
@@ -24,7 +24,7 @@
     </div>
     <div class="px-2">
       <p
-        class="text-sm break-words transition-set"
+        class="text-base break-words transition-set"
         :class="{
           'text-gray-300': isDark,
           'text-gray-700': !isDark,
