@@ -21,6 +21,7 @@ import {
   faMapMarkerAlt as fasMapMarkerAlt,
   faCloud as fasCloud,
   faCalendarAlt as fasCalendarAlt,
+  faCalendarCheck as fasCalendarCheck,
 } from "@fortawesome/free-solid-svg-icons";
 // import {} from "@fortawesome/free-regular-svg-icons";
 // import {} from "@fortawesome/free-brands-svg-icons";
@@ -47,7 +48,8 @@ library.add(
   fasMusic,
   fasMapMarkerAlt,
   fasCloud,
-  fasCalendarAlt
+  fasCalendarAlt,
+  fasCalendarCheck
 );
 
 export default function (Vue, { appOptions }) {

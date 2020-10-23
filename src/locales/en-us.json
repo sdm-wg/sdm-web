@@ -16,6 +16,9 @@
       }
     ]
   },
+  "notice": {
+    "heading": "Notices"
+  },
   "event": {
     "heading": "Events"
   }
