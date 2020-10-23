@@ -21,5 +21,11 @@
   },
   "event": {
     "heading": "Events"
+  },
+  "news": {
+    "heading": "News",
+    "pressRelease": {
+      "heading": "Press Releases"
+    }
   }
 }
