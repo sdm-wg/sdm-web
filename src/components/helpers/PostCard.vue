@@ -8,18 +8,20 @@
       }"
     >
       <flex-link :to="post.node.path">
-        <g-image
-          v-if="post.node.image === ''"
-          class="w-full h-64 object-cover bg-white"
-          src="~/assets/images/sdm-logo-square.png"
-          :alt="post.node.title"
-        />
-        <g-image
-          v-else
-          class="w-full h-64 object-cover"
-          :src="post.node.image"
-          :alt="post.node.title"
-        />
+        <div class="relative w-full pb-2/3">
+          <g-image
+            v-if="post.node.image"
+            class="absolute w-full h-full object-cover"
+            :src="post.node.image"
+            :alt="post.node.title[language]"
+          />
+          <g-image
+            v-else
+            class="absolute w-full h-full object-cover bg-white"
+            src="~/assets/images/sdm-logo-square.png"
+            :alt="post.node.title[language]"
+          />
+        </div>
       </flex-link>
       <div class="h-40 px-6 py-4">
         <div

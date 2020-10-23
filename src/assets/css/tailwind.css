@@ -33,5 +33,9 @@
     .pb-full {
       padding-bottom: 100%;
     }
+
+    .pb-2\/3 {
+      padding-bottom: 66.666667%;
+    }
   }
 }
