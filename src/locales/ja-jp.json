@@ -26,6 +26,9 @@
     "heading": "News",
     "pressRelease": {
       "heading": "Press Releases"
+    },
+    "award": {
+      "heading": "Awards"
     }
   }
 }
