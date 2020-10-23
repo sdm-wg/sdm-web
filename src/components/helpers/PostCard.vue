@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full md:w-1/2 lg:w-1/4 p-4">
+  <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4">
     <div
       class="rounded overflow-hidden shadow-lg transition-set"
       :class="{
@@ -67,20 +67,25 @@
           {{ post.node.summary[language] }}
         </p>
       </div>
-      <div class="px-6 py-2">
-        <span
-          v-for="tag in post.node.tags"
-          :key="tag.id"
-          class="inline-block mr-2 mb-2 px-3 py-1 rounded-full bg-gray-200 text-gray-700 text-sm font-semibold"
-        >
+      <div
+        class="px-6 pt-2 pb-4 text-base transition-set"
+        :class="{
+          'text-gray-100': isDark,
+          'text-gray-900': !isDark,
+        }"
+      >
+        <font-awesome :icon="['fas', 'tag']" fixed-width />
+
+        <span v-for="tag in post.node.tags" :key="tag.id">
           <flex-link
+            class="mr-2"
             :class="{
               'hover:text-blue-500': isDark,
               'hover:text-orange-500': !isDark,
             }"
             :to="tag.path"
           >
-            #{{ tag.id }}
+            {{ tag.id }}
           </flex-link>
         </span>
       </div>

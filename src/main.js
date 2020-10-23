@@ -23,6 +23,7 @@ import {
   faCalendar as fasCalendar,
   faCalendarAlt as fasCalendarAlt,
   faCalendarCheck as fasCalendarCheck,
+  faTag as fasTag,
 } from "@fortawesome/free-solid-svg-icons";
 // import {} from "@fortawesome/free-regular-svg-icons";
 // import {} from "@fortawesome/free-brands-svg-icons";
@@ -51,7 +52,8 @@ library.add(
   fasCloud,
   fasCalendar,
   fasCalendarAlt,
-  fasCalendarCheck
+  fasCalendarCheck,
+  fasTag
 );
 
 export default function (Vue, { appOptions }) {
