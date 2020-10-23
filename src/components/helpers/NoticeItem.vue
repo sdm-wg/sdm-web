@@ -8,11 +8,22 @@
           'text-gray-700': !isDark,
         }"
       >
-        <font-awesome :icon="['fas', 'calendar-check']" size="2x" fixed-width />
+        <font-awesome
+          v-if="notice.node.isDone"
+          :icon="['fas', 'calendar-check']"
+          size="2x"
+          fixed-width
+        />
+        <font-awesome
+          v-else
+          :icon="['fas', 'calendar']"
+          size="2x"
+          fixed-width
+        />
       </div>
       <div>
         <h3
-          class="font-bold text-sm sm:text-base whitespace-no-wrap transition-set"
+          class="font-bold text-sm sm:text-base sm:whitespace-no-wrap transition-set"
           :class="{
             'text-gray-100': isDark,
             'text-gray-900': !isDark,

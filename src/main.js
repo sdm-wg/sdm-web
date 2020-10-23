@@ -20,6 +20,7 @@ import {
   faMusic as fasMusic,
   faMapMarkerAlt as fasMapMarkerAlt,
   faCloud as fasCloud,
+  faCalendar as fasCalendar,
   faCalendarAlt as fasCalendarAlt,
   faCalendarCheck as fasCalendarCheck,
 } from "@fortawesome/free-solid-svg-icons";
@@ -48,6 +49,7 @@ library.add(
   fasMusic,
   fasMapMarkerAlt,
   fasCloud,
+  fasCalendar,
   fasCalendarAlt,
   fasCalendarCheck
 );
