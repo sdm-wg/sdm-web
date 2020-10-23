@@ -37,8 +37,18 @@
             'hover:text-orange-500': !isDark,
           }"
         >
-          <font-awesome v-show="isOpen" :icon="['fas', 'times']" fixed-width />
-          <font-awesome v-show="!isOpen" :icon="['fas', 'bars']" fixed-width />
+          <font-awesome
+            v-show="isOpen"
+            :icon="['fas', 'times']"
+            size="2x"
+            fixed-width
+          />
+          <font-awesome
+            v-show="!isOpen"
+            :icon="['fas', 'bars']"
+            size="2x"
+            fixed-width
+          />
         </div>
       </div>
 
