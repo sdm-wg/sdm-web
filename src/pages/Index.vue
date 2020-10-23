@@ -5,6 +5,7 @@
     <NoticeSection :isDark="isDark" :isEven="true" sectionId="notices" />
     <EventSection :isDark="isDark" :isEven="false" sectionId="events" />
     <NewsSection :isDark="isDark" :isEven="true" sectionId="news" />
+    <MemberSection :isDark="isDark" :isEven="false" sectionId="members" />
   </Layout>
 </template>
 
@@ -13,6 +14,7 @@ import AboutSection from "~/components/standalone/AboutSection.vue";
 import NoticeSection from "~/components/standalone/NoticeSection.vue";
 import EventSection from "~/components/standalone/EventSection.vue";
 import NewsSection from "~/components/standalone/NewsSection.vue";
+import MemberSection from "~/components/standalone/MemberSection.vue";
 
 import colorSchemeMixin from "~/mixins/colorScheme.js";
 
@@ -27,6 +29,7 @@ export default {
     NoticeSection,
     EventSection,
     NewsSection,
+    MemberSection,
   },
 };
 </script>

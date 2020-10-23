@@ -24,9 +24,10 @@ import {
   faCalendarAlt as fasCalendarAlt,
   faCalendarCheck as fasCalendarCheck,
   faTag as fasTag,
+  faHome as fasHome,
 } from "@fortawesome/free-solid-svg-icons";
 // import {} from "@fortawesome/free-regular-svg-icons";
-// import {} from "@fortawesome/free-brands-svg-icons";
+import { faFacebookF as fabFacebookF } from "@fortawesome/free-brands-svg-icons";
 
 // import: Vuex
 import store from "~/store/index";
@@ -53,7 +54,9 @@ library.add(
   fasCalendar,
   fasCalendarAlt,
   fasCalendarCheck,
-  fasTag
+  fasTag,
+  fasHome,
+  fabFacebookF
 );
 
 export default function (Vue, { appOptions }) {
