@@ -22,11 +22,27 @@ module.exports = function (api) {
     const basePath = "./content/notices";
     const notices = fetchYaml(basePath);
     for (const index in notices) {
-      const notice = notices[index];
+      const item = notices[index];
       noticeCollection.addNode({
         id: index,
-        date: notice.date,
-        content: notice.content,
+        ...item,
+      });
+    }
+  });
+
+  // Collect media info
+  api.loadSource(({ addCollection }) => {
+    const mediaCollection = addCollection({
+      typeName: "Media",
+    });
+
+    const basePath = "./content/media";
+    const media = fetchYaml(basePath);
+    for (const index in media) {
+      const item = media[index];
+      mediaCollection.addNode({
+        id: index,
+        ...item,
       });
     }
   });
