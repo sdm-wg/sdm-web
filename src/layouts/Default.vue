@@ -7,12 +7,20 @@
     />
     <ContentWrapper :isDark="isDark">
       <div
-        class="flex items-center w-full h-screen md:h-2/3-screen bg-gradient-to-br from-orange-400 via-red-500 to-pink-500"
+        class="flex items-center w-full h-64 md:h-128 bg-gradient-to-br from-orange-400 via-red-500 to-pink-500"
       >
-        <div class="container mx-auto px-4">
-          <SDMBannerSVG class="w-full text-black" />
+        <g-image
+          v-if="coverImage"
+          class="relative w-full h-full object-cover"
+          :src="coverImage"
+        />
+        <div v-else class="absolute w-full">
+          <div class="container mx-auto px-4">
+            <SDMBannerSVG class="w-full text-black" />
+          </div>
         </div>
       </div>
+
       <slot />
     </ContentWrapper>
     <FooterWrapper :isDark="isDark" class="flex-1">
@@ -38,6 +46,11 @@ export default {
     isDark: {
       type: Boolean,
       required: true,
+    },
+    coverImage: {
+      type: String,
+      required: false,
+      default: "",
     },
   },
   methods: {

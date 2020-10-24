@@ -22,8 +22,8 @@
   }
 
   @responsive {
-    .h-2\/3-screen {
-      height: calc(100vh * 2 / 3);
+    .h-128 {
+      height: 32rem;
     }
 
     .max-h-20 {
