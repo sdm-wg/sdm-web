@@ -17,9 +17,12 @@
           'text-black': !isDark,
         }"
       >
-        <flex-link to="/">
+        <flex-link v-if="contentPath" to="/">
           <SDMLogoSVG class="w-24" />
         </flex-link>
+        <span v-else @click="scrollTo(0, true)" class="cursor-pointer">
+          <SDMLogoSVG class="w-24" />
+        </span>
       </div>
 
       <div
@@ -172,9 +175,11 @@ export default {
       const height = this.isOpen ? logoHeight + menuHeight : logoHeight;
       return `${height}px`;
     },
+    contentPath: function () {
+      return path.relative(`/${this.language}/`, this.$route.path);
+    },
     refLinkItems: function () {
-      const contentPath = path.relative(`/${this.language}/`, this.$route.path);
-      if (contentPath === "") {
+      if (this.contentPath === "") {
         return this.linkItems;
       }
       return this.linkItems.map((linkItem) => {
@@ -195,21 +200,29 @@ export default {
     setIsOpen: function (isOpen) {
       this.isOpen = isOpen;
     },
-  },
-  mounted: function () {
-    const calcTop = (hash) => {
+    scrollTo: function (top, isSmooth = false) {
+      const options = isSmooth
+        ? { top: top, behavior: "smooth" }
+        : { top: top };
+      window.scrollTo(options);
+    },
+    calcTop: function (hash) {
       const targetEl = document.querySelector(hash);
       const targetTop = targetEl.getBoundingClientRect().top;
       const offsetTop = window.pageYOffset;
       const headerCorrection = rem2px(6); // header: 5rem + padding-top: 1rem
       const top = targetTop + offsetTop - headerCorrection;
       return top;
-    };
+    },
+  },
+  mounted: function () {
+    let hash = this.$route.hash;
+    const scrollTo = this.scrollTo;
+    const calcTop = this.calcTop;
 
-    const hash = this.$route.hash;
     if (hash) {
       setTimeout(() => {
-        window.scrollTo({ top: calcTop(hash) });
+        this.scrollTo(this.calcTop(hash));
       }, 0);
     }
 
@@ -217,13 +230,10 @@ export default {
       anchor.addEventListener("click", function (e) {
         e.preventDefault();
 
-        const hash = this.getAttribute("href");
+        hash = this.getAttribute("href");
         history.pushState(null, null, hash);
 
-        window.scrollTo({
-          top: calcTop(hash),
-          behavior: "smooth",
-        });
+        scrollTo(calcTop(hash), true);
       });
     });
   },
