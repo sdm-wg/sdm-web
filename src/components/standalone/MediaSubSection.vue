@@ -15,7 +15,6 @@
           }"
           type="text"
           placeholder="Search"
-          autofocus
         />
       </div>
 
