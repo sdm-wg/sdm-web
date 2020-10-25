@@ -11,6 +11,7 @@
       :isEven="true"
       sectionId="publications"
     />
+    <ContactSection :isDark="isDark" :isEven="false" sectionId="contact" />
   </Layout>
 </template>
 
@@ -21,6 +22,7 @@ import EventSection from "~/components/standalone/EventSection.vue";
 import NewsSection from "~/components/standalone/NewsSection.vue";
 import MemberSection from "~/components/standalone/MemberSection.vue";
 import PublicationSection from "~/components/standalone/PublicationSection.vue";
+import ContactSection from "~/components/standalone/ContactSection.vue";
 
 import colorSchemeMixin from "~/mixins/colorScheme.js";
 
@@ -37,6 +39,7 @@ export default {
     NewsSection,
     MemberSection,
     PublicationSection,
+    ContactSection,
   },
 };
 </script>

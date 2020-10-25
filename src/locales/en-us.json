@@ -45,5 +45,16 @@
     "ja": {
       "heading": "Japanese Publications"
     }
+  },
+  "contact": {
+    "heading": "Contact",
+    "address": {
+      "heading": "Address",
+      "content": "I-REF building, Graduate School of Information Science and Technology, The University of Tokyo, 1-1-1, Yayoi, Bunkyo-ku, Tokyo, 113-8657 Japan"
+    },
+    "contact": {
+      "heading": "Contacts",
+      "content": "Email:"
+    }
   }
 }

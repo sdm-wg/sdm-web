@@ -45,5 +45,16 @@
     "ja": {
       "heading": "Japanese Publications"
     }
+  },
+  "contact": {
+    "heading": "Contact",
+    "address": {
+      "heading": "住所",
+      "content": "〒113-8657 東京都文京区弥生1-1-1 東京大学 I-REF棟6F"
+    },
+    "contact": {
+      "heading": "メール",
+      "content": "Email:"
+    }
   }
 }
