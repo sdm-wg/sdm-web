@@ -41,7 +41,11 @@
     <category field="generic-base"/>
     <summary>IEEE style as per the 2018 guidelines, V 11.12.2018.</summary>
     <updated>2019-12-20T09:14:19+00:00</updated>
-    <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
+    <rights license="http://creativecommons.org/licenses/by-sa/3.0/">
+      This work, "custom-ieee.csl", is a derivative of "ieee.csl" by https://github.com/citation-style-language/styles,
+      used under a Creative Commons Attribution-ShareAlike 3.0 License.
+      "custom-ieee.csl" is licensed under a Creative Commons Attribution-ShareAlike 3.0 License
+    </rights>
   </info>
   <locale xml:lang="en">
     <terms>
