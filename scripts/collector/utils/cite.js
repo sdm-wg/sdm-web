@@ -118,6 +118,7 @@ const generatePublications = (entry, pubLang) => {
     title: {},
     author: {},
     info: {},
+    note: {},
     lang: pubLang,
     ...resourceProps,
   };
@@ -131,12 +132,15 @@ const generatePublications = (entry, pubLang) => {
 
   for (const i18nLang in i18nProps) {
     const props = i18nProps[i18nLang];
+
+    pub.note[i18nLang] = extractFields(props, ["note"]).note;
+
     const partialProps = {
       title: extractFields(props, ["title"]),
       author: extractFields(props, ["author"]),
       info: extractFields(
         props,
-        ["title", "author", "url", "github", "youtube", "doi"],
+        ["title", "author", "url", "github", "youtube", "doi", "note"],
         true
       ),
     };
