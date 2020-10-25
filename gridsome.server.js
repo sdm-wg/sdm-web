@@ -1,4 +1,4 @@
-const { fetchYaml } = require("./scripts/collector");
+const { fetchYaml, fetchBibtex } = require("./scripts/collector");
 
 module.exports = function (api) {
   // Remove draft posts when a production stage
@@ -59,6 +59,21 @@ module.exports = function (api) {
       const item = members[index];
       memberCollection.addNode({
         id: index,
+        ...item,
+      });
+    }
+  });
+
+  // Collect publications
+  api.loadSource(({ addCollection }) => {
+    const publicationCollection = addCollection({
+      typeName: "Publication",
+    });
+
+    const basePath = "./content/publications";
+    const publications = fetchBibtex(basePath);
+    for (const item of publications) {
+      publicationCollection.addNode({
         ...item,
       });
     }
