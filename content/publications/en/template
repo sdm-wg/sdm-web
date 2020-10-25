@@ -1,0 +1,19 @@
+@article{test,
+  author  = {Author Name},
+  title   = {The title of the work},
+  journal = {The name of the journal},
+  year    = {2020},
+  month   = {1},
+  number  = {2},
+  volume  = {3},
+  pages   = {456-789},
+  note    = {An optional note},
+
+  % WEB, FILE, DOI
+  url     = {https://website-or-pdf-url},
+  doi     = {doi number},
+
+  % CUSTOM FIELD
+  youtube = {https://youtu.be/},
+  github  = {https://github.com/sdm-wg/}
+}
