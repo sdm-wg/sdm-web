@@ -10,9 +10,9 @@ module.exports = (theme) => ({
     css: {
       ...transitionCommonSettings,
       a: {
-        color: theme("colors.orange.600"),
+        color: theme("colors.gray.700"),
         "&:hover": {
-          color: theme("colors.orange.400"),
+          color: theme("colors.orange.500"),
         },
       },
       strong: {
@@ -66,9 +66,9 @@ module.exports = (theme) => ({
       transitionDuration: "1000ms",
       transitionTimingFunction: "cubic-bezier(0.4, 0, 0.2, 1)",
       a: {
-        color: theme("colors.blue.600"),
+        color: theme("colors.gray.300"),
         "&:hover": {
-          color: theme("colors.blue.400"),
+          color: theme("colors.blue.500"),
         },
       },
       strong: {
