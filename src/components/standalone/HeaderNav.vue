@@ -3,6 +3,7 @@
     :isDark="isDark"
     :isTop="isTop"
     class="md:max-h-20 overflow-hidden transition-all-set"
+    :class="{ 'bg-opacity-100 shadow': isOpen }"
     :style="{ height: navHeight }"
   >
     <nav
