@@ -64,5 +64,9 @@
 
   "tag": {
     "heading": "Tags"
+  },
+
+  "archive": {
+    "heading": "Archives"
   }
 }
