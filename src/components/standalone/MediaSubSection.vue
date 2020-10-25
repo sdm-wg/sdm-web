@@ -126,11 +126,6 @@ export default {
       type: Boolean,
       required: true,
     },
-    isEven: {
-      type: Boolean,
-      required: false,
-      default: false,
-    },
     sectionId: {
       type: String,
       required: true,
