@@ -1,5 +1,6 @@
 const fs = require("fs");
 const path = require("path");
+const moment = require("moment");
 const Cite = require("citation-js");
 
 const { recursiveReaddir } = require("./fs");
@@ -127,6 +128,7 @@ const generatePublications = (entry, pubLang) => {
     info: {},
     note: {},
     lang: pubLang,
+    date: null,
     ...resourceProps,
   };
 
@@ -160,6 +162,15 @@ const generatePublications = (entry, pubLang) => {
 
       if (partialKey === "author") {
         fixJapaneseNameOrder(cite.data[0].author);
+      }
+
+      if (partialKey === "info" && !pub.date) {
+        const dateParts = cite.data[0].issued["date-parts"][0];
+        if (dateParts.length > 1) {
+          // fix month
+          dateParts[1]--;
+        }
+        pub.date = moment(dateParts).format("YYYY-MM-DD");
       }
 
       pub[partialKey][i18nLang] = cite
