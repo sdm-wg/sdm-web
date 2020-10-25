@@ -56,5 +56,9 @@
       "heading": "メール",
       "content": "Email:"
     }
+  },
+
+  "post": {
+    "heading": "Posts"
   }
 }

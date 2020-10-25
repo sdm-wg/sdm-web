@@ -56,5 +56,9 @@
       "heading": "Contacts",
       "content": "Email:"
     }
+  },
+
+  "post": {
+    "heading": "Posts"
   }
 }
