@@ -34,6 +34,12 @@
       >
         {{ publication.node.info[language] }}
       </p>
+      <p
+        v-if="publication.node.note[language]"
+        class="font-semibold text-base sm:text-lg text-red-500"
+      >
+        {{ publication.node.note[language] }}
+      </p>
       <div
         class="flex flex-wrap items-center transition-set"
         :class="{
