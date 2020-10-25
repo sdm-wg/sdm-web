@@ -8,7 +8,10 @@ const { recursiveReaddir } = require("./fs");
  *  Citation.js setting
  */
 const cslPath = "./scripts/collector/csl";
-const ieeeTemplate = fs.readFileSync(path.join(cslPath, "ieee.csl"), "utf-8");
+const ieeeTemplate = fs.readFileSync(
+  path.join(cslPath, "custom-ieee.csl"),
+  "utf-8"
+);
 
 const cslConfig = Cite.plugins.config.get("@csl");
 cslConfig.templates.add("ieee", ieeeTemplate);
