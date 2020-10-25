@@ -1,3 +1,3 @@
-const { fetchYaml } = require("./fetchers");
+const { fetchYaml, fetchBibtex } = require("./fetchers");
 
-module.exports = { fetchYaml };
+module.exports = { fetchYaml, fetchBibtex };
