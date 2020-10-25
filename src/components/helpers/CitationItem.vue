@@ -34,6 +34,80 @@
       >
         {{ publication.node.info[language] }}
       </p>
+      <div
+        class="flex flex-wrap items-center transition-set"
+        :class="{
+          'text-gray-300': isDark,
+          'text-gray-700': !isDark,
+        }"
+      >
+        <!-- Publication type -->
+        <div class="mr-1">
+          <span
+            class="px-2 rounded text-white transition-set"
+            :class="{
+              'bg-blue-500': isDark,
+              'bg-orange-500': !isDark,
+            }"
+          >
+            {{ publication.node.type }}
+          </span>
+        </div>
+
+        <!-- DOI -->
+        <div v-if="publication.node.doi" class="mr-1">
+          <flex-link :to="`https://doi.org/${publication.node.doi}`">
+            <img
+              :src="`https://zenodo.org/badge/DOI/${publication.node.doi}.svg`"
+              alt="DOI"
+            />
+          </flex-link>
+        </div>
+
+        <!-- PDF/Web -->
+        <div v-if="publication.node.url" class="mr-1">
+          <flex-link
+            :class="{
+              'hover:text-blue-500': isDark,
+              'hover:text-orange-500': !isDark,
+            }"
+            :to="publication.node.url"
+          >
+            <font-awesome
+              v-if="publication.node.url.toLowerCase().endsWith('.pdf')"
+              :icon="['fas', 'file-pdf']"
+              fixed-width
+            />
+            <font-awesome v-else :icon="['fas', 'link']" fixed-width />
+          </flex-link>
+        </div>
+
+        <!-- Github -->
+        <div v-if="publication.node.github" class="mr-1">
+          <flex-link
+            :class="{
+              'hover:text-blue-500': isDark,
+              'hover:text-orange-500': !isDark,
+            }"
+            :to="publication.node.github"
+          >
+            <font-awesome :icon="['fab', 'github']" fixed-width />
+          </flex-link>
+        </div>
+
+        <!-- YouTube -->
+        <div v-if="publication.node.youtube" class="mr-1">
+          <flex-link
+            :class="{
+              'hover:text-blue-500': isDark,
+              'hover:text-orange-500': !isDark,
+            }"
+            :to="publication.node.youtube"
+          >
+            <font-awesome :icon="['fab', 'youtube']" fixed-width />
+          </flex-link>
+        </div>
+      </div>
     </div>
   </div>
 </template>
