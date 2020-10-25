@@ -36,5 +36,14 @@
   },
   "member": {
     "heading": "Members"
+  },
+  "publication": {
+    "heading": "Publications",
+    "en": {
+      "heading": "English Publications"
+    },
+    "ja": {
+      "heading": "Japanese Publications"
+    }
   }
 }
