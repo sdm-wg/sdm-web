@@ -44,13 +44,17 @@ const isKanji = (str) =>
 const isJapanese = (str) => isHiragana(str) || isKatakana(str) || isKanji(str);
 
 /*
- *  Cite utils
+ *  fs utils
  */
 const mergeBibFiles = (basePath) =>
   recursiveReaddir(basePath)
     .filter((filePath) => filePath.endsWith(".bib"))
     .map((filePath) => fs.readFileSync(filePath, "utf-8"))
     .join("\n");
+
+/*
+ *  Cite utils
+ */
 
 const generateFields = (fields) =>
   fields.reduce((acc, cur) => {
@@ -158,9 +162,11 @@ const generatePublications = (entry, pubLang) => {
         fixJapaneseNameOrder(cite.data[0].author);
       }
 
-      pub[partialKey][i18nLang] = cite.format("bibliography", {
-        template: "ieee",
-      });
+      pub[partialKey][i18nLang] = cite
+        .format("bibliography", {
+          template: "ieee",
+        })
+        .replace(/[.,]\s{1,2}$/, "");
     }
   }
 
