@@ -1,13 +1,14 @@
 <template>
-  <Layout>
-    <h1>{{ $page.tag.id }}</h1>
-    <ul>
-      <li v-for="edge in $page.tag.belongsTo.edges" :key="edge.node.id">
-        <g-link :to="edge.node.path">
-          {{ edge.node.title }}
-        </g-link>
-      </li>
-    </ul>
+  <Layout @receive-toggle-dark="toggleDark" :isDark="isDark">
+    <SectionWrapper :isDark="isDark" :isEven="true" sectionId="tag">
+      <template v-slot:heading>{{ heading }}</template>
+      <PostCard
+        v-for="post in $page.tag.belongsTo.edges"
+        :key="post.node.id"
+        :isDark="isDark"
+        :post="post"
+      />
+    </SectionWrapper>
   </Layout>
 </template>
 
@@ -20,11 +21,25 @@ query($id: ID!) {
         node {
           ... on Post {
             id
+            path
             title {
               ja
               en
             }
-            path
+            summary {
+              ja
+              en
+            }
+            tags {
+              id
+              path
+            }
+            date(format: "YYYY-MM-DD")
+            archives {
+              id
+              path
+            }
+            image
           }
         }
       }
@@ -32,3 +47,32 @@ query($id: ID!) {
   }
 }
 </page-query>
+
+<script>
+import SectionWrapper from "~/components/helpers/SectionWrapper.vue";
+import PostCard from "~/components/helpers/PostCard.vue";
+
+import localeMixin from "~/mixins/locale.js";
+import colorSchemeMixin from "~/mixins/colorScheme.js";
+
+import { unslug } from "~/utils/stringHandler.js";
+
+export default {
+  name: "Tag",
+  metaInfo: function () {
+    return {
+      title: `Tag: ${this.$page.tag.id}`,
+    };
+  },
+  mixins: [localeMixin, colorSchemeMixin],
+  computed: {
+    heading: function () {
+      return unslug(this.$page.tag.id);
+    },
+  },
+  components: {
+    SectionWrapper,
+    PostCard,
+  },
+};
+</script>
