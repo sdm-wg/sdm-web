@@ -27,6 +27,11 @@ const anotherLangs = {
   en: "ja",
 };
 
+const languages = {
+  ja: "Japanese",
+  en: "English",
+};
+
 /*
  *  Detect Japanese
  *  (referred to https://pisuke-code.com/js-check-hira-kana-kanzi/)
@@ -164,20 +169,26 @@ const generatePublications = (entry, pubLang) => {
         fixJapaneseNameOrder(cite.data[0].author);
       }
 
-      if (partialKey === "info" && !pub.date) {
-        const dateParts = cite.data[0].issued["date-parts"][0];
-        if (dateParts.length > 1) {
-          // fix month
-          dateParts[1]--;
-        }
-        pub.date = moment(dateParts).format("YYYY-MM-DD");
-      }
-
       pub[partialKey][i18nLang] = cite
         .format("bibliography", {
           template: "ieee",
         })
         .replace(/[.,]\s{1,2}$/, "");
+
+      if (partialKey === "info") {
+        if (!pub.date) {
+          const dateParts = cite.data[0].issued["date-parts"][0];
+          if (dateParts.length > 1) {
+            // fix month
+            dateParts[1]--;
+          }
+          pub.date = moment(dateParts).format("YYYY-MM-DD");
+        }
+
+        if (pubLang !== i18nLang && pubLang === "ja") {
+          pub[partialKey][i18nLang] += ` (${languages[pubLang]})`;
+        }
+      }
     }
   }
 
