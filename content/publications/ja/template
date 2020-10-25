@@ -4,6 +4,7 @@
   journal = {ジャーナル},
   year    = {2020},
   month   = {1},
+  % date    = (2020-01-01),
   number  = {2},
   volume  = {3},
   pages   = {456-789},
