@@ -181,10 +181,14 @@
           <!-- Published Conference Paper -->
           <if variable="collection-editor editor editorial-director issue page volume" match="any">
             <group delimiter=", ">
-              <group delimiter=" ">
-                <text term="in"/>
-                <text variable="container-title" font-style="italic"/>
-              </group>
+              <!-- << CUSTOMIZED -->
+              <!-- Do not show "In" -->
+              <!-- <group delimiter=" "> -->
+                <!-- <text term="in"/> -->
+                <!-- <text variable="container-title" font-style="italic"/> -->
+              <!-- </group> -->
+              <text variable="container-title" font-style="italic"/>
+              <!-- CUSTOMIZED >> -->
               <text variable="event-place"/>
             </group>
           </if>
@@ -382,10 +386,14 @@
         <else-if type="chapter paper-conference" match="any">
           <group delimiter=", " suffix=", ">
             <text macro="title"/>
-            <group delimiter=" ">
-              <text term="in"/>
-              <text variable="container-title" font-style="italic"/>
-            </group>
+            <!-- << CUSTOMIZED -->
+            <!-- Do not show "In" -->
+            <!-- <group delimiter=" "> -->
+              <!-- <text term="in"/> -->
+              <!-- <text variable="container-title" font-style="italic"/> -->
+            <!-- </group> -->
+            <text variable="container-title" font-style="italic"/>
+            <!-- CUSTOMIZED >> -->
             <text macro="locators"/>
           </group>
           <text macro="editor" suffix=" "/>
