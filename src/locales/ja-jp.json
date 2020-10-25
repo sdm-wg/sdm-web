@@ -60,5 +60,9 @@
 
   "post": {
     "heading": "Posts"
+  },
+
+  "tag": {
+    "heading": "Tags"
   }
 }
