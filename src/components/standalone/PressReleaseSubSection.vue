@@ -12,7 +12,7 @@
 
 <static-query>
 query {
-  pressReleases: allPost(filter: { tags: { contains: ["press release"] } }) {
+  pressReleases: allPost(filter: { tags: { contains: ["press-release"] } }) {
     edges {
       node {
         id
