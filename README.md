@@ -1,5 +1,7 @@
 # SDM Web
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b677c217-07ea-4f65-ba4a-6f8bdec28a4d/deploy-status)](https://app.netlify.com/sites/sdm-web/deploys)
+
 SDM コンソーシアムの Web ページサンプル
 
 ## コンテンツ編集について
