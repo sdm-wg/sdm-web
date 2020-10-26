@@ -11,7 +11,7 @@
         <div class="relative w-full pb-2/3">
           <g-image
             v-if="post.node.image"
-            class="absolute w-full h-full object-cover"
+            class="absolute w-full h-full object-cover bg-white"
             :src="post.node.image"
             :alt="post.node.title[language]"
           />

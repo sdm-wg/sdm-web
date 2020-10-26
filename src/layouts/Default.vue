@@ -11,7 +11,7 @@
       >
         <g-image
           v-if="coverImage"
-          class="relative w-full h-full object-cover"
+          class="relative w-full h-full object-cover bg-white"
           :src="coverImage"
         />
         <div v-else class="absolute w-full">
