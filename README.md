@@ -68,7 +68,7 @@ yarn new content/posts/test/test.md
   | title        | 記事のタイトル（i18n 対応）                                                                               |
   | slug         | 記事の URL                                                                                                |
   | summary      | 記事の要約（i18n 対応）。トップページの記事リストの要約欄に表示されるのでなるべく書きましょう             |
-  | keywords     | meta タグに埋め込む（未対応）                                                                             |
+  | keywords     | 記事のキーワード。meta タグに埋め込む                                                                     |
   | tags         | 記事のタグ。"event", "press-release", "award"をタグ付けするとトップページの適切なセクションに配置されます |
   | date         | 記事の作成日時                                                                                            |
   | archives     | 記事アーカイブ用タグ                                                                                      |
