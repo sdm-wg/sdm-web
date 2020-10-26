@@ -76,6 +76,11 @@ query Post($id: ID!) {
       ja
       en
     }
+    summary {
+      ja
+      en
+    }
+    keywords
     tags {
       id
       path
@@ -101,6 +106,13 @@ export default {
   metaInfo: function () {
     return {
       title: this.$page.post.title[this.language],
+      meta: [
+        {
+          name: "description",
+          content: this.$page.post.summary[this.language],
+        },
+        { name: "keywords", content: this.$page.post.keywords },
+      ],
     };
   },
   mixins: [localeMixin, colorSchemeMixin],
