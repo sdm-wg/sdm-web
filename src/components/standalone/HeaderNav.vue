@@ -180,7 +180,7 @@ export default {
       return path.relative(`/${this.language}/`, this.$route.path);
     },
     refLinkItems: function () {
-      if (this.contentPath === "") {
+      if (this.contentPath === "" || this.$route.path === "/") {
         return this.linkItems;
       }
       return this.linkItems.map((linkItem) => {
