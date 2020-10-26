@@ -1,0 +1,27 @@
+- date: "2018-05-15"
+  title:
+    ja: 産経新聞
+    en: 産経新聞
+  type: Newspaper
+  url: ""
+
+- date: "2018-05-15"
+  title:
+    ja: 日刊工業新聞
+    en: 日刊工業新聞
+  type: Newspaper
+  url: ""
+
+- date: "2018-05-15"
+  title:
+    ja: 日経産業新聞
+    en: 日経産業新聞
+  type: Newspaper
+  url: ""
+
+- date: "2018-05-15"
+  title:
+    ja: 時事通信社
+    en: 時事通信社
+  type: Newspaper
+  url: ""
