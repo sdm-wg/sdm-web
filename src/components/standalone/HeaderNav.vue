@@ -18,12 +18,16 @@
           'text-black': !isDark,
         }"
       >
-        <flex-link v-if="contentPath" to="/">
-          <SDMLogoSVG class="w-24" />
-        </flex-link>
-        <span v-else @click="scrollTo(0, true)" class="cursor-pointer">
+        <span
+          v-if="isTopPage"
+          @click="scrollTo(0, true)"
+          class="cursor-pointer"
+        >
           <SDMLogoSVG class="w-24" />
         </span>
+        <flex-link v-else to="/">
+          <SDMLogoSVG class="w-24" />
+        </flex-link>
       </div>
 
       <div
@@ -176,11 +180,14 @@ export default {
       const height = this.isOpen ? logoHeight + menuHeight : logoHeight;
       return `${height}px`;
     },
-    contentPath: function () {
-      return path.relative(`/${this.language}/`, this.$route.path);
+    isTopPage: function () {
+      return (
+        this.$route.path === "/" ||
+        path.relative(`/${this.language}/`, this.$route.path) === ""
+      );
     },
     refLinkItems: function () {
-      if (this.contentPath === "" || this.$route.path === "/") {
+      if (this.isTopPage) {
         return this.linkItems;
       }
       return this.linkItems.map((linkItem) => {
