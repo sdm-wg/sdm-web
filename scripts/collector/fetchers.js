@@ -6,17 +6,20 @@ const Cite = require("citation-js");
 const { recursiveReaddir } = require("./utils/fs");
 const { mergeBibFiles, generatePublications } = require("./utils/cite");
 
-const fetchYaml = (basePath) => {
-  const mergedYamlText = recursiveReaddir(basePath)
+const fetchYaml = (basePath) =>
+  recursiveReaddir(basePath)
     .filter(
       (filePath) => filePath.endsWith(".yaml") || filePath.endsWith(".yml")
     )
-    .map((filePath) => fs.readFileSync(filePath, "utf-8"))
-    .join("\n");
-
-  const data = jsYaml.safeLoad(mergedYamlText);
-  return data;
-};
+    .reduce((accData, filePath) => {
+      const yamlText = fs.readFileSync(filePath, "utf-8");
+      const yamlData = jsYaml.safeLoad(yamlText);
+      if (yamlData) {
+        return accData.concat(yamlData);
+      } else {
+        return accData;
+      }
+    }, []);
 
 const fetchBibtex = (basePath) => {
   const mergedBibtex = {
