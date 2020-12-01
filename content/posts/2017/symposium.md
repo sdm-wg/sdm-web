@@ -9,7 +9,7 @@ summary:
 keywords:
   - ""
 tags:
-  - ""
+  - "event"
 date: "2017-07-20T00:00:00"
 archives:
   - "2017"

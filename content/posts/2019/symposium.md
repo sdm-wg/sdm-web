@@ -9,7 +9,7 @@ summary:
 keywords:
   - ""
 tags:
-  - "events"
+  - "event"
 date: "2019-07-08T00:00:00"
 archives:
   - "2019"
@@ -26,7 +26,7 @@ draft: false
 
 東京大学にて SDM シンポジウムを開催しました。
 
-- [詳細情報](/symposium/2019/)
+- [詳細情報](/archives/symposium/2019/)
 
 </section>
 <!-- 日本語記事ここまで -->
@@ -38,7 +38,7 @@ draft: false
 
 SDM symposium was held in the University of Tokyo.
 
-- [Details](/symposium/2019/)
+- [Details](/archives/symposium/2019/)
 
 </section>
 <!-- English article end -->

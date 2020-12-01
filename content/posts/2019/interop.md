@@ -9,7 +9,7 @@ summary:
 keywords:
   - ""
 tags:
-  - "events"
+  - "event"
 date: "2019-06-12T00:00:00"
 archives:
   - "2019"

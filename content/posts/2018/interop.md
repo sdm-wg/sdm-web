@@ -9,7 +9,7 @@ summary:
 keywords:
   - ""
 tags:
-  - ""
+  - "event"
 date: "2018-06-13T00:00:00"
 archives:
   - "2018"
