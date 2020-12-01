@@ -1,0 +1,2352 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Context"
+    }, {
+      "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Player"
+    }, {
+      "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Processor"
+    }, {
+      "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Recorder"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid100",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/isMediaOf"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/MediaEvent"
+  } ]
+}, {
+  "@id" : "_:genid101",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/outputTo"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Player"
+  } ]
+}, {
+  "@id" : "_:genid102",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/outputTo"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Processor"
+  } ]
+}, {
+  "@id" : "_:genid103",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/CoordinateSystem"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/measuredBy"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid104",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onDataRange" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/endAt"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid105",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onDataRange" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/mediaStartAt"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid106",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onDataRange" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/startAt"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid107",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onDataRange" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#anyURI"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://schema.org/contentUrl"
+  } ]
+}, {
+  "@id" : "_:genid108",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onDataRange" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://schema.org/name"
+  } ]
+}, {
+  "@id" : "_:genid109",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/hasMedia"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Media"
+  } ]
+}, {
+  "@id" : "_:genid11",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/CompositeMedia"
+    }, {
+      "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/CompositePlayer"
+    }, {
+      "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/CompositeProcessor"
+    }, {
+      "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/CompositeRecorder"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid110",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/isMediaEventOf"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/CompositeMedia"
+  } ]
+}, {
+  "@id" : "_:genid111",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Media"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/hasContext"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid112",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onDataRange" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/eventTime"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid113",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/hasContext"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Context"
+  } ]
+}, {
+  "@id" : "_:genid114",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/inputFrom"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Media"
+  } ]
+}, {
+  "@id" : "_:genid115",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/inputFrom"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Processor"
+  } ]
+}, {
+  "@id" : "_:genid116",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/inputFrom"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Recorder"
+  } ]
+}, {
+  "@id" : "_:genid117",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/isComponentOf"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/CompositePlayer"
+  } ]
+}, {
+  "@id" : "_:genid118",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/plays"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Context"
+  } ]
+}, {
+  "@id" : "_:genid119",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Geometry"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/geometryAt"
+  } ]
+}, {
+  "@id" : "_:genid120",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onDataRange" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://schema.org/name"
+  } ]
+}, {
+  "@id" : "_:genid121",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/hasContext"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Context"
+  } ]
+}, {
+  "@id" : "_:genid122",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/inputFrom"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Media"
+  } ]
+}, {
+  "@id" : "_:genid123",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/inputFrom"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Processor"
+  } ]
+}, {
+  "@id" : "_:genid124",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/inputFrom"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Recorder"
+  } ]
+}, {
+  "@id" : "_:genid125",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/isComponentOf"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/CompositeProcessor"
+  } ]
+}, {
+  "@id" : "_:genid126",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/outputTo"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Media"
+  } ]
+}, {
+  "@id" : "_:genid127",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/outputTo"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Player"
+  } ]
+}, {
+  "@id" : "_:genid128",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/outputTo"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Processor"
+  } ]
+}, {
+  "@id" : "_:genid129",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Geometry"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/geometryAt"
+  } ]
+}, {
+  "@id" : "_:genid130",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onDataRange" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://schema.org/name"
+  } ]
+}, {
+  "@id" : "_:genid131",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/performedBy"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Target"
+  } ]
+}, {
+  "@id" : "_:genid132",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onDataRange" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#duration"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://schema.org/duration"
+  } ]
+}, {
+  "@id" : "_:genid133",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onDataRange" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://schema.org/startDate"
+  } ]
+}, {
+  "@id" : "_:genid134",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/hasContext"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Context"
+  } ]
+}, {
+  "@id" : "_:genid135",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/isComponentOf"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/CompositeRecorder"
+  } ]
+}, {
+  "@id" : "_:genid136",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/outputTo"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Media"
+  } ]
+}, {
+  "@id" : "_:genid137",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/outputTo"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Player"
+  } ]
+}, {
+  "@id" : "_:genid138",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/outputTo"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Processor"
+  } ]
+}, {
+  "@id" : "_:genid139",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/records"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Context"
+  } ]
+}, {
+  "@id" : "_:genid140",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Geometry"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/geometryAt"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid141",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/CoordinateSystem"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/measuredBy"
+  } ]
+}, {
+  "@id" : "_:genid142",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onDataRange" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://schema.org/name"
+  } ]
+}, {
+  "@id" : "_:genid143",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/attendedBy"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Target"
+  } ]
+}, {
+  "@id" : "_:genid144",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://schema.org/Place"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://schema.org/contentLocation"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid145",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onDataRange" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#duration"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://schema.org/duration"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid146",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onDataRange" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://schema.org/startDate"
+  } ]
+}, {
+  "@id" : "_:genid147",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/attends"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/SDMEvent"
+  } ]
+}, {
+  "@id" : "_:genid148",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/performs"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Program"
+  } ]
+}, {
+  "@id" : "_:genid149",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Geometry"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/geometryAt"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid16",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Media"
+    }, {
+      "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Player"
+    }, {
+      "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Processor"
+    }, {
+      "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Recorder"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid21",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Context"
+    }, {
+      "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Media"
+    }, {
+      "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Player"
+    }, {
+      "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Processor"
+    }, {
+      "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Recorder"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid27",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Media"
+    }, {
+      "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Player"
+    }, {
+      "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Processor"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid31",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Media"
+    }, {
+      "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Processor"
+    }, {
+      "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Recorder"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid35",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Media"
+    }, {
+      "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Player"
+    }, {
+      "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Processor"
+    }, {
+      "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Recorder"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid40",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/CompositeMedia"
+    }, {
+      "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/CompositePlayer"
+    }, {
+      "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/CompositeProcessor"
+    }, {
+      "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/CompositeRecorder"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid45",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Context"
+    }, {
+      "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Media"
+    }, {
+      "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Player"
+    }, {
+      "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Processor"
+    }, {
+      "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Recorder"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid51",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/CoordinateSystem"
+    }, {
+      "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Geometry"
+    }, {
+      "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Media"
+    }, {
+      "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Recorder"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid56",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Media"
+    }, {
+      "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Processor"
+    }, {
+      "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Recorder"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Context"
+    }, {
+      "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Player"
+    }, {
+      "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Processor"
+    }, {
+      "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Recorder"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid60",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Media"
+    }, {
+      "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Player"
+    }, {
+      "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Processor"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid64",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Program"
+    }, {
+      "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/SDMEvent"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid67",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Context"
+    }, {
+      "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Media"
+    }, {
+      "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Player"
+    }, {
+      "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Processor"
+    }, {
+      "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Recorder"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid73",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Program"
+    }, {
+      "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/SDMEvent"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid76",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/hasComponent"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Media"
+  } ]
+}, {
+  "@id" : "_:genid77",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/hasMediaEvent"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/MediaEvent"
+  } ]
+}, {
+  "@id" : "_:genid78",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/hasComponent"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Player"
+  } ]
+}, {
+  "@id" : "_:genid79",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/hasComponent"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Processor"
+  } ]
+}, {
+  "@id" : "_:genid80",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/hasComponent"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Recorder"
+  } ]
+}, {
+  "@id" : "_:genid81",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/hasComponent"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Context"
+  } ]
+}, {
+  "@id" : "_:genid82",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/isContextOf"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Context"
+  } ]
+}, {
+  "@id" : "_:genid83",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/isContextOf"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Media"
+  } ]
+}, {
+  "@id" : "_:genid84",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/isContextOf"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Player"
+  } ]
+}, {
+  "@id" : "_:genid85",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/isContextOf"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Processor"
+  } ]
+}, {
+  "@id" : "_:genid86",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/isContextOf"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Recorder"
+  } ]
+}, {
+  "@id" : "_:genid87",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/playedBy"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Player"
+  } ]
+}, {
+  "@id" : "_:genid88",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/recordedBy"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Recorder"
+  } ]
+}, {
+  "@id" : "_:genid89",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onDataRange" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://schema.org/name"
+  } ]
+}, {
+  "@id" : "_:genid90",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/measures"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Geometry"
+  } ]
+}, {
+  "@id" : "_:genid91",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Context"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/geometryOf"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid92",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Player"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/geometryOf"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid93",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Processor"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/geometryOf"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid94",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Recorder"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/geometryOf"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid95",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/CoordinateSystem"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/measuredBy"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid96",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/inputFrom"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Processor"
+  } ]
+}, {
+  "@id" : "_:genid97",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/inputFrom"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Recorder"
+  } ]
+}, {
+  "@id" : "_:genid98",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/isComponentOf"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/CompositeMedia"
+  } ]
+}, {
+  "@id" : "_:genid99",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/isContextOf"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/MediaEvent"
+  } ]
+}, {
+  "@id" : "http://data.ign.fr/def/geometrie#Point",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Geometric primitive to represent a geographical position. This position is represented via X and Y coordinates expressed in a given coordinate system. If the coordinate system associated with the point allows it, the point may also have Z and M coordinates."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "<http://data.ign.fr/def/geometrie>"
+  } ]
+}, {
+  "@id" : "http://data.ign.fr/def/ignf#CoordinateSystem",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Set of axes that spans a given coordinate space and of mathematical rules for specifying how coordinates are to be assigned to points. Cf. ISO 19111:2007:2007-07, part 9.2, table 17 and annex B.2."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "<http://data.ign.fr/def/ignf>"
+  } ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/contributor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/creator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/description",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/publisher",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/rights",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/title",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/contributor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/created",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/creator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/publisher",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/vocab/vann/preferredNamespacePrefix",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/vocab/vann/preferredNamespaceUri",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://schema.org/Place",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Entities that have a somewhat fixed, physical extension."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://schema.org/Place"
+  } ]
+}, {
+  "@id" : "http://schema.org/contentLocation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The location depicted or described in the content. For example, the location in a photograph or painting."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/SDMEvent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://schema.org/Place"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://schema.org/contentLocation"
+  } ]
+}, {
+  "@id" : "http://schema.org/contentUrl",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Actual bytes of the media object, for example the image file or video file."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Media"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://schema.org/contentUrl"
+  } ]
+}, {
+  "@id" : "http://schema.org/duration",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The duration of the item (movie, audio recording, event, etc.) in ISO 8601 date format."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid64"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://schema.org/duration"
+  } ]
+}, {
+  "@id" : "http://schema.org/name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The name of the item."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid67"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://schema.org/name"
+  } ]
+}, {
+  "@id" : "http://schema.org/startDate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The start date and time of the item (in ISO 8601 date format)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid73"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://schema.org/startDate"
+  } ]
+}, {
+  "@id" : "http://sdm.hongo.wide.ad.jp/sdmo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://purl.org/dc/elements/1.1/contributor" : [ {
+    "@language" : "en",
+    "@value" : "Hiraku Okumura"
+  }, {
+    "@language" : "en",
+    "@value" : "Masahiro Ikeda"
+  }, {
+    "@language" : "en",
+    "@value" : "Takashi Kasuya"
+  }, {
+    "@language" : "en",
+    "@value" : "Yu Komohara"
+  } ],
+  "http://purl.org/dc/elements/1.1/creator" : [ {
+    "@language" : "en",
+    "@value" : "Chihei Kawamura"
+  }, {
+    "@language" : "en",
+    "@value" : "Hiroshi Esaki"
+  }, {
+    "@language" : "en",
+    "@value" : "Manabu Tsukada"
+  }, {
+    "@language" : "en",
+    "@value" : "Ray Atarashi"
+  }, {
+    "@language" : "en",
+    "@value" : "Shin Kato"
+  }, {
+    "@language" : "en",
+    "@value" : "Takuro Sone"
+  } ],
+  "http://purl.org/dc/elements/1.1/description" : [ {
+    "@language" : "en",
+    "@value" : "An ontology for the multi-media domain that models the workflow from production to consumption."
+  }, {
+    "@language" : "ja",
+    "@value" : "マルチメディア制作フローを管理するオントロジー"
+  } ],
+  "http://purl.org/dc/elements/1.1/publisher" : [ {
+    "@language" : "en",
+    "@value" : "Software Defined Media Consortium"
+  }, {
+    "@language" : "ja",
+    "@value" : "Software Defined Mediaコンソーシアム"
+  } ],
+  "http://purl.org/dc/elements/1.1/rights" : [ {
+    "@value" : "Copyright 2020, Software Defined Media Consortium"
+  } ],
+  "http://purl.org/dc/elements/1.1/title" : [ {
+    "@language" : "en",
+    "@value" : "SDM Ontology"
+  }, {
+    "@language" : "ja",
+    "@value" : "SDMオントロジー"
+  } ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@language" : "en",
+    "@value" : "2020-10-01T14:00:00"
+  } ],
+  "http://purl.org/vocab/vann/preferredNamespacePrefix" : [ {
+    "@value" : "sdmo"
+  } ],
+  "http://purl.org/vocab/vann/preferredNamespaceUri" : [ {
+    "@value" : "http://sdm.hongo.wide.ad.jp/sdmo"
+  } ],
+  "http://www.w3.org/2002/07/owl#priorVersion" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/2.0.0-alpha1.ttl"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionIRI" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/2.0.0-beta1.ttl"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@value" : "2.0.0-beta1"
+  } ]
+}, {
+  "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Analyzer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A subclass of \"Processor\" that reads and processes media. It does not generate media."
+  }, {
+    "@language" : "ja",
+    "@value" : "メディアを読み込んで処理を行うProcessor のサブクラス。メディア生成を行わない。"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Analyzer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Processor"
+  } ]
+}, {
+  "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/AudioMedia",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A subclass of \"Media\" for representing audio media."
+  }, {
+    "@language" : "ja",
+    "@value" : "音声メディアを表現するための Media のサブクラス。"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Audio Media"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Media"
+  } ]
+}, {
+  "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/AudioPlayer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A subclass of \"Player\" to represent a playback system for audio media."
+  }, {
+    "@language" : "ja",
+    "@value" : "音声メディアの再生システムを表現するための Player のサブクラス。"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Audio Player"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Player"
+  } ]
+}, {
+  "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/AudioRecorder",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A subclass of \"Recorder\" to represent a sound recording system that generates audio media."
+  }, {
+    "@language" : "ja",
+    "@value" : "音声メディアを生成する音声収録システムを表現するための Recorder のサブクラス。"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Audio Recorder"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Recorder"
+  } ]
+}, {
+  "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/CompositeMedia",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A subclass of \"Media\" to represent media that integrate multiple media."
+  }, {
+    "@language" : "ja",
+    "@value" : "複数のメディアを統合したメディアを表現するための Mediaのサブクラス。"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Composite Media"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Media"
+  }, {
+    "@id" : "_:genid76"
+  }, {
+    "@id" : "_:genid77"
+  } ]
+}, {
+  "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/CompositePlayer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A subclass of \"Player\" for integrating multiple media playback systems."
+  }, {
+    "@language" : "ja",
+    "@value" : "複数のメディア再生システムを統合するための Player のサブクラス。"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Composite Player"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Player"
+  }, {
+    "@id" : "_:genid78"
+  } ]
+}, {
+  "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/CompositeProcessor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A subclass of \"Processor\" to integrate multiple media processing systems."
+  }, {
+    "@language" : "ja",
+    "@value" : "複数のメディア処理システムを統合するための Processor のサブクラス。"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Composite Processor"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Processor"
+  }, {
+    "@id" : "_:genid79"
+  } ]
+}, {
+  "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/CompositeRecorder",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A subclass of \"Recorder\" for integrating multiple audio recording systems."
+  }, {
+    "@language" : "ja",
+    "@value" : "複数の音声収録システムを統合するための Recorder のサブクラス。"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Composite Recorder"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Recorder"
+  }, {
+    "@id" : "_:genid80"
+  } ]
+}, {
+  "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Context",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A class for unifying metadata to be added to \"Recorder,\" \"Processor,\" \"Player,\" \"Media,\" \"Context.\" One of the main classes of \"SDMO.\""
+  }, {
+    "@language" : "ja",
+    "@value" : "Recorder,Processor,Player,Media,Contextに付加する MetaData を統一的に扱うためのクラス。SDMOの主要クラスの一つ。"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Context"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid81"
+  }, {
+    "@id" : "_:genid82"
+  }, {
+    "@id" : "_:genid83"
+  }, {
+    "@id" : "_:genid84"
+  }, {
+    "@id" : "_:genid85"
+  }, {
+    "@id" : "_:genid86"
+  }, {
+    "@id" : "_:genid87"
+  }, {
+    "@id" : "_:genid88"
+  }, {
+    "@id" : "_:genid89"
+  } ]
+}, {
+  "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Converter",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A subclass of \"Processor\" that outputs media after reading and processing it."
+  }, {
+    "@language" : "ja",
+    "@value" : "メディアを読み込んで加工してメディアを出力する Processorのサブクラス。"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Converter"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Processor"
+  } ]
+}, {
+  "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/CoordinateSystem",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A class for defining a coordinate system. It describes the meaning of the values in \"Geometry.\" It describes the geographic coordinate system of latitude and longitude, the spatial coordinate system defined in the event venue, the time axis of the recorded media file, etc."
+  }, {
+    "@language" : "ja",
+    "@value" : "座標系を定義するためのクラス。Geometryで表現した値の意味を規定する。緯度経度の地理座標系やイベント会場内に定義する空間座標系、収録したメディアファイルの時間軸などを記述する。"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Coordinate System"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://data.ign.fr/def/ignf#CoordinateSystem"
+  }, {
+    "@id" : "_:genid90"
+  } ]
+}, {
+  "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/DataMedia",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It's a subclass of \"Media\" that represents data except for audio and video."
+  }, {
+    "@language" : "ja",
+    "@value" : "音声、映像以外のデータを表現するメディアに関する Mediaのサブクラス。"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Data Media"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Media"
+  } ]
+}, {
+  "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/DataPlayer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A subclass of \"Media\" to describe a data media playback system."
+  }, {
+    "@language" : "ja",
+    "@value" : "データメディアの再生システムを表現するための Media のサブクラス。"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Data Player"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Player"
+  } ]
+}, {
+  "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/DataRecorder",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A subclass of \"Recorder\" to represent a data media recording system."
+  }, {
+    "@language" : "ja",
+    "@value" : "データメディアの収録システムを表現するための Recorder のサブクラス。"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Data Recorder"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Recorder"
+  } ]
+}, {
+  "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Generator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A subclass of the Processor that generates media. It does not have media input."
+  }, {
+    "@language" : "ja",
+    "@value" : "メディアの生成を行うProcessorのサブクラス。メディア入力を持たない。"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Generator"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Processor"
+  } ]
+}, {
+  "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Geometry",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "ja",
+    "@value" : "CoordinateSystemで定義された座標系を用いた座標を記述するためのクラス。"
+  }, {
+    "@language" : "en",
+    "@value" : "Describes coordinates using the coordinate system defined in \"CoordinateSystem.\""
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Geometry"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://data.ign.fr/def/geometrie#Point"
+  }, {
+    "@id" : "_:genid91"
+  }, {
+    "@id" : "_:genid92"
+  }, {
+    "@id" : "_:genid93"
+  }, {
+    "@id" : "_:genid94"
+  }, {
+    "@id" : "_:genid95"
+  } ]
+}, {
+  "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Media",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Represents a media file. One of the main classes of \"SDMO.\""
+  }, {
+    "@language" : "ja",
+    "@value" : "メディアファイルを表現するためのクラス。SDMOの主要クラスの一つ。"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Media"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid96"
+  }, {
+    "@id" : "_:genid97"
+  }, {
+    "@id" : "_:genid98"
+  }, {
+    "@id" : "_:genid99"
+  }, {
+    "@id" : "_:genid100"
+  }, {
+    "@id" : "_:genid101"
+  }, {
+    "@id" : "_:genid102"
+  }, {
+    "@id" : "_:genid103"
+  }, {
+    "@id" : "_:genid104"
+  }, {
+    "@id" : "_:genid105"
+  }, {
+    "@id" : "_:genid106"
+  }, {
+    "@id" : "_:genid107"
+  }, {
+    "@id" : "_:genid108"
+  } ]
+}, {
+  "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/MediaEvent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It describes the correspondence of time information on the relative time axis of \"CompositeMedia\" to which media and \"MediaEvent\" belongs. It places the media on the time axis of \"CompositeMedia\" based on the relative time information of the \"MediaEvent.\""
+  }, {
+    "@language" : "ja",
+    "@value" : "メディアとMediaEventが属するCompositeMediaの相対時間軸上の時刻情報の対応関係を記述するクラス。MediaEventの相対時刻情報をもとにCompositeMediaの時間軸上にメディアを配置する。"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Media Event"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid109"
+  }, {
+    "@id" : "_:genid110"
+  }, {
+    "@id" : "_:genid111"
+  }, {
+    "@id" : "_:genid112"
+  } ]
+}, {
+  "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Player",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It represents a media playback system. One of the main classes of \"SDMO.\""
+  }, {
+    "@language" : "ja",
+    "@value" : "メディアの再生システムを表現するためのクラス。SDMOの主要クラスの一つ。"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Player"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid113"
+  }, {
+    "@id" : "_:genid114"
+  }, {
+    "@id" : "_:genid115"
+  }, {
+    "@id" : "_:genid116"
+  }, {
+    "@id" : "_:genid117"
+  }, {
+    "@id" : "_:genid118"
+  }, {
+    "@id" : "_:genid119"
+  }, {
+    "@id" : "_:genid120"
+  } ]
+}, {
+  "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Processor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Represents media analysis, editing, and processing systems. One of the main classes of \"SDMO.\""
+  }, {
+    "@language" : "ja",
+    "@value" : "メディアの分析・編集・加工システムを表現するためのクラス。SDMOの主要クラスの一つ。"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Processor"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid121"
+  }, {
+    "@id" : "_:genid122"
+  }, {
+    "@id" : "_:genid123"
+  }, {
+    "@id" : "_:genid124"
+  }, {
+    "@id" : "_:genid125"
+  }, {
+    "@id" : "_:genid126"
+  }, {
+    "@id" : "_:genid127"
+  }, {
+    "@id" : "_:genid128"
+  }, {
+    "@id" : "_:genid129"
+  }, {
+    "@id" : "_:genid130"
+  } ]
+}, {
+  "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Program",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It's a subclass of \"Context\" to describe the performance of the recording target."
+  }, {
+    "@language" : "ja",
+    "@value" : "収録対象のパフォーマンス(演奏や演技など)を表現するためのContext のサブクラス"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Program"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Context"
+  }, {
+    "@id" : "_:genid131"
+  }, {
+    "@id" : "_:genid132"
+  }, {
+    "@id" : "_:genid133"
+  } ]
+}, {
+  "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Recorder",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Represents a voice recording system that outputs audio media. One of the main classes of \"SDMO.\""
+  }, {
+    "@language" : "ja",
+    "@value" : "音声メディアを出力する音声収録システムを表現するためのクラス。SDMOの主要クラスの一つ。"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Recorder"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid134"
+  }, {
+    "@id" : "_:genid135"
+  }, {
+    "@id" : "_:genid136"
+  }, {
+    "@id" : "_:genid137"
+  }, {
+    "@id" : "_:genid138"
+  }, {
+    "@id" : "_:genid139"
+  }, {
+    "@id" : "_:genid140"
+  }, {
+    "@id" : "_:genid141"
+  }, {
+    "@id" : "_:genid142"
+  } ]
+}, {
+  "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/SDMEvent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A subclass of \"Context\" to represent the recorded entire event."
+  }, {
+    "@language" : "ja",
+    "@value" : "収録対象となったイベント全体を表現するための Context のサブクラス"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "SDM event"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Context"
+  }, {
+    "@id" : "_:genid143"
+  }, {
+    "@id" : "_:genid144"
+  }, {
+    "@id" : "_:genid145"
+  }, {
+    "@id" : "_:genid146"
+  } ]
+}, {
+  "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Target",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It's a subclass of \"Context\" to represent the recording target of the \"Recorder.\" It describes specific performers, orchestra parts, instruments, etc."
+  }, {
+    "@language" : "ja",
+    "@value" : "Recorder の収録対象を表現するための Context のサブクラス。特定の出演者、オーケストラのパート、楽器などを記述する。"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Target"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Context"
+  }, {
+    "@id" : "_:genid147"
+  }, {
+    "@id" : "_:genid148"
+  }, {
+    "@id" : "_:genid149"
+  } ]
+}, {
+  "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/VideoMedia",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : " A subclass of \"Media\" that represents video media."
+  }, {
+    "@language" : "ja",
+    "@value" : "映像メディアを表現する Media のサブクラス。"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Video Media"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Media"
+  } ]
+}, {
+  "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/VideoPlayer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A subclass of \"Player\" to represent a video media playback system."
+  }, {
+    "@language" : "ja",
+    "@value" : "映像メディアの再生システムを表現するための Player のサブクラス。"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Video Player"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Player"
+  } ]
+}, {
+  "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/VideoRecorder",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A subclass of the \"Recorder\" to represent a video recording system that outputs video media."
+  }, {
+    "@language" : "ja",
+    "@value" : "映像メディアを出力する映像収録システムを表現するための Recorder のサブクラス。"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Video Recorder"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Recorder"
+  } ]
+}, {
+  "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/attendedBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Refers to the \"SDMEvent\" that it attends to. The inverse of \"attends.\""
+  }, {
+    "@language" : "ja",
+    "@value" : "自身が参加しているSDMEventを参照する。attendsと逆の意味。"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/SDMEvent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "attended by"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Target"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/attends"
+  } ]
+}, {
+  "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/attends",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Represents the state in which itself is attending \"SDMEvent.\" The inverse link from the link is defined by \"attendedBy.\""
+  }, {
+    "@language" : "ja",
+    "@value" : "自身がSDMEventに参加している状態を表す。attendedBy で逆方向リンクを表現できる。"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Target"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "attends"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/SDMEvent"
+  } ]
+}, {
+  "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/endAt",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The end time of the playback interval of the media. It defines the offset time to zero with the time specified by \"mediaStartAt.\""
+  }, {
+    "@language" : "ja",
+    "@value" : "メディアの再生区間の終了時間。mediaStartAt で指定した時刻を０としたオフセット時間を指定する。"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Media"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "end at"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+  } ]
+}, {
+  "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/eventTime",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Defines the time to start playing media in \"MediaEvent\" using the time axis of \"CompositeMedia.\" It represents that the playback section of the media starts at the specified time."
+  }, {
+    "@language" : "ja",
+    "@value" : "MediaEventで   Media の再生開始時刻をCompositeMedia の時間軸で指定する。指定した時刻において Mediaの再生区間が始まることを表現する。"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/MediaEvent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "event time"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+  } ]
+}, {
+  "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/geometryAt",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Represents an object's position and time information by the \"Geometry\" linked by \"geometryAt.\" The inverse link from the linked \"Geometry\" is defined by \"geometryOf.\""
+  }, {
+    "@language" : "ja",
+    "@value" : "geometryAt でリンクした Geometryでオブジェクトの位置・時間情報を表現する。リンク先のGeometryからの逆方向リンクはgeometryOfで表す。"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid1"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "geometry at"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Geometry"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/geometryOf"
+  } ]
+}, {
+  "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/geometryOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The inverse link to the object linking itself with \"geometryAt.\""
+  }, {
+    "@language" : "ja",
+    "@value" : "geometryAtで自身をリンクしているオブジェクトへの逆方向リンク。"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Geometry"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "geometry of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "_:genid6"
+  } ]
+}, {
+  "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/hasComponent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "ja",
+    "@value" : "CompositeRecorder,CompositeProcessor,CompositePlayer,CompositeMedia に包含されている Recorder,Processor, Player, Media をそれぞれ表現する。包含されたオブジェクトからはisComponentOf で被包含関係を表現する。"
+  }, {
+    "@language" : "en",
+    "@value" : "Represents each \"Recorder,\" \"Processor,\" \"Player,\" \"Media\" that is included in the \"CompositeRecorder,\" \"CompositeProcessor,\" \"CompositePlayer,\" \"CompositeMedia.\" From the included objects, \"isComponentOf\" represents the included relationship."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid11"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has component"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "_:genid16"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/isComponentOf"
+  } ]
+}, {
+  "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/hasContext",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Represents the \"Context\" attached to the object. The inverse link from the linked \"Context\" is defined by \"isContextOf.\""
+  }, {
+    "@language" : "ja",
+    "@value" : "オブジェクトに付随する Context を表現する。リンク先の Context からは　isContextOf で逆方向リンクを表現できる。"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid21"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has context"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Context"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/isContextOf"
+  } ]
+}, {
+  "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/hasMedia",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "ja",
+    "@value" : "MediaEvent が参照する Media を表現する。参照先のMediaからは isMediaOf で逆方向リンクを表現できる。"
+  }, {
+    "@language" : "en",
+    "@value" : "Represents the \"Media\" that is referenced by the \"MediaEvent.\" The inverse link from the linked \"Media\" is defined by \"isMediaOf.\""
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/MediaEvent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has media"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Media"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/isMediaOf"
+  } ]
+}, {
+  "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/hasMediaEvent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "ja",
+    "@value" : "CompositeMedia が包含している MediaEvent を表す。包含された MediaEvent からは　isMediaEventOf で包含元の CompositeMedia をリンクする。"
+  }, {
+    "@language" : "en",
+    "@value" : "Represents the \"MediaEvent\" that is included by \"CompositeMedia.\" The inverse link from the linked \"MediaEvent\" is defined by \"isMediaEventOf.\""
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/CompositeMedia"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has media event"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/MediaEvent"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/isMediaEventOf"
+  } ]
+}, {
+  "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/inputFrom",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A link to specify the input media. The link destination can be one of \"Recorder,\"  \"Processor,\" or \"Media.\" The inverse link from the linked media is defined by \"outputTo.\""
+  }, {
+    "@language" : "ja",
+    "@value" : "入力となるメディアを指定するためのリンク。リンク先はRecorder , Processor , Media のいずれかになる。リンク先からはoutputTo により逆方向リンクを表現できる。"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid27"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "input from"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "_:genid31"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/outputTo"
+  } ]
+}, {
+  "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/isComponentOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Represents \"CompositeRecorder,\" \"CompositeProcessor,\" \"CompositePlayer,\" \"CompositeMedia\" that include itself. The inverse of \"hasComponent.\""
+  }, {
+    "@language" : "ja",
+    "@value" : "自身を包含している CompositeRecorder,CompositeProcessor,CompositePlayer,CompositeMedia を表現する。 hasComponentと逆の意味。"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid35"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is component of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "_:genid40"
+  } ]
+}, {
+  "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/isContextOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Refers to the object that refers to itself. The inverse of \"hasContext.\""
+  }, {
+    "@language" : "ja",
+    "@value" : "自身を参照しているオブジェクトを参照する。hasContextと逆の意味。"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Context"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is context of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "_:genid45"
+  } ]
+}, {
+  "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/isMediaEventOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "ja",
+    "@value" : "MediaEventがリンク先のCompositeMediaに包含されていることを表す。hasMediaEventと逆の意味。"
+  }, {
+    "@language" : "en",
+    "@value" : "Represents that the \"MediaEvent\" is included in the linked \"CompositeMedia.\" The inverse of \"hasMediaEvent.\""
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/MediaEvent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is media event of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/CompositeMedia"
+  } ]
+}, {
+  "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/isMediaOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Represents a \"MediaEvent\" that refers to itself. The inverse of \"hasMedia.\""
+  }, {
+    "@language" : "ja",
+    "@value" : "自身を参照しているMediaEvent を表現する。hasMediaと逆の意味。"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Media"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is media of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/MediaEvent"
+  } ]
+}, {
+  "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/measuredBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "ja",
+    "@value" : "CoordinateSystemを参照することで Geometoryで表現している値の意味を規定する。measureと逆の意味。"
+  }, {
+    "@language" : "en",
+    "@value" : "Defines the meaning of the values represented by \"Geometory\" by referring to the \"CoordinateSystem.\" The inverse of \"measure.\""
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid51"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "measured by"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/CoordinateSystem"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/measures"
+  } ]
+}, {
+  "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/measures",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Represents a \"Geometry\" that refers to itself. The inverse of \"measuredBy.\""
+  }, {
+    "@language" : "ja",
+    "@value" : "自身を参照している Geometry を表現する。measuredByと逆の意味。"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "measures"
+  } ]
+}, {
+  "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/mediaStartAt",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Notates the start time of the media file's valid section as an offset from its beginning. It defines time 0 when assigning the playback section with \"startAt\" and \"endAt.\""
+  }, {
+    "@language" : "ja",
+    "@value" : "メディアファイルの有効区間開始時刻をメディアファイル先頭からのオフセットで表記する。startAt 及び endAt で再生区間を指定する際の時刻０を規定する。"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Media"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "media start at"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+  } ]
+}, {
+  "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/outputTo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A link to specify the media output destination. The inverse link from the link is defined by \"inputFrom.\""
+  }, {
+    "@language" : "ja",
+    "@value" : "メディアの出力先を指定するためのリンク。リンク先からはinputFromにより逆方向リンクを表現できる。"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid56"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "output to"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "_:genid60"
+  } ]
+}, {
+  "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/performedBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Represents \"Target\" that performs it. The inverse of \"Performs.\""
+  }, {
+    "@language" : "ja",
+    "@value" : "自身を演奏しているTargetを表す。performsと逆の意味。"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Program"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "performed by"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Target"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/performs"
+  } ]
+}, {
+  "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/performs",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Represents that itself is performing or playing a linked program. The inverse link from the link is defined by \"performedBy.\""
+  }, {
+    "@language" : "ja",
+    "@value" : "自身がリンク先の Programを演じるまたは演奏することを表現する述語。performedBy で逆方向リンクを表現できる。"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Target"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "performs"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Program"
+  } ]
+}, {
+  "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/playedBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Represents that it is played by a performer. The inverse link from the link is defined by \"plays.\""
+  }, {
+    "@language" : "ja",
+    "@value" : "自身が演奏者によって演奏されることを表す。playsで逆方向リンクを表現できる。"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Context"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "played by"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Player"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/plays"
+  } ]
+}, {
+  "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/plays",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Represents that the performer plays the instrument. The inverse link from the link is defined by \"playedBy.\""
+  }, {
+    "@language" : "ja",
+    "@value" : "演奏者が楽器を再生することを表す。playedByで逆方向リンクを表現できる。"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Player"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "plays"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Context"
+  } ]
+}, {
+  "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/recordedBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Represents itself as being the Recorder's recording target. The inverse link from the link is defined by \"records.\""
+  }, {
+    "@language" : "ja",
+    "@value" : "自身がRecorderの収録対象となっていることを表現する。recordsで逆方向リンクを表現できる。"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Context"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "recorded by"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Recorder"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/records"
+  } ]
+}, {
+  "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/records",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "ja",
+    "@value" : "Recorder の収録対象を表現する。recordedByで逆方向リンクを表現できる。"
+  }, {
+    "@language" : "en",
+    "@value" : "Represents the Recorder's recording target. The inverse link from the link is defined by \"recordedBy.\""
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Recorder"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "records"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Context"
+  } ]
+}, {
+  "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/startAt",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The start time for the media playback section. It defines the offset time to 0 with the time specified by \"mediaStartAt.\""
+  }, {
+    "@language" : "ja",
+    "@value" : "メディアの再生区間の開始時間。mediaStartAt で指定した時刻を０としたオフセット時間を指定する。"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://sdm.hongo.wide.ad.jp/sdmo/Media"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "start at"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2001/XMLSchema#duration",
+  "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ]
+} ]
