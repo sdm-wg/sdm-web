@@ -16,7 +16,7 @@ archives:
   - "2015-10"
   - "2015-10-17"
 image: ""
-draft: true
+draft: false
 ---
 
 <!-- 日本語記事ここから -->

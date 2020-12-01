@@ -16,7 +16,7 @@ archives:
   - "2018-11"
   - "2018-11-02"
 image: ""
-draft: true
+draft: false
 ---
 
 <!-- 日本語記事ここから -->

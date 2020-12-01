@@ -16,7 +16,7 @@ archives:
   - "2019-07"
   - "2019-07-08"
 image: ""
-draft: true
+draft: false
 ---
 
 <!-- 日本語記事ここから -->
