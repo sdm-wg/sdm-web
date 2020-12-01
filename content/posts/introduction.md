@@ -18,7 +18,7 @@ archives:
   - "2020-10"
   - "2020-10-26"
 image: "https://raw.githubusercontent.com/gridsome/gridsome/master/.github/assets/logo.png"
-draft: false
+draft: true
 ---
 
 <!-- 日本語記事ここから -->
