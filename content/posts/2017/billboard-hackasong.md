@@ -33,6 +33,13 @@ draft: false
 - [エンタメ OVO](https://tvfan.kyodo.co.jp/music/news-music/1089676)
 - [Billboard JAPAN](http://www.billboard-japan.com/d_news/detail/46826/2)
 
+<div class="grid grid-rows-2 grid-cols-3 gap-4">
+  <a href="/archives/img/billboard-hackasong/photo-1.jpg"><img src="/archives/img/billboard-hackasong/photo-1.jpg" /></a>
+  <a href="/archives/img/billboard-hackasong/photo-2.jpg"><img src="/archives/img/billboard-hackasong/photo-2.jpg" /></a>
+  <a href="/archives/img/billboard-hackasong/photo-3.jpg"><img src="/archives/img/billboard-hackasong/photo-3.jpg" /></a>
+  <a href="/archives/img/billboard-hackasong/photo-4.jpg"><img src="/archives/img/billboard-hackasong/photo-4.jpg" /></a>
+</div>
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/19Fm0TH-UJ8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 </section>
@@ -50,6 +57,13 @@ We got the second prize in LIVE MUSIC HACKASONG hold in Billboard Tokyo. The new
 - [WirelessWire News](https://wirelesswire.jp/2017/02/58944/)
 - [Entame OVO](https://tvfan.kyodo.co.jp/music/news-music/1089676)
 - [Billboard JAPAN](http://www.billboard-japan.com/d_news/detail/46826/2)
+
+<div class="grid grid-rows-2 grid-cols-3 gap-4">
+  <a href="/archives/img/billboard-hackasong/photo-1.jpg"><img src="/archives/img/billboard-hackasong/photo-1.jpg" /></a>
+  <a href="/archives/img/billboard-hackasong/photo-2.jpg"><img src="/archives/img/billboard-hackasong/photo-2.jpg" /></a>
+  <a href="/archives/img/billboard-hackasong/photo-3.jpg"><img src="/archives/img/billboard-hackasong/photo-3.jpg" /></a>
+  <a href="/archives/img/billboard-hackasong/photo-4.jpg"><img src="/archives/img/billboard-hackasong/photo-4.jpg" /></a>
+</div>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/19Fm0TH-UJ8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

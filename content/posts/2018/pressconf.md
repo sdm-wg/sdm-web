@@ -38,6 +38,12 @@ draft: false
 - [AV Watch](https://av.watch.impress.co.jp/docs/news/1121653.html)
 - [Billboard JAPAN](http://www.billboard-japan.com/d_news/detail/63310)
 
+<div class="grid grid-cols-3 gap-4">
+  <a href="/archives/img/press_conf_2018/press_conf1.jpg"><img src="/archives/img/press_conf_2018/press_conf1.jpg" /></a>
+  <a href="/archives/img/press_conf_2018/press_conf2.jpg"><img src="/archives/img/press_conf_2018/press_conf2.jpg" /></a>
+  <a href="/archives/img/press_conf_2018/press_conf3.jpg"><img src="/archives/img/press_conf_2018/press_conf3.jpg" /></a>
+</div>
+
 </section>
 <!-- 日本語記事ここまで -->
 
@@ -59,6 +65,12 @@ We hold a press conference about LiVRation (remote VR live streaming service).
 - [jiji.com](https://www.jiji.com/jc/movie?p=n000912)
 - [AV Watch](https://av.watch.impress.co.jp/docs/news/1121653.html)
 - [Billboard JAPAN](http://www.billboard-japan.com/d_news/detail/63310)
+
+<div class="grid grid-cols-3 gap-4">
+  <a href="/archives/img/press_conf_2018/press_conf1.jpg"><img src="/archives/img/press_conf_2018/press_conf1.jpg" /></a>
+  <a href="/archives/img/press_conf_2018/press_conf2.jpg"><img src="/archives/img/press_conf_2018/press_conf2.jpg" /></a>
+  <a href="/archives/img/press_conf_2018/press_conf3.jpg"><img src="/archives/img/press_conf_2018/press_conf3.jpg" /></a>
+</div>
 
 </section>
 <!-- English article end -->

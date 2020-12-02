@@ -38,5 +38,7 @@ draft: false
 
 SDM workshop and ideathon were held in the University of Tokyo.
 
+- [Details (in Japanese)](/workshop/2016/)
+
 </section>
 <!-- English article end -->

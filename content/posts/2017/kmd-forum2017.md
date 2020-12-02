@@ -26,6 +26,15 @@ draft: false
 
 慶應義塾大学 メディアデザイン研究科で開催された KMD フォーラムにて、SDM の 8 チャンネル立体音響システムと、SDM360Square を展示しました。
 
+<div class="grid grid-cols-3 grid-rows-2 gap-4">
+  <a href="/archives/img/KMDForum2017/photo1.jpg"><img src="/archives/img/KMDForum2017/photo1.jpg" /></a>
+  <a href="/archives/img/KMDForum2017/photo2.jpg"><img src="/archives/img/KMDForum2017/photo2.jpg" /></a>
+  <a href="/archives/img/KMDForum2017/photo3.jpg"><img src="/archives/img/KMDForum2017/photo3.jpg" /></a>
+  <a href="/archives/img/KMDForum2017/photo4.jpg"><img src="/archives/img/KMDForum2017/photo4.jpg" /></a>
+  <a href="/archives/img/KMDForum2017/photo5.jpg"><img src="/archives/img/KMDForum2017/photo5.jpg" /></a>
+  <a href="/archives/img/KMDForum2017/photo6.jpg"><img src="/archives/img/KMDForum2017/photo6.jpg" /></a>
+</div>
+
 </section>
 <!-- 日本語記事ここまで -->
 
@@ -35,6 +44,15 @@ draft: false
 # KMD Forum2017
 
 We presented our prototype systems in the forum of Graduate School of Media Design, Keio University.
+
+<div class="grid grid-cols-3 grid-rows-2 gap-4">
+  <a href="/archives/img/KMDForum2017/photo1.jpg"><img src="/archives/img/KMDForum2017/photo1.jpg" /></a>
+  <a href="/archives/img/KMDForum2017/photo2.jpg"><img src="/archives/img/KMDForum2017/photo2.jpg" /></a>
+  <a href="/archives/img/KMDForum2017/photo3.jpg"><img src="/archives/img/KMDForum2017/photo3.jpg" /></a>
+  <a href="/archives/img/KMDForum2017/photo4.jpg"><img src="/archives/img/KMDForum2017/photo4.jpg" /></a>
+  <a href="/archives/img/KMDForum2017/photo5.jpg"><img src="/archives/img/KMDForum2017/photo5.jpg" /></a>
+  <a href="/archives/img/KMDForum2017/photo6.jpg"><img src="/archives/img/KMDForum2017/photo6.jpg" /></a>
+</div>
 
 </section>
 <!-- English article end -->
