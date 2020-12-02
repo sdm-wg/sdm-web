@@ -15,7 +15,7 @@ archives:
   - "2015"
   - "2015-11"
   - "2015-11-05"
-image: ""
+image: "/images/2015/iftf94.jpg"
 draft: false
 ---
 

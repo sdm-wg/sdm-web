@@ -15,7 +15,7 @@ archives:
   - "2016"
   - "2016-01"
   - "2016-01-10"
-image: ""
+image: "/images/2016/keio-concert.jpg"
 draft: false
 ---
 

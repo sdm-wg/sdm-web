@@ -15,7 +15,7 @@ archives:
   - "2015"
   - "2015-12"
   - "2015-12-12"
-image: ""
+image: "/images/2015/hackathon-winter.jpg"
 draft: false
 ---
 

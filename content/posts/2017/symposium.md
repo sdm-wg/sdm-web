@@ -15,7 +15,7 @@ archives:
   - "2017"
   - "2017-07"
   - "2017-07-20"
-image: ""
+image: "/images/2017/symposium.jpg"
 draft: false
 ---
 

@@ -15,7 +15,7 @@ archives:
   - "2016"
   - "2016-07"
   - "2016-07-29"
-image: ""
+image: "/images/2016/workshop.jpg"
 draft: false
 ---
 

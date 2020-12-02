@@ -15,7 +15,7 @@ archives:
   - "2015"
   - "2015-03"
   - "2015-03-12"
-image: ""
+image: "/images/2015/camp.jpg"
 draft: false
 ---
 

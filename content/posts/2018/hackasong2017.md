@@ -15,7 +15,7 @@ archives:
   - "2018"
   - "2018-01"
   - "2018-01-31"
-image: ""
+image: "/images/2018/livehackasong.jpg"
 draft: false
 ---
 

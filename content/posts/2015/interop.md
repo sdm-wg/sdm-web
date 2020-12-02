@@ -15,7 +15,7 @@ archives:
   - "2015"
   - "2015-06"
   - "2015-06-10"
-image: ""
+image: "/images/2015/interop.jpg"
 draft: false
 ---
 

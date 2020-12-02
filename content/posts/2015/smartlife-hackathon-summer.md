@@ -15,7 +15,7 @@ archives:
   - "2015"
   - "2015-07"
   - "2015-07-18"
-image: ""
+image: "/images/2015/hackathon-summer.jpg"
 draft: false
 ---
 

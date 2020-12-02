@@ -16,7 +16,7 @@ archives:
   - "2017"
   - "2017-01"
   - "2017-01-26"
-image: ""
+image: "/images/2017/billboard.jpg"
 draft: false
 ---
 

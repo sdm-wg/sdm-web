@@ -15,7 +15,7 @@ archives:
   - "2018"
   - "2018-11"
   - "2018-11-02"
-image: ""
+image: "/images/2018/kmd-forum.jpg"
 draft: false
 ---
 

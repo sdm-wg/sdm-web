@@ -15,7 +15,7 @@ archives:
   - "2018"
   - "2018-05"
   - "2018-05-14"
-image: ""
+image: "/images/2018/pressconf.jpg"
 draft: false
 ---
 
