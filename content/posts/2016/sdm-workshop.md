@@ -4,8 +4,8 @@ title:
   en: "SDM Workshop 2016"
 slug: "sdm-workshop"
 summary:
-  ja: ""
-  en: ""
+  ja: "東京大学にて SDM ワークショップとアイデアソンを開催しました。"
+  en: "SDM workshop and ideathon were held in the University of Tokyo."
 keywords:
   - ""
 tags:

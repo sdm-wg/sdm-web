@@ -4,8 +4,8 @@ title:
   en: "Live Hackasong 2017"
 slug: "hackasong2017"
 summary:
-  ja: ""
-  en: ""
+  ja: "ビルボードライブ東京で開催された LIVE HACKASONG で発表した LiVRation（ライブレーション）が最優秀賞を受賞しました。"
+  en: "We won the first prize in LIVE HACKASONG hold in Billboard Tokyo."
 keywords:
   - ""
 tags:

@@ -4,8 +4,8 @@ title:
   en: "SDM Symposium 2019"
 slug: "symposium"
 summary:
-  ja: ""
-  en: ""
+  ja: "東京大学にて SDM シンポジウムを開催しました。"
+  en: "SDM symposium was held in the University of Tokyo."
 keywords:
   - ""
 tags:

@@ -4,8 +4,8 @@ title:
   en: "WIDE Camp 2015 Spring"
 slug: "wide-camp"
 summary:
-  ja: ""
-  en: ""
+  ja: "信州松代ロイヤルホテルで行われた WIDE 合宿 2015 春にて、インタラクティブなオブジェクトベース立体音響の デモンストレーションを行いました。"
+  en: "We displayed the SDM demonstration of the interactive object-based audio-visual service in the WIDE camp at Hamanako Royal Hote in Shizuoka."
 keywords:
   - ""
 tags:

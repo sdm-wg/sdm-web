@@ -4,8 +4,8 @@ title:
   en: "Billboard LIVE MUSIC HACKASONG"
 slug: "billboard-hackasong"
 summary:
-  ja: ""
-  en: ""
+  ja: "2017 年 1 月 26 日にビルボードライブ東京で「ライブ体験の拡張」をテーマとして行われたハッカソン LIVE MUSIC HACKASONG にて 360Square のデモンストレーションを行いました。"
+  en: "We got the second prize in LIVE MUSIC HACKASONG hold in Billboard Tokyo."
 keywords:
   - ""
 tags:

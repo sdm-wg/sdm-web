@@ -4,8 +4,8 @@ title:
   en: "Press Conference"
 slug: "pressconf"
 summary:
-  ja: ""
-  en: ""
+  ja: "「遠隔ライブ VR 配信プラットフォーム(LiVRation)を開発」記者会見・体験会を開催しました。"
+  en: "We hold a press conference about LiVRation (remote VR live streaming service)."
 keywords:
   - ""
 tags:

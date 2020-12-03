@@ -4,8 +4,8 @@ title:
   en: "Smartlife Hackathon 2015 Winter"
 slug: "smartlife-hackathon-winter"
 summary:
-  ja: ""
-  en: ""
+  ja: "スマートライフハッカソン 2015 冬で、ハッカソン参加者に対して、Unity や各々のプログラムから SDM API を通じて、オブジェクトベースの立体音響をインタラクティブに制御可能にするシステムを提供しました。"
+  en: "We provided 3D audio management system using SDM in the Smartlife hackathon."
 keywords:
   - ""
 tags:

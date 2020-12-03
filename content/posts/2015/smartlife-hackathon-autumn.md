@@ -4,8 +4,8 @@ title:
   en: "Smartlife Hackathon 2015 Autumn"
 slug: "smartlife-hackathon-Autumn"
 summary:
-  ja: ""
-  en: ""
+  ja: "東京大学 iREF 棟で行った運営・開発者向けハッカソンで、室内位置測位とオブジェクトベースの立体音響を組み合わせたデモンストレーションを開発しました。"
+  en: "Smartlife hackathon for organizers and developers was held in the University of Tokyo. We developed the demonstration that combines the indoor localization technique and the object-oriented audio-visual service. "
 keywords:
   - ""
 tags:

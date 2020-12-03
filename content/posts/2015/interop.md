@@ -4,8 +4,8 @@ title:
   en: "Interop 2015 Tokyo"
 slug: "interop"
 summary:
-  ja: ""
-  en: ""
+  ja: "幕張メッセで開催された Interop 2015 Tokyo にて、Software Defined Media コンソーシアムとして出展しました。"
+  en: "We displayed the SDM demonstration of the interactive object-based audio-visual service at Interop 2015 Tokyo in Makuhari Messe."
 keywords:
   - ""
 tags:

@@ -4,8 +4,8 @@ title:
   en: "Symposium"
 slug: "symposium"
 summary:
-  ja: ""
-  en: ""
+  ja: "東京大学にて SDM シンポジウムを開催しました。"
+  en: "SDM workshop and ideathon were held in the University of Tokyo."
 keywords:
   - ""
 tags:

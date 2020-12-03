@@ -4,8 +4,8 @@ title:
   en: "IETF 94 @Yokohama Bits-N-Bites"
 slug: "iftf94"
 summary:
-  ja: ""
-  en: ""
+  ja: "IETF 94 @Yokohama Bits-N-Bites にて、インタラクティブなオブジェクトベース立体音響のデモンストレーションを行いました。"
+  en: "We displayed the SDM demonstration of the interactive object-based audio-visual service in IETF 94 @Yokohama Bits-N-Bites."
 keywords:
   - ""
 tags:
@@ -34,7 +34,7 @@ IETF 94 @Yokohama Bits-N-Bites にて、インタラクティブなオブジェ�
 
 # IETF 94 @Yokohama Bits-N-Bites
 
-We displayed the SDM demonstration of the interactive object-based audio-visual service in IETF 94 @Yokohama Bits-N-Bites
+We displayed the SDM demonstration of the interactive object-based audio-visual service in IETF 94 @Yokohama Bits-N-Bites.
 
 </section>
 <!-- English article end -->

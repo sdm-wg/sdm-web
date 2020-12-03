@@ -4,8 +4,8 @@ title:
   en: "Interop 2019"
 slug: "interop2019"
 summary:
-  ja: ""
-  en: ""
+  ja: "Interop 2019@幕張メッセにて SDM の展示を行いました。"
+  en: "We demonstrated our works about Software Defined Media in Interop 2019@Makuhari Messe."
 keywords:
   - ""
 tags:

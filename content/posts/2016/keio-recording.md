@@ -4,8 +4,8 @@ title:
   en: "Recording of the concert of Department of Musicology, Keio University"
 slug: "keio-recording"
 summary:
-  ja: ""
-  en: ""
+  ja: "SDM の実験素材として、慶應義塾大学 コレギウム ムジクム古楽アカデミーのコンサートを収録しました。"
+  en: "We recorded the concert of Department of Musicology, Keio University for the future experiments data."
 keywords:
   - ""
 tags:

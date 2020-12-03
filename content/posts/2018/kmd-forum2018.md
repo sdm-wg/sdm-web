@@ -4,8 +4,8 @@ title:
   en: "KMD Forum 2018"
 slug: "kmd-forum 2018"
 summary:
-  ja: ""
-  en: ""
+  ja: "慶應義塾大学 メディアデザイン研究科で開催された KMD フォーラムにて、SDM のデモンストレーションを展示しました。"
+  en: "We presented our prototype systems in the forum of Graduate School of Media Design, Keio University."
 keywords:
   - ""
 tags:

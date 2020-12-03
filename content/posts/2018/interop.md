@@ -4,8 +4,8 @@ title:
   en: "Interop 2018"
 slug: "interop2018"
 summary:
-  ja: ""
-  en: ""
+  ja: "Interop 2018@幕張メッセにて SDM の展示を行いました。"
+  en: "We demonstrated our works in Interop 2018@Makuhari Messe."
 keywords:
   - ""
 tags:
