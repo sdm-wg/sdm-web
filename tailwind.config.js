@@ -4,7 +4,7 @@ module.exports = {
     purgeLayersByDefault: true,
   },
   purge: {
-    content: ["./src/**/*.vue"],
+    content: ["./src/**/*.vue", "./content/posts/**/*.md"],
   },
   theme: {
     typography: require("./tailwind.typography.config"),
