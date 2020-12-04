@@ -78,4 +78,19 @@ module.exports = function (api) {
       });
     }
   });
+
+  // Collect contents
+  api.loadSource(({ addCollection }) => {
+    const contentCollection = addCollection({
+      typeName: "Content",
+    });
+
+    const basePath = "./content/contents";
+    const contents = fetchYaml(basePath);
+    for (const item of contents) {
+      contentCollection.addNode({
+        ...item,
+      });
+    }
+  });
 };

@@ -1,0 +1,17 @@
+- name:
+    ja: Web360square
+    en: Web360square
+  image: https://user-images.githubusercontent.com/38515249/94395386-8a312500-019a-11eb-98c2-fe004968b4c4.png
+  summary:
+    ja: テストテストテストテスト
+    en: TestTestTestTest
+  home: https://sdm-wg.github.io/web360square-vue/
+
+- name:
+    ja: SDM Ontology
+    en: SDM Ontology
+  image: https://tlab.hongo.wide.ad.jp/wp-content/uploads/2020/09/Figure_SDMO-1.png
+  summary:
+    ja: テストテストテストテスト
+    en: TestTestTestTest
+  home: https://tlab.hongo.wide.ad.jp/sdmo/
