@@ -15,7 +15,7 @@ archives:
   - "2018"
   - "2018-01"
   - "2018-01-31"
-image: ""
+image: "/images/2018/livehackasong.jpg"
 draft: false
 ---
 
@@ -27,6 +27,15 @@ draft: false
 ビルボードライブ東京で開催された LIVE HACKASONG で発表した LiVRation（ライブレーション）が最優秀賞を受賞しました。
 
 - [リンク](http://www.billboard-japan.com/hack2017)
+
+<div class="grid grid-cols-3 grid-rows-2 gap-4">
+  <a href="/archives/img/billboard-2017/photo1.jpg"><img src="/archives/img/billboard-2017/photo1.jpg" /></a>
+  <a href="/archives/img/billboard-2017/photo2.jpg"><img src="/archives/img/billboard-2017/photo2.jpg" /></a>
+  <a href="/archives/img/billboard-2017/photo3.jpg"><img src="/archives/img/billboard-2017/photo3.jpg" /></a>
+  <a href="/archives/img/billboard-2017/photo4.jpg"><img src="/archives/img/billboard-2017/photo4.jpg" /></a>
+  <a href="/archives/img/billboard-2017/photo5.jpg"><img src="/archives/img/billboard-2017/photo5.jpg" /></a>
+  <a href="/archives/img/billboard-2017/photo6.jpg"><img src="/archives/img/billboard-2017/photo6.jpg" /></a>
+</div>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/othOlc1wCd8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -41,6 +50,15 @@ draft: false
 We won the first prize in LIVE HACKASONG hold in Billboard Tokyo.
 
 - [Link](http://www.billboard-japan.com/hack2017)
+
+<div class="grid grid-cols-3 grid-rows-2 gap-4">
+  <a href="/archives/img/billboard-2017/photo1.jpg"><img src="/archives/img/billboard-2017/photo1.jpg" /></a>
+  <a href="/archives/img/billboard-2017/photo2.jpg"><img src="/archives/img/billboard-2017/photo2.jpg" /></a>
+  <a href="/archives/img/billboard-2017/photo3.jpg"><img src="/archives/img/billboard-2017/photo3.jpg" /></a>
+  <a href="/archives/img/billboard-2017/photo4.jpg"><img src="/archives/img/billboard-2017/photo4.jpg" /></a>
+  <a href="/archives/img/billboard-2017/photo5.jpg"><img src="/archives/img/billboard-2017/photo5.jpg" /></a>
+  <a href="/archives/img/billboard-2017/photo6.jpg"><img src="/archives/img/billboard-2017/photo6.jpg" /></a>
+</div>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/othOlc1wCd8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

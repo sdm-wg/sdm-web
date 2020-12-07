@@ -15,7 +15,7 @@ archives:
   - "2019"
   - "2019-06"
   - "2019-06-12"
-image: ""
+image: "/images/2019/interop.jpg"
 draft: false
 ---
 

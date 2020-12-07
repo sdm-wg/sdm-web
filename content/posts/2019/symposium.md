@@ -15,7 +15,7 @@ archives:
   - "2019"
   - "2019-07"
   - "2019-07-08"
-image: ""
+image: "/images/2019/symposium.jpg"
 draft: false
 ---
 

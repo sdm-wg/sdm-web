@@ -15,7 +15,7 @@ archives:
   - "2016"
   - "2016-07"
   - "2016-07-29"
-image: ""
+image: "/images/2016/workshop.jpg"
 draft: false
 ---
 
@@ -37,6 +37,8 @@ draft: false
 # SDM Workshop 2016
 
 SDM workshop and ideathon were held in the University of Tokyo.
+
+- [Details (in Japanese)](/workshop/2016/)
 
 </section>
 <!-- English article end -->

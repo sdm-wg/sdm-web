@@ -15,7 +15,7 @@ archives:
   - "2015"
   - "2015-10"
   - "2015-10-17"
-image: ""
+image: "/images/2015/hackathon-autumn.jpg"
 draft: false
 ---
 
