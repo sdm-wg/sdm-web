@@ -21,11 +21,29 @@
 - name:
     ja: 加藤 慎
     en: Shin Kato
+  image: /images/members/shin.jpg
   roll:
     ja: M2
     en: M2
   home:
-  facebook:
+
+- name:
+    ja: 陳 一川
+    en: Chen Yichuan
+  image:
+  roll:
+    ja: M2
+    en: M2
+  home:
+
+- name:
+    ja: 川村 地平
+    en: Chihei Kawamura
+  image:
+  roll:
+    ja: M1
+    en: M1
+  home:
 
 - name:
     ja: 井口 和真
@@ -34,4 +52,3 @@
     ja: B4
     en: B4
   home:
-  facebook:
