@@ -26,8 +26,8 @@ draft: false
 
 「遠隔ライブ VR 配信プラットフォーム(LiVRation)を開発」記者会見・体験会を開催しました。
 
-- [プレスリリース](/news/news_20180514.html)
-- [映像データ](/news/LiVRation-data-2018/)
+- [プレスリリース](/archives/news/news_20180514.html)
+- [映像データ](/archives/news/LiVRation-data-2018/)
 
 ## メディア掲載
 
@@ -54,8 +54,8 @@ draft: false
 
 We hold a press conference about LiVRation (remote VR live streaming service).
 
-- [Press release(in Japanese)]()
-- [Videos]()
+- [Press release (in Japanese)](/archives/news/news_20180514.html)
+- [Video](/archives/news/LiVRation-data-2018/)
 
 ## media info
 

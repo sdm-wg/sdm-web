@@ -59,7 +59,7 @@ export default {
     // Extract future notices and up to three done notice
     const now = moment();
 
-    const doneLimit = 3;
+    const doneLimit = 1;
     let doneCount = 0;
     this.recentNotices = this.$static.notices.edges.filter((notice) => {
       if (doneCount === doneLimit) {
