@@ -26,7 +26,7 @@ draft: false
 
 東京大学にて SDM シンポジウムを開催しました。
 
-- [詳細情報](/symposium/2017/)
+- [詳細情報](/archives/symposium/2017/)
 
 <div class="grid grid-cols-3 grid-rows-2 gap-4">
   <a href="/archives/symposium/2017/img/symposium1.jpg"><img src="/archives/symposium/2017/img/symposium1.jpg" /></a>
@@ -47,7 +47,7 @@ draft: false
 
 SDM workshop and ideathon were held in the University of Tokyo.
 
-- [Details](/symposium/2017/)
+- [Details](/archives/symposium/2017/)
 
 <div class="grid grid-cols-3 grid-rows-2 gap-4">
   <a href="/archives/symposium/2017/img/symposium1.jpg"><img src="/archives/symposium/2017/img/symposium1.jpg" /></a>
