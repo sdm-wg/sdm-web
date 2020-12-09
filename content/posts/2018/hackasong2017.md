@@ -10,6 +10,7 @@ keywords:
   - ""
 tags:
   - "event"
+  - "award"
 date: "2018-01-31T00:00:00"
 archives:
   - "2018"
