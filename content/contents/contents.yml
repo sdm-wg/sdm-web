@@ -1,0 +1,17 @@
+- name:
+    ja: Web360square
+    en: Web360square
+  image: https://user-images.githubusercontent.com/38515249/94395386-8a312500-019a-11eb-98c2-fe004968b4c4.png
+  summary:
+    ja: 360 度動画とオブジェクトベース立体音響をインタラクティブに再生可能な Web アプリケーションです．
+    en: Web360square is an application that plays 360-degree video and object-based 3D sounds interactively on the Web.
+  home: https://sdm-wg.github.io/web360square-vue/
+
+- name:
+    ja: SDM Ontology
+    en: SDM Ontology
+  image: https://tlab.hongo.wide.ad.jp/wp-content/uploads/2020/09/Figure_SDMO-1.png
+  summary:
+    ja: 3次元映像・音声メディアやセンサによるデータなどの収録を対象とし，詳細なメタデータを階層構造に整理して記述するためのオントロジーです．
+    en: SDMO is an ontology to describe metadata in a hierarchical structure for 3D video/audio media and sensor-based data.
+  home: https://tlab.hongo.wide.ad.jp/sdmo/
