@@ -46,8 +46,27 @@
   home:
 
 - name:
+    ja: 青谷 和真
+    en: Kazuma Aotani
+  image: /images/members/aotani.jpg
+  roll:
+    ja: M1
+    en: M1
+  home:
+
+- name:
     ja: 井口 和真
     en: Kazuma Inokuchi
+  image: /images/members/ino.jpg
+  roll:
+    ja: B4
+    en: B4
+  home:
+
+- name:
+    ja: 中川 紘輔
+    en: Kosuke Nakagawa
+  image: /images/members/kou.JPG
   roll:
     ja: B4
     en: B4
