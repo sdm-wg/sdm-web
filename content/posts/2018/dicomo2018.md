@@ -26,7 +26,7 @@ draft: false
 
 マルチメディア，分散，協調とモバイル(DICOMO2018)シンポジウムで発表した SDM 活動の成果が優秀論文賞を受賞しました。
 
-- [表彰 « DICOMO](http://dicomo.org/2017/2017/commendation/)
+- [表彰 « DICOMO](http://dicomo.org/2018/2018/commendation/)
 
 </section>
 <!-- 日本語記事ここまで -->
@@ -38,7 +38,7 @@ draft: false
 
 Our paper published in Symposium on Multimedia, Distributed, Cooperative and Mobile Systems (DICOMO2018) won the best paper award.
 
-- [Awards << DICOMO (in Japanese)](http://dicomo.org/2017/2017/commendation/)
+- [Awards << DICOMO (in Japanese)](http://dicomo.org/2018/2018/commendation/)
 
 </section>
 <!-- English article end -->
