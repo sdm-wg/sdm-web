@@ -1,7 +1,7 @@
 ---
 title:
-  ja: "DICOMO2020にて優秀プレゼンテーション賞を受賞"
-  en: "Best presentation award in DICOMO2020"
+  ja: "DICOMO2020"
+  en: "DICOMO2020"
 slug: "dicomo2020"
 summary:
   ja: "マルチメディア，分散，協調とモバイル(DICOMO2020)シンポジウムで発表したSDM活動の成果が優秀プレゼンテーション賞を受賞しました。"

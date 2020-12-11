@@ -1,6 +1,6 @@
 ---
 title:
-  ja: "2018年度 情報処理学会 山下記念研究賞を受賞"
+  ja: "山下記念研究賞"
   en: "Yamashita SIG Research Award"
 slug: "yamashita"
 summary:

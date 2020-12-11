@@ -1,7 +1,7 @@
 ---
 title:
-  ja: "DICOMO2019にてヤングリサーチャー賞を受賞"
-  en: "Young researcher award in DICOMO2019"
+  ja: "DICOMO2019"
+  en: "DICOMO2019"
 slug: "dicomo2019"
 summary:
   ja: "マルチメディア，分散，協調とモバイル(DICOMO2019)シンポジウムで発表したSDM活動の成果がヤングリサーチャー賞を受賞しました。"

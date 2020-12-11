@@ -1,7 +1,7 @@
 ---
 title:
-  ja: "DICOMO2017にて最優秀論文賞を受賞"
-  en: "Best paper award in DICOMO2017"
+  ja: "DICOMO2017"
+  en: "DICOMO2017"
 slug: "dicomo2017"
 summary:
   ja: "マルチメディア，分散，協調とモバイル(DICOMO2017)シンポジウムで発表したSDM活動の成果が優秀論文賞を受賞しました。"

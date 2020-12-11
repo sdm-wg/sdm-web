@@ -1,7 +1,7 @@
 ---
 title:
-  ja: "KMDの研究科委員長より表彰"
-  en: 'Honor of "Dean''s List" in Keio University'
+  ja: "KMD研究科委員長より表彰"
+  en: 'Honor of "Dean''s List"'
 slug: "kmd-award"
 summary:
   ja: "WG メンバーの小川景子（慶應義塾大学大学院メディアデザイン研究科）の修士論文が研究科委員長から表彰されました。"
