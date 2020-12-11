@@ -1,6 +1,6 @@
 ---
 title:
-  ja: "2018年度 情報処理学会 山下記念研究賞を受賞"
+  ja: "山下記念研究賞"
   en: "Yamashita SIG Research Award"
 slug: "yamashita"
 summary:
@@ -26,6 +26,8 @@ draft: false
 
 チェアの塚田助教が 2018 年度の情報処理学会 山下記念研究賞を受賞することが決定しました。表彰式は 2019 年 3 月 14 日に福岡で開催される、第 81 回全国大会会場で開催されます。
 
+- [山下記念研究賞-情報処理学会](https://www.ipsj.or.jp/award/yamashita.html)
+
 </section>
 <!-- 日本語記事ここまで -->
 
@@ -35,6 +37,8 @@ draft: false
 # Yamashita SIG Research Award
 
 Dr. Tsukada (Chair) was awarded Yamashita SIG Research Award.
+
+- [Yamashita SIG Research Award - Information Processing Society of Japan](https://www.ipsj.or.jp/award/yamashita.html)
 
 </section>
 <!-- English article end -->
