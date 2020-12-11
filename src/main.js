@@ -10,7 +10,8 @@ import "prismjs/plugins/line-numbers/prism-line-numbers.css";
 
 // import: Font Awesome
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
-import { library } from "@fortawesome/fontawesome-svg-core";
+import { library, config } from "@fortawesome/fontawesome-svg-core";
+import "@fortawesome/fontawesome-svg-core/styles.css"; // manual import
 import {
   faSun as fasSun,
   faMoon as fasMoon,
@@ -48,6 +49,7 @@ if (process.browser) {
 }
 
 // Font Awesome setting
+config.autoAddCss = false; // prohibit auto-add CSS style
 library.add(
   fasSun,
   fasMoon,
