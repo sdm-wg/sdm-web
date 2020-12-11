@@ -12,6 +12,6 @@
     en: SDM Ontology
   image: https://tlab.hongo.wide.ad.jp/wp-content/uploads/2020/09/Figure_SDMO-1.png
   summary:
-    ja: 3次元映像・音声メディアやセンサによるデータなどの収録を対象とし，詳細なメタデータを階層構造に整理して記述するためのオントロジーです．
+    ja: 3次元映像・音声メディアやセンサデータなどの収録を対象とし，詳細なメタデータを記述するためのオントロジーです．
     en: SDMO is an ontology to describe metadata in a hierarchical structure for 3D video/audio media and sensor-based data.
   home: https://tlab.hongo.wide.ad.jp/sdmo/
