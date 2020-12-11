@@ -167,6 +167,10 @@ export default {
           link: "#publications",
         },
         {
+          title: "OpenSources",
+          link: "#content",
+        },
+        {
           title: "Contact",
           link: "#contact",
         },
