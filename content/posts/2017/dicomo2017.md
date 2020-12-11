@@ -38,7 +38,7 @@ draft: false
 
 Our paper published in Symposium on Multimedia, Distributed, Cooperative and Mobile Systems (DICOMO2017) won the best paper award.
 
-- [Awards << DICOMO (in Japanese)](http://dicomo.org/2017/2017/commendation/)
+- [Awards « DICOMO (in Japanese)](http://dicomo.org/2017/2017/commendation/)
 
 </section>
 <!-- English article end -->

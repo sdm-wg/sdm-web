@@ -28,7 +28,7 @@ draft: false
 
 - 加藤慎, 曽根卓朗, 塚田学, 江崎浩, "再帰的記述を可能とする映像音声メディア・オントロジー", マルチメディア，分散，協調とモバイル（DICOMO2020）シンポジウム, 高知県安芸郡, 2020, (優秀プレゼンテーション賞).
 
-詳細は[こちら](http://dicomo.org/commendation/)
+- [表彰 « DICOMO](http://dicomo.org/2020/2020/commendation/)
 
 [<g-image src="/images/2020/dicomo-award.png" />](/images/2020/dicomo-award.png)
 
@@ -44,7 +44,7 @@ Our paper published in Symposium on Multimedia, Distributed, Cooperative and Mob
 
 - 加藤慎, 曽根卓朗, 塚田学, 江崎浩, "再帰的記述を可能とする映像音声メディア・オントロジー", マルチメディア，分散，協調とモバイル（DICOMO2020）シンポジウム, 高知県安芸郡, 2020, (優秀プレゼンテーション賞).
 
-[Here](http://dicomo.org/commendation/) is the detail.
+- [Awards « DICOMO (in Japanese)](http://dicomo.org/2020/2020/commendation/)
 
 [<g-image src="/images/2020/dicomo-award.png" />](/images/2020/dicomo-award.png)
 

@@ -1,5 +1,5 @@
 ---
-title: 
+title:
   ja: "DICOMO2019にてヤングリサーチャー賞を受賞"
   en: "Young researcher award in DICOMO2019"
 slug: "dicomo2019"
@@ -22,16 +22,15 @@ draft: false
 <!-- 日本語記事ここから -->
 <section lang="ja" v-if="$context.locale === 'ja-jp'">
 
-# DICOMO2019にて優秀プレゼンテーションを受賞
+# DICOMO2019 にて優秀プレゼンテーションを受賞
 
-マルチメディア，分散，協調とモバイル(DICOMO2019)シンポジウムで発表したSDM活動の成果がヤングリサーチャー賞を受賞しました。
+マルチメディア，分散，協調とモバイル(DICOMO2019)シンポジウムで発表した SDM 活動の成果がヤングリサーチャー賞を受賞しました。
 
 <!--  ![受賞](/images/2019/presentation_7.png)  -->
 
 - 庄子琢郎, 塚田学, 加藤朗, 砂原秀樹, "立体音響を用いる小型サラウンドスピーカー環境の研究", マルチメディア，分散，協調とモバイル（DICOMO2019）シンポジウム, 福島県郡山市, 2019, (ヤングリサーチャー賞).
 
-詳細は[こちら](http://dicomo.org/commendation/)
-
+- [表彰 « DICOMO](http://dicomo.org/2019/2019/commendation/)
 
 </section>
 <!-- 日本語記事ここまで -->
@@ -45,7 +44,7 @@ Our paper published in Symposium on Multimedia, Distributed, Cooperative and Mob
 
 - 庄子琢郎, 塚田学, 加藤朗, 砂原秀樹, "立体音響を用いる小型サラウンドスピーカー環境の研究", マルチメディア，分散，協調とモバイル（DICOMO2019）シンポジウム, 福島県郡山市, 2019, (ヤングリサーチャー賞).
 
-[Here](http://dicomo.org/commendation/) is the detail. 
+- [Awards « DICOMO (in Japanese)](http://dicomo.org/2019/2019/commendation/)
 
 </section>
 <!-- English article end -->
