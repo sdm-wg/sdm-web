@@ -167,8 +167,8 @@ export default {
           link: "#publications",
         },
         {
-          title: "OpenSources",
-          link: "#content",
+          title: "Projects",
+          link: "#project",
         },
         {
           title: "Contact",

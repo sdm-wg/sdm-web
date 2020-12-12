@@ -1,18 +1,18 @@
 <template>
   <SectionWrapper :isDark="isDark" :isEven="isEven" :sectionId="sectionId">
-    <template v-slot:heading>{{ $t("content.heading") }}</template>
-    <ContentCard
-      v-for="content in $static.contents.edges"
-      :key="content.node.id"
+    <template v-slot:heading>{{ $t("project.heading") }}</template>
+    <ProjectCard
+      v-for="project in $static.projects.edges"
+      :key="project.node.id"
       :isDark="isDark"
-      :content="content"
+      :project="project"
     />
   </SectionWrapper>
 </template>
 
 <static-query>
 query {
-  contents: allContent(sortBy: "id", order: ASC) {
+  projects: allProject(sortBy: "id", order: ASC) {
     edges {
       node {
         id
@@ -34,10 +34,10 @@ query {
 
 <script>
 import SectionWrapper from "~/components/helpers/SectionWrapper.vue";
-import ContentCard from "~/components/helpers/ContentCard.vue";
+import ProjectCard from "~/components/helpers/ProjectCard.vue";
 
 export default {
-  name: "ContentSection",
+  name: "ProjectSection",
   props: {
     isDark: {
       type: Boolean,
@@ -55,7 +55,7 @@ export default {
   },
   components: {
     SectionWrapper,
-    ContentCard,
+    ProjectCard,
   },
 };
 </script>

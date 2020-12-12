@@ -79,16 +79,18 @@ module.exports = function (api) {
     }
   });
 
-  // Collect contents
+  // Collect projects
   api.loadSource(({ addCollection }) => {
-    const contentCollection = addCollection({
-      typeName: "Content",
+    const projectCollection = addCollection({
+      typeName: "Project",
     });
 
-    const basePath = "./content/contents";
-    const contents = fetchYaml(basePath);
-    for (const item of contents) {
-      contentCollection.addNode({
+    const basePath = "./content/projects";
+    const projects = fetchYaml(basePath);
+    for (const index in projects) {
+      const item = projects[index];
+      projectCollection.addNode({
+        id: index,
         ...item,
       });
     }
