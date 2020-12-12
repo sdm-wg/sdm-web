@@ -9,16 +9,16 @@
     >
       <div class="relative w-full pb-full">
         <g-image
-          v-if="content.node.image"
+          v-if="project.node.image"
           class="absolute w-full h-full object-cover"
-          :src="content.node.image"
-          :alt="content.node.name[language]"
+          :src="project.node.image"
+          :alt="project.node.name[language]"
         />
         <g-image
           v-else
           class="absolute w-full h-full object-cover bg-white"
           src="~/assets/images/sdm-logo-square.png"
-          :alt="content.node.name[language]"
+          :alt="project.node.name[language]"
         />
       </div>
       <div
@@ -28,7 +28,7 @@
           'text-gray-900': !isDark,
         }"
       >
-        {{ content.node.name[language] }}
+        {{ project.node.name[language] }}
       </div>
       <div
         class="text-lg text-center transition-set"
@@ -37,7 +37,7 @@
           'text-gray-700': !isDark,
         }"
       >
-        {{ content.node.summary[language] }}
+        {{ project.node.summary[language] }}
       </div>
       <div
         class="py-4 text-base text-center transition-set"
@@ -47,13 +47,13 @@
         }"
       >
         <flex-link
-          v-if="content.node.home"
+          v-if="project.node.home"
           class="mx-1"
           :class="{
             'hover:text-blue-500': isDark,
             'hover:text-orange-500': !isDark,
           }"
-          :to="content.node.home"
+          :to="project.node.home"
         >
           <font-awesome :icon="['fas', 'home']" size="lg" fixed-width />
         </flex-link>
@@ -66,14 +66,14 @@
 import localeMixin from "~/mixins/locale.js";
 
 export default {
-  name: "ContentCard",
+  name: "ProjectCard",
   mixins: [localeMixin],
   props: {
     isDark: {
       type: Boolean,
       required: true,
     },
-    content: {
+    project: {
       type: Object,
       required: true,
     },
