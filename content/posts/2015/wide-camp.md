@@ -27,8 +27,8 @@ draft: false
 信州松代ロイヤルホテルで行われた WIDE 合宿 2015 春にて、インタラクティブなオブジェクトベース立体音響の デモンストレーションを行いました。
 
 <div class="grid grid-rows-1 grid-cols-3 gap-4">
-  <a href="/archives/img/wide-camp-2015s/wide-camp-2015s-1.jpg"><img src="/archives/img/wide-camp-2015s/wide-camp-2015s-1.jpg" /></a>
-  <a href="/archives/img/wide-camp-2015s/wide-camp-2015s-2.jpg"><img src="/archives/img/wide-camp-2015s/wide-camp-2015s-2.jpg" /></a>
+  <a href="/legacies/img/wide-camp-2015s/wide-camp-2015s-1.jpg"><img src="/legacies/img/wide-camp-2015s/wide-camp-2015s-1.jpg" /></a>
+  <a href="/legacies/img/wide-camp-2015s/wide-camp-2015s-2.jpg"><img src="/legacies/img/wide-camp-2015s/wide-camp-2015s-2.jpg" /></a>
 </div>
 
 </section>
@@ -42,8 +42,8 @@ draft: false
 We displayed the SDM demonstration of the interactive object-based audio-visual service in the WIDE camp at Hamanako Royal Hote in Shizuoka.
 
 <div class="grid grid-rows-1 grid-cols-3 gap-4">
-  <a href="/archives/img/wide-camp-2015s/wide-camp-2015s-1.jpg"><img src="/archives/img/wide-camp-2015s/wide-camp-2015s-1.jpg" /></a>
-  <a href="/archives/img/wide-camp-2015s/wide-camp-2015s-2.jpg"><img src="/archives/img/wide-camp-2015s/wide-camp-2015s-2.jpg" /></a>
+  <a href="/legacies/img/wide-camp-2015s/wide-camp-2015s-1.jpg"><img src="/legacies/img/wide-camp-2015s/wide-camp-2015s-1.jpg" /></a>
+  <a href="/legacies/img/wide-camp-2015s/wide-camp-2015s-2.jpg"><img src="/legacies/img/wide-camp-2015s/wide-camp-2015s-2.jpg" /></a>
 </div>
 
 </section>
