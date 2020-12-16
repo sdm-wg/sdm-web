@@ -27,11 +27,11 @@ draft: false
 SDM の実験素材として、慶應義塾大学 コレギウム ムジクム古楽アカデミーのコンサートを収録しました。
 
 <div class="grid grid-rows-2 grid-cols-3 gap-4">
-  <a href="/archives/img/keio-collegium-2016/photo-1.jpg"><img src="/archives/img/keio-collegium-2016/photo-1.jpg" /></a>
-  <a href="/archives/img/keio-collegium-2016/photo-2.jpg"><img src="/archives/img/keio-collegium-2016/photo-2.jpg" /></a>
-  <a href="/archives/img/keio-collegium-2016/photo-3.jpg"><img src="/archives/img/keio-collegium-2016/photo-3.jpg" /></a>
-  <a href="/archives/img/keio-collegium-2016/photo-4.jpg"><img src="/archives/img/keio-collegium-2016/photo-4.jpg" /></a>
-  <a href="/archives/img/keio-collegium-2016/photo-5.jpg"><img src="/archives/img/keio-collegium-2016/photo-5.jpg" /></a>
+  <a href="/legacies/img/keio-collegium-2016/photo-1.jpg"><img src="/legacies/img/keio-collegium-2016/photo-1.jpg" /></a>
+  <a href="/legacies/img/keio-collegium-2016/photo-2.jpg"><img src="/legacies/img/keio-collegium-2016/photo-2.jpg" /></a>
+  <a href="/legacies/img/keio-collegium-2016/photo-3.jpg"><img src="/legacies/img/keio-collegium-2016/photo-3.jpg" /></a>
+  <a href="/legacies/img/keio-collegium-2016/photo-4.jpg"><img src="/legacies/img/keio-collegium-2016/photo-4.jpg" /></a>
+  <a href="/legacies/img/keio-collegium-2016/photo-5.jpg"><img src="/legacies/img/keio-collegium-2016/photo-5.jpg" /></a>
 </div>
 
 </section>
@@ -45,11 +45,11 @@ SDM の実験素材として、慶應義塾大学 コレギウム ムジクム�
 We recorded the concert of Department of Musicology, Keio University for the future experiments data.
 
 <div class="grid grid-rows-2 grid-cols-3 gap-4">
-  <a href="/archives/img/keio-collegium-2016/photo-1.jpg"><img src="/archives/img/keio-collegium-2016/photo-1.jpg" /></a>
-  <a href="/archives/img/keio-collegium-2016/photo-2.jpg"><img src="/archives/img/keio-collegium-2016/photo-2.jpg" /></a>
-  <a href="/archives/img/keio-collegium-2016/photo-3.jpg"><img src="/archives/img/keio-collegium-2016/photo-3.jpg" /></a>
-  <a href="/archives/img/keio-collegium-2016/photo-4.jpg"><img src="/archives/img/keio-collegium-2016/photo-4.jpg" /></a>
-  <a href="/archives/img/keio-collegium-2016/photo-5.jpg"><img src="/archives/img/keio-collegium-2016/photo-5.jpg" /></a>
+  <a href="/legacies/img/keio-collegium-2016/photo-1.jpg"><img src="/legacies/img/keio-collegium-2016/photo-1.jpg" /></a>
+  <a href="/legacies/img/keio-collegium-2016/photo-2.jpg"><img src="/legacies/img/keio-collegium-2016/photo-2.jpg" /></a>
+  <a href="/legacies/img/keio-collegium-2016/photo-3.jpg"><img src="/legacies/img/keio-collegium-2016/photo-3.jpg" /></a>
+  <a href="/legacies/img/keio-collegium-2016/photo-4.jpg"><img src="/legacies/img/keio-collegium-2016/photo-4.jpg" /></a>
+  <a href="/legacies/img/keio-collegium-2016/photo-5.jpg"><img src="/legacies/img/keio-collegium-2016/photo-5.jpg" /></a>
 </div>
 
 </section>

@@ -26,7 +26,7 @@ draft: false
 
 東京大学にて SDM ワークショップとアイデアソンを開催しました。
 
-- [詳細情報](/archives/workshop/2016/)
+- [詳細情報](/legacies/workshop/2016/)
 
 </section>
 <!-- 日本語記事ここまで -->
@@ -38,7 +38,7 @@ draft: false
 
 SDM workshop and ideathon were held in the University of Tokyo.
 
-- [Details (in Japanese)](/archives/workshop/2016/)
+- [Details (in Japanese)](/legacies/workshop/2016/)
 
 </section>
 <!-- English article end -->

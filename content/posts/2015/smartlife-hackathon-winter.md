@@ -27,9 +27,9 @@ draft: false
 スマートライフハッカソン 2015 冬で、ハッカソン参加者に対して、Unity や各々のプログラムから SDM API を通じて、オブジェクトベースの立体音響をインタラクティブに制御可能にするシステムを提供しました。
 
 <div class="grid grid-rows-1 grid-cols-3 gap-4">
-  <a href="/archives/img/Hackathon2015Winter/photo-1.jpg"><img src="/archives/img/Hackathon2015Winter/photo-1.jpg" /></a>
-  <a href="/archives/img/Hackathon2015Winter/photo-2.jpg"><img src="/archives/img/Hackathon2015Winter/photo-2.jpg" /></a>
-  <a href="/archives/img/Hackathon2015Winter/photo-3.jpg"><img src="/archives/img/Hackathon2015Winter/photo-3.jpg" /></a>
+  <a href="/legacies/img/Hackathon2015Winter/photo-1.jpg"><img src="/legacies/img/Hackathon2015Winter/photo-1.jpg" /></a>
+  <a href="/legacies/img/Hackathon2015Winter/photo-2.jpg"><img src="/legacies/img/Hackathon2015Winter/photo-2.jpg" /></a>
+  <a href="/legacies/img/Hackathon2015Winter/photo-3.jpg"><img src="/legacies/img/Hackathon2015Winter/photo-3.jpg" /></a>
 </div>
 
 </section>
@@ -43,9 +43,9 @@ draft: false
 We provided 3D audio management system using SDM in the Smartlife hackathon. The system allows the application developers to manage the object-based audio-visual service via SDM API from the Unity game platform.
 
 <div class="grid grid-rows-1 grid-cols-3 gap-4">
-  <a href="/archives/img/Hackathon2015Winter/photo-1.jpg"><img src="/archives/img/Hackathon2015Winter/photo-1.jpg" /></a>
-  <a href="/archives/img/Hackathon2015Winter/photo-2.jpg"><img src="/archives/img/Hackathon2015Winter/photo-2.jpg" /></a>
-  <a href="/archives/img/Hackathon2015Winter/photo-3.jpg"><img src="/archives/img/Hackathon2015Winter/photo-3.jpg" /></a>
+  <a href="/legacies/img/Hackathon2015Winter/photo-1.jpg"><img src="/legacies/img/Hackathon2015Winter/photo-1.jpg" /></a>
+  <a href="/legacies/img/Hackathon2015Winter/photo-2.jpg"><img src="/legacies/img/Hackathon2015Winter/photo-2.jpg" /></a>
+  <a href="/legacies/img/Hackathon2015Winter/photo-3.jpg"><img src="/legacies/img/Hackathon2015Winter/photo-3.jpg" /></a>
 </div>
 
 </section>
