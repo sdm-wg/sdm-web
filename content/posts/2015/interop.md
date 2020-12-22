@@ -27,9 +27,9 @@ draft: false
 幕張メッセで開催された Interop 2015 Tokyo にて、Software Defined Media コンソーシアムとして出展しました。任意の領域で発生する音をソフトウェアで指定して収音できるインテリジェントマイク技術と、オブジェクトベースの立体音響をインタラクティブに制御する VSSS 技術を展示しました。
 
 <div class="grid grid-rows-1 grid-cols-3 gap-4">
-  <a href="/legacies/img/interop2015/Interop2015-1.jpg"><img src="/legacies/img/interop2015/Interop2015-1.jpg" /></a>
-  <a href="/legacies/img/interop2015/Interop2015-2.jpg"><img src="/legacies/img/interop2015/Interop2015-2.jpg" /></a>
-  <a href="/legacies/img/interop2015/Interop2015-3.jpg"><img src="/legacies/img/interop2015/Interop2015-3.jpg" /></a>
+  <a href="/images/2015/interop2015/Interop2015-1.jpg"><img src="/images/2015/interop2015/Interop2015-1.jpg" /></a>
+  <a href="/images/2015/interop2015/Interop2015-2.jpg"><img src="/images/2015/interop2015/Interop2015-2.jpg" /></a>
+  <a href="/images/2015/interop2015/Interop2015-3.jpg"><img src="/images/2015/interop2015/Interop2015-3.jpg" /></a>
 </div>
 
 </section>
@@ -43,9 +43,9 @@ draft: false
 We displayed the SDM demonstration of the interactive object-based audio-visual service at Interop 2015 Tokyo in Makuhari Messe. We demonstrated the intelligent microphone technique that takes the sound in the particular area of space and Virtual Sound Scape System that manages interactive, object-oriented 3D audio.
 
 <div class="grid grid-rows-1 grid-cols-3 gap-4">
-  <a href="/legacies/img/interop2015/Interop2015-1.jpg"><img src="/legacies/img/interop2015/Interop2015-1.jpg" /></a>
-  <a href="/legacies/img/interop2015/Interop2015-2.jpg"><img src="/legacies/img/interop2015/Interop2015-2.jpg" /></a>
-  <a href="/legacies/img/interop2015/Interop2015-3.jpg"><img src="/legacies/img/interop2015/Interop2015-3.jpg" /></a>
+  <a href="/images/2015/interop2015/Interop2015-1.jpg"><img src="/images/2015/interop2015/Interop2015-1.jpg" /></a>
+  <a href="/images/2015/interop2015/Interop2015-2.jpg"><img src="/images/2015/interop2015/Interop2015-2.jpg" /></a>
+  <a href="/images/2015/interop2015/Interop2015-3.jpg"><img src="/images/2015/interop2015/Interop2015-3.jpg" /></a>
 </div>
 
 </section>

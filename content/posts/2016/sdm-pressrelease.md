@@ -26,7 +26,7 @@ draft: false
 
 「超臨場 SDM 方式オーケストラ収録をパブリックデータ化 - SOFTWARE DEFINED MEDIA コンソーシアム本格起動 -」プレスリリースを公開しました。
 
-- [プレスリリース](/legacies/news/news_20160721.html)
+- [プレスリリース](/news/news_20160721.html)
 
 </section>
 <!-- 日本語記事ここまで -->
@@ -38,7 +38,7 @@ draft: false
 
 We published a press release: "Ultra-realistic SDM orchestral recordings accessible as open data"
 
-- [Press Release (in Japanese)](/legacies/news/news_20160721.html)
+- [Press Release (in Japanese)](/news/news_20160721.html)
 
 </section>
 <!-- English article end -->

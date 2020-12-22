@@ -26,15 +26,15 @@ draft: false
 
 東京大学にて SDM シンポジウムを開催しました。
 
-- [詳細情報](/legacies/symposium/2017/)
+- [詳細情報](/symposium/2017/)
 
 <div class="grid grid-cols-3 grid-rows-2 gap-4">
-  <a href="/legacies/symposium/2017/img/symposium1.jpg"><img src="/legacies/symposium/2017/img/symposium1.jpg" /></a>
-  <a href="/legacies/symposium/2017/img/symposium2.jpg"><img src="/legacies/symposium/2017/img/symposium2.jpg" /></a>
-  <a href="/legacies/symposium/2017/img/symposium3.jpg"><img src="/legacies/symposium/2017/img/symposium3.jpg" /></a>
-  <a href="/legacies/symposium/2017/img/demo1.jpg"><img src="/legacies/symposium/2017/img/demo1.jpg" /></a>
-  <a href="/legacies/symposium/2017/img/demo2.jpg"><img src="/legacies/symposium/2017/img/demo2.jpg" /></a>
-  <a href="/legacies/symposium/2017/img/demo3.jpg"><img src="/legacies/symposium/2017/img/demo3.jpg" /></a>
+  <a href="/symposium/2017/img/symposium1.jpg"><img src="/symposium/2017/img/symposium1.jpg" /></a>
+  <a href="/symposium/2017/img/symposium2.jpg"><img src="/symposium/2017/img/symposium2.jpg" /></a>
+  <a href="/symposium/2017/img/symposium3.jpg"><img src="/symposium/2017/img/symposium3.jpg" /></a>
+  <a href="/symposium/2017/img/demo1.jpg"><img src="/symposium/2017/img/demo1.jpg" /></a>
+  <a href="/symposium/2017/img/demo2.jpg"><img src="/symposium/2017/img/demo2.jpg" /></a>
+  <a href="/symposium/2017/img/demo3.jpg"><img src="/symposium/2017/img/demo3.jpg" /></a>
 </div>
 
 </section>
@@ -47,15 +47,15 @@ draft: false
 
 SDM workshop and ideathon were held in the University of Tokyo.
 
-- [Details](/legacies/symposium/2017/)
+- [Details](/symposium/2017/)
 
 <div class="grid grid-cols-3 grid-rows-2 gap-4">
-  <a href="/legacies/symposium/2017/img/symposium1.jpg"><img src="/legacies/symposium/2017/img/symposium1.jpg" /></a>
-  <a href="/legacies/symposium/2017/img/symposium2.jpg"><img src="/legacies/symposium/2017/img/symposium2.jpg" /></a>
-  <a href="/legacies/symposium/2017/img/symposium3.jpg"><img src="/legacies/symposium/2017/img/symposium3.jpg" /></a>
-  <a href="/legacies/symposium/2017/img/demo1.jpg"><img src="/legacies/symposium/2017/img/demo1.jpg" /></a>
-  <a href="/legacies/symposium/2017/img/demo2.jpg"><img src="/legacies/symposium/2017/img/demo2.jpg" /></a>
-  <a href="/legacies/symposium/2017/img/demo3.jpg"><img src="/legacies/symposium/2017/img/demo3.jpg" /></a>
+  <a href="/symposium/2017/img/symposium1.jpg"><img src="/symposium/2017/img/symposium1.jpg" /></a>
+  <a href="/symposium/2017/img/symposium2.jpg"><img src="/symposium/2017/img/symposium2.jpg" /></a>
+  <a href="/symposium/2017/img/symposium3.jpg"><img src="/symposium/2017/img/symposium3.jpg" /></a>
+  <a href="/symposium/2017/img/demo1.jpg"><img src="/symposium/2017/img/demo1.jpg" /></a>
+  <a href="/symposium/2017/img/demo2.jpg"><img src="/symposium/2017/img/demo2.jpg" /></a>
+  <a href="/symposium/2017/img/demo3.jpg"><img src="/symposium/2017/img/demo3.jpg" /></a>
 </div>
 
 </section>

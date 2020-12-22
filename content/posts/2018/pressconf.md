@@ -26,8 +26,8 @@ draft: false
 
 「遠隔ライブ VR 配信プラットフォーム(LiVRation)を開発」記者会見・体験会を開催しました。
 
-- [プレスリリース](/legacies/news/news_20180514.html)
-- [映像データ](/legacies/news/LiVRation-data-2018/)
+- [プレスリリース](/news/news_20180514.html)
+- [映像データ](/news/LiVRation-data-2018/)
 
 ## メディア掲載
 
@@ -39,9 +39,9 @@ draft: false
 - [Billboard JAPAN](http://www.billboard-japan.com/d_news/detail/63310)
 
 <div class="grid grid-cols-3 gap-4">
-  <a href="/legacies/img/press_conf_2018/press_conf1.jpg"><img src="/legacies/img/press_conf_2018/press_conf1.jpg" /></a>
-  <a href="/legacies/img/press_conf_2018/press_conf2.jpg"><img src="/legacies/img/press_conf_2018/press_conf2.jpg" /></a>
-  <a href="/legacies/img/press_conf_2018/press_conf3.jpg"><img src="/legacies/img/press_conf_2018/press_conf3.jpg" /></a>
+  <a href="/images/2018/press_conf_2018/press_conf1.jpg"><img src="/images/2018/press_conf_2018/press_conf1.jpg" /></a>
+  <a href="/images/2018/press_conf_2018/press_conf2.jpg"><img src="/images/2018/press_conf_2018/press_conf2.jpg" /></a>
+  <a href="/images/2018/press_conf_2018/press_conf3.jpg"><img src="/images/2018/press_conf_2018/press_conf3.jpg" /></a>
 </div>
 
 </section>
@@ -54,8 +54,8 @@ draft: false
 
 We hold a press conference about LiVRation (remote VR live streaming service).
 
-- [Press release (in Japanese)](/legacies/news/news_20180514.html)
-- [Video](/legacies/news/LiVRation-data-2018/)
+- [Press release (in Japanese)](/news/news_20180514.html)
+- [Video](/news/LiVRation-data-2018/)
 
 ## media info
 
@@ -67,9 +67,9 @@ We hold a press conference about LiVRation (remote VR live streaming service).
 - [Billboard JAPAN](http://www.billboard-japan.com/d_news/detail/63310)
 
 <div class="grid grid-cols-3 gap-4">
-  <a href="/legacies/img/press_conf_2018/press_conf1.jpg"><img src="/legacies/img/press_conf_2018/press_conf1.jpg" /></a>
-  <a href="/legacies/img/press_conf_2018/press_conf2.jpg"><img src="/legacies/img/press_conf_2018/press_conf2.jpg" /></a>
-  <a href="/legacies/img/press_conf_2018/press_conf3.jpg"><img src="/legacies/img/press_conf_2018/press_conf3.jpg" /></a>
+  <a href="/images/2018/press_conf_2018/press_conf1.jpg"><img src="/images/2018/press_conf_2018/press_conf1.jpg" /></a>
+  <a href="/images/2018/press_conf_2018/press_conf2.jpg"><img src="/images/2018/press_conf_2018/press_conf2.jpg" /></a>
+  <a href="/images/2018/press_conf_2018/press_conf3.jpg"><img src="/images/2018/press_conf_2018/press_conf3.jpg" /></a>
 </div>
 
 </section>
