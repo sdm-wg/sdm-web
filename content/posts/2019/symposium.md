@@ -26,7 +26,7 @@ draft: false
 
 東京大学にて SDM シンポジウムを開催しました。
 
-- [詳細情報](/legacies/symposium/2019/)
+- [詳細情報](/symposium/2019/)
 
 </section>
 <!-- 日本語記事ここまで -->
@@ -38,7 +38,7 @@ draft: false
 
 SDM symposium was held in the University of Tokyo.
 
-- [Details](/legacies/symposium/2019/)
+- [Details](/symposium/2019/)
 
 </section>
 <!-- English article end -->

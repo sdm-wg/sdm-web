@@ -30,12 +30,12 @@ draft: false
 - [リンク](http://www.billboard-japan.com/hack2017)
 
 <div class="grid grid-cols-3 grid-rows-2 gap-4">
-  <a href="/legacies/img/billboard-2017/photo1.jpg"><img src="/legacies/img/billboard-2017/photo1.jpg" /></a>
-  <a href="/legacies/img/billboard-2017/photo2.jpg"><img src="/legacies/img/billboard-2017/photo2.jpg" /></a>
-  <a href="/legacies/img/billboard-2017/photo3.jpg"><img src="/legacies/img/billboard-2017/photo3.jpg" /></a>
-  <a href="/legacies/img/billboard-2017/photo4.jpg"><img src="/legacies/img/billboard-2017/photo4.jpg" /></a>
-  <a href="/legacies/img/billboard-2017/photo5.jpg"><img src="/legacies/img/billboard-2017/photo5.jpg" /></a>
-  <a href="/legacies/img/billboard-2017/photo6.jpg"><img src="/legacies/img/billboard-2017/photo6.jpg" /></a>
+  <a href="/images/2018/billboard-2017/photo1.jpg"><img src="/images/2018/billboard-2017/photo1.jpg" /></a>
+  <a href="/images/2018/billboard-2017/photo2.jpg"><img src="/images/2018/billboard-2017/photo2.jpg" /></a>
+  <a href="/images/2018/billboard-2017/photo3.jpg"><img src="/images/2018/billboard-2017/photo3.jpg" /></a>
+  <a href="/images/2018/billboard-2017/photo4.jpg"><img src="/images/2018/billboard-2017/photo4.jpg" /></a>
+  <a href="/images/2018/billboard-2017/photo5.jpg"><img src="/images/2018/billboard-2017/photo5.jpg" /></a>
+  <a href="/images/2018/billboard-2017/photo6.jpg"><img src="/images/2018/billboard-2017/photo6.jpg" /></a>
 </div>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/othOlc1wCd8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -53,12 +53,12 @@ We won the first prize in LIVE HACKASONG hold in Billboard Tokyo.
 - [Link](http://www.billboard-japan.com/hack2017)
 
 <div class="grid grid-cols-3 grid-rows-2 gap-4">
-  <a href="/legacies/img/billboard-2017/photo1.jpg"><img src="/legacies/img/billboard-2017/photo1.jpg" /></a>
-  <a href="/legacies/img/billboard-2017/photo2.jpg"><img src="/legacies/img/billboard-2017/photo2.jpg" /></a>
-  <a href="/legacies/img/billboard-2017/photo3.jpg"><img src="/legacies/img/billboard-2017/photo3.jpg" /></a>
-  <a href="/legacies/img/billboard-2017/photo4.jpg"><img src="/legacies/img/billboard-2017/photo4.jpg" /></a>
-  <a href="/legacies/img/billboard-2017/photo5.jpg"><img src="/legacies/img/billboard-2017/photo5.jpg" /></a>
-  <a href="/legacies/img/billboard-2017/photo6.jpg"><img src="/legacies/img/billboard-2017/photo6.jpg" /></a>
+  <a href="/images/2018/billboard-2017/photo1.jpg"><img src="/images/2018/billboard-2017/photo1.jpg" /></a>
+  <a href="/images/2018/billboard-2017/photo2.jpg"><img src="/images/2018/billboard-2017/photo2.jpg" /></a>
+  <a href="/images/2018/billboard-2017/photo3.jpg"><img src="/images/2018/billboard-2017/photo3.jpg" /></a>
+  <a href="/images/2018/billboard-2017/photo4.jpg"><img src="/images/2018/billboard-2017/photo4.jpg" /></a>
+  <a href="/images/2018/billboard-2017/photo5.jpg"><img src="/images/2018/billboard-2017/photo5.jpg" /></a>
+  <a href="/images/2018/billboard-2017/photo6.jpg"><img src="/images/2018/billboard-2017/photo6.jpg" /></a>
 </div>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/othOlc1wCd8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
