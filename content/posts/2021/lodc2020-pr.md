@@ -1,11 +1,11 @@
 ---
 title:
   ja: "産学連携SDMコンソーシアムがLinked Open DataチャレンジJapan 2020の最優秀賞を受賞"
-  en: "産学連携SDMコンソーシアムがLinked Open DataチャレンジJapan 2020の最優秀賞を受賞"
+  en: "Industry-academia collaboration SDM consortium wins the highest award of Linked Open Data Challenge Japan 2020"
 slug: "lodc2020-pr"
 summary:
   ja: "超臨場SDM方式収録データセットとWeb3Dビューアをオープン化"
-  en: "超臨場SDM方式収録データセットとWeb3Dビューアをオープン化"
+  en: "We released super-realistic SDM recording data set and Web3D viewer."
 keywords:
   - ""
 tags:
