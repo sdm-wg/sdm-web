@@ -15,7 +15,7 @@ archives:
   - "2021"
   - "2021-01"
   - "2021-01-22"
-image: ""
+image: "/images/2021/lodc2020-pr/image6.png"
 draft: false
 ---
 
