@@ -20,11 +20,11 @@ draft: false
 ---
 
 <!-- 日本語記事ここから -->
-<section lang="ja">
+<section lang="ja" v-if="$context.locale === 'ja-jp'">
 
 # 産学連携 SDM コンソーシアムが Linked Open Data チャレンジ Japan 2020 の最優秀賞を受賞
 
-〜超臨場 SDM 方式収録データセットと Web3D ビューアをオープン化〜
+## 〜超臨場 SDM 方式収録データセットと Web3D ビューアをオープン化〜
 
 <figure>
   <div class="grid grid-flow-col grid-cols-2 gap-4">
@@ -141,9 +141,27 @@ SDM コンソーシアムが提案する，メディアデータとともに様�
 <!-- 日本語記事ここまで -->
 
 <!-- English article start -->
-<!-- <section lang="en" v-else>
+<section lang="en" v-else>
 
-TODO
+# We released super-realistic SDM recording data set and Web3D viewer
 
-</section> -->
+A research team from the University of Tokyo’s Graduate School of Information Science and Technology and members of the SDM Consortium designed and developed the “Ultra-Realistic SDM Recording Data Set”, a database of concert recording data, and won the Grand Prize and the Ontology Prize at the Linked Open Data Challenge Japan 2020.
+
+Using this database as a reference, we developed a web application “Web3602” that provides 3D video and audio reproduction and an interactive viewing experience.
+
+In addition, we have released the ultra-realistic SDM recording data set and Web360square viewer. For more information, please refer to the SDM Consortium’s press release (in Japanese): <https://sdm.wide.ad.jp/ja/posts/2021/01/22/lodc2020-pr/>
+
+
+
+
+<figure>
+  <a href="/images/2021/lodc2020-pr/image2.png"><img src="/images/2021/lodc2020-pr/image2.png" /></a>
+  <a href="/images/2021/lodc2020-pr/image1.png"><img src="/images/2021/lodc2020-pr/image1.png" /></a>
+  <a href="/images/2021/lodc2020-pr/image5.png"><img src="/images/2021/lodc2020-pr/image5.png" /></a>
+  <a href="/images/2021/lodc2020-pr/image3.png"><img src="/images/2021/lodc2020-pr/image3.png" /></a>
+  <a href="/images/2021/lodc2020-pr/image4.png"><img src="/images/2021/lodc2020-pr/image4.png" /></a>
+</figure>
+
+
+</section>
 <!-- English article end -->
