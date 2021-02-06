@@ -12,7 +12,7 @@
           <g-image
             v-if="post.node.image"
             class="absolute w-full h-full object-cover bg-white"
-            :src="post.node.image"
+            :src="lazySrc(post.node.image)"
             :alt="post.node.title[language]"
           />
           <g-image
@@ -97,10 +97,11 @@
 
 <script>
 import localeMixin from "~/mixins/locale.js";
+import lazyLoadMixin from "~/mixins/lazyLoad.js";
 
 export default {
   name: "PostCard",
-  mixins: [localeMixin],
+  mixins: [localeMixin, lazyLoadMixin],
   props: {
     isDark: {
       type: Boolean,
