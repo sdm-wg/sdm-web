@@ -12,7 +12,7 @@
         <g-image
           v-if="coverImage"
           class="relative w-full h-full object-cover bg-white"
-          :src="coverImage"
+          :src="lazySrc(coverImage)"
         />
         <div v-else class="absolute w-full">
           <div class="container mx-auto px-4">
@@ -38,10 +38,11 @@ import FooterWrapper from "~/components/atoms/FooterWrapper.vue";
 import HeaderNav from "~/components/standalone/HeaderNav.vue";
 
 import scrollPositionMixin from "~/mixins/scrollPosition.js";
+import lazyLoadMixin from "~/mixins/lazyLoad.js";
 
 export default {
   name: "Home",
-  mixins: [scrollPositionMixin],
+  mixins: [scrollPositionMixin, lazyLoadMixin],
   props: {
     isDark: {
       type: Boolean,

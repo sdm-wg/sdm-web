@@ -11,7 +11,7 @@
         <g-image
           v-if="member.node.image"
           class="absolute w-full h-full object-cover"
-          :src="member.node.image"
+          :src="lazySrc(member.node.image)"
           :alt="member.node.name[language]"
         />
         <g-image
@@ -76,10 +76,11 @@
 
 <script>
 import localeMixin from "~/mixins/locale.js";
+import lazyLoadMixin from "~/mixins/lazyLoad.js";
 
 export default {
   name: "MemberCard",
-  mixins: [localeMixin],
+  mixins: [localeMixin, lazyLoadMixin],
   props: {
     isDark: {
       type: Boolean,

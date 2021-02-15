@@ -11,7 +11,7 @@
         <g-image
           v-if="project.node.image"
           class="absolute w-full h-full object-cover"
-          :src="project.node.image"
+          :src="lazySrc(project.node.image)"
           :alt="project.node.name[language]"
         />
         <g-image
@@ -64,10 +64,11 @@
 
 <script>
 import localeMixin from "~/mixins/locale.js";
+import lazyLoadMixin from "~/mixins/lazyLoad.js";
 
 export default {
   name: "ProjectCard",
-  mixins: [localeMixin],
+  mixins: [localeMixin, lazyLoadMixin],
   props: {
     isDark: {
       type: Boolean,
