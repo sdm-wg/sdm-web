@@ -25,7 +25,7 @@
     </ContentWrapper>
     <FooterWrapper :isDark="isDark" class="flex-1">
       <span class="block px-4 py-8 font-bold text-center">
-        Copyright © Software Defined Media Consortium 2020
+        Copyright © Software Defined Media Consortium
       </span>
     </FooterWrapper>
   </div>
