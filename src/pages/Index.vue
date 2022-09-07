@@ -3,8 +3,8 @@
     <!-- About -->
     <AboutSection :isDark="isDark" :isEven="false" sectionId="about" />
     <NoticeSection :isDark="isDark" :isEven="true" sectionId="notices" />
-    <EventSection :isDark="isDark" :isEven="false" sectionId="events" />
     <NewsSection :isDark="isDark" :isEven="true" sectionId="news" />
+    <EventSection :isDark="isDark" :isEven="false" sectionId="events" />
     <MemberSection :isDark="isDark" :isEven="false" sectionId="members" />
     <PublicationSection
       :isDark="isDark"
