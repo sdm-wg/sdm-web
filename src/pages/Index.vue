@@ -37,8 +37,8 @@ export default {
   components: {
     AboutSection,
     NoticeSection,
-    EventSection,
     NewsSection,
+    EventSection,
     MemberSection,
     PublicationSection,
     ProjectSection,
